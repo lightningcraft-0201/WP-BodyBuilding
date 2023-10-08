@@ -6,21 +6,11 @@ Welcome to the DC Training WordPress Project repository! This project combines t
 
 DC Training is a highly advanced system based on progressive overload, a principle used by professional bodybuilders to achieve rapid hypertrophy. This repository not only delves into the intricacies of DC Training but also showcases a user-friendly website built using modern tech stacks, ensuring an engaging user experience.
 
-**Live Site URL**: [DC Training Website](https://www.bodybuilding.com/) *(https://www.bodybuilding.com/)*
+**Live Site URL**: [DC Training Website](https://www.bodybuilding.com/)
 
 ## Preview
 
-![Home Page](preview/home.png)
-
-![DC Training Page](preview/dc-training.png)
-
-![Workout Plan Page](preview/workout-plan.png)
-
-![Nutrition Page](preview/nutrition.png)
-
-![Blog Page](preview/blog.png)
-
-![Contact Page](preview/contact.png)
+![Home Page](https://github.com/DevRex-0201/WP-BodyBuilding/blob/main/wp-admin/2023-10-08_095822.png)
 
 ## Features
 
