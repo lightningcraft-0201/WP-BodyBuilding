@@ -1,0 +1,21 @@
+table {
+	border: 1px solid $color__background-hr;
+	margin: 0 0 1.78571em;
+	width: 100%;
+
+	th,
+	td {
+		border: 1px solid $color__background-hr;
+		padding: 0.75em;
+
+		@media (max-width: $small) {
+			.resp & {
+				padding: 2%;
+			}
+		}
+	}
+
+	th {
+		font-weight: 600;
+	}
+}

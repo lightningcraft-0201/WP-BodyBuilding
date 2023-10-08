@@ -1,0 +1,41 @@
+.gform_wrapper {
+
+	 .top_label .gfield_label {
+		margin-bottom: 0;
+	}
+
+	.ginput_container {
+		margin-bottom: 1rem;
+	}
+
+	.gfield_checkbox li input[type=checkbox],
+	.gfield_radio li input[type=radio],
+	.gfield_checkbox li input {
+		margin-left: 0.125em;
+	}
+}
+
+.ui-datepicker a {
+	transition: 0;
+}
+
+.gform_confirmation_wrapper {
+
+	.gform_confirmation_message {
+		font-size: 1em !important;
+		background: $color__background-success;
+		border: 1px solid $color__border-success !important;
+		border-right: none !important;
+		border-left: none !important;
+		color: $color__text-main;
+		padding: 1.2656em 0.8438em;
+	}
+}
+
+#secondary .gform_confirmation_wrapper, 
+#colophon .gform_confirmation_wrapper {
+
+	.gform_confirmation_message	{
+		font-size: 0.9286em !important;
+	}
+}

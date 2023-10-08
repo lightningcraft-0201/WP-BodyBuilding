@@ -1,0 +1,2181 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultra Premium\n"
+"POT-Creation-Date: 2020-09-19 17:35+0200\n"
+"PO-Revision-Date: 2020-09-22 14:38+0200\n"
+"Last-Translator: Finn Sommer | https://profiles.wordpress.org/finnsommer/ "
+"<finnsommerjensen@outlook.dk>\n"
+"Language-Team: Finn Sommer | https://profiles.wordpress.org/finnsommer/ "
+"<finnsommerjensen@outlook.dk>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:37
+msgid "Most Used Categories"
+msgstr "Mest benyttede kategorier"
+
+#. translators: %1$s: smiley
+#: 404.php:54
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Prøv at kigge i de månedlige arkiver. %1$s"
+
+#: breadcrumbs/breadcrumbs.php:178
+msgid "Browse:"
+msgstr "Gennemse:"
+
+#: breadcrumbs/breadcrumbs.php:179 inc/settings.php:12
+msgid "Home"
+msgstr "Forside"
+
+#: breadcrumbs/breadcrumbs.php:180
+msgid "404 Not Found"
+msgstr "404 ikke fundet"
+
+#: breadcrumbs/breadcrumbs.php:181
+msgid "Archives"
+msgstr "Arkiver"
+
+#: breadcrumbs/breadcrumbs.php:183
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Søge resultater for &#8220;%s&#8221;"
+
+#: breadcrumbs/breadcrumbs.php:185
+#, php-format
+msgid "Page %s"
+msgstr "Side %s"
+
+#: breadcrumbs/breadcrumbs.php:187
+#, php-format
+msgid "Minute %s"
+msgstr "Minut %s"
+
+#: breadcrumbs/breadcrumbs.php:189
+#, php-format
+msgid "Week %s"
+msgstr "Uge %s"
+
+#: breadcrumbs/breadcrumbs.php:716
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "g:i a"
+
+#: breadcrumbs/breadcrumbs.php:733
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: breadcrumbs/breadcrumbs.php:750
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "g a"
+
+#: breadcrumbs/breadcrumbs.php:766 breadcrumbs/breadcrumbs.php:795
+#: breadcrumbs/breadcrumbs.php:822 breadcrumbs/breadcrumbs.php:849
+#: breadcrumbs/breadcrumbs.php:1036
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: breadcrumbs/breadcrumbs.php:767 breadcrumbs/breadcrumbs.php:823
+#: breadcrumbs/breadcrumbs.php:1040
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: breadcrumbs/breadcrumbs.php:768 breadcrumbs/breadcrumbs.php:1044
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: breadcrumbs/breadcrumbs.php:796
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: breadcrumbs/breadcrumbs.php:1135 breadcrumbs/breadcrumbs.php:1171
+#: breadcrumbs/breadcrumbs.php:1188 breadcrumbs/breadcrumbs.php:1219
+#: inc/template-tags.php:91
+msgid "Edit"
+msgstr "Rediger"
+
+#: breadcrumbs/breadcrumbs.php:1163
+msgid "Split"
+msgstr "Opdel"
+
+#: breadcrumbs/breadcrumbs.php:1167
+msgid "Merge"
+msgstr "Sammenflet"
+
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "En kommentar"
+msgstr[1] "%1$s kommentarer"
+
+#: content-none.php:15
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Er du klar til at udgive dit første indlæg? <a href=\"%1$s\">Så start her</"
+"a>."
+
+#: content-none.php:35
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Det ser ikke ud til, at det du ledte efter findes. Måske en søgning kan "
+"hjælpe."
+
+#: content-page.php:24 content-single.php:24 content.php:44
+#: loops/loop-masonry.php:47 loops/loop-medium-left.php:46
+#: loops/loop-thumbnail-left.php:46
+msgid "Pages:"
+msgstr "Sider:"
+
+#: demo/carousel/carousel.php:3
+msgid "Latest Posts"
+msgstr "Seneste indlæg"
+
+#: demo/carousel/carousel.php:5
+msgid "Next"
+msgstr "Næste"
+
+#: demo/carousel/carousel.php:6
+msgid "Previous"
+msgstr "Forrige"
+
+#: functions.php:116 inc/settings.php:72
+msgid "Top Bar Menu"
+msgstr "Top panel menu"
+
+#: functions.php:117
+msgid "Top Bar Social Menu"
+msgstr "Top panel Sociale links menu"
+
+#: functions.php:118 inc/settings.php:80
+msgid "Primary Menu"
+msgstr "Primær menu"
+
+#: functions.php:119
+msgid "Bottom Bar Social Menu"
+msgstr "Bund panel Sociale links menu"
+
+#: functions.php:217 premium/inc/customizer.php:48
+msgid "Sidebar"
+msgstr "Side panel"
+
+#: functions.php:219
+msgid "Visible on posts and pages that use the default template."
+msgstr "Synlig på indlæg og sider, der bruger standard skabelonen."
+
+#: functions.php:226 inc/settings.php:17 premium/inc/customizer.php:53
+msgid "Footer"
+msgstr "Sidefod"
+
+#: functions.php:228
+msgid "A column will be automatically assigned to each widget inserted."
+msgstr "Der tildeles automatisk en kolonne til hver widget, der indsættes."
+
+#: functions.php:354
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+"Du kan anvende disse <abbr title=\"HyperText Markup Language\">HTML</"
+"abbr>tags og egenskaber: %s"
+
+#: functions.php:366 functions.php:379 inc/deprecated.php:17
+#: inc/settings.php:346
+msgid "Continue reading"
+msgstr "Fortsæt med at læse"
+
+#: functions.php:603
+msgid "Back To Top"
+msgstr "Tilbage til toppen"
+
+#: functions.php:615
+msgid "Y"
+msgstr "Y"
+
+#: header.php:27
+msgid "Skip to content"
+msgstr "Gå til indhold"
+
+#: inc/comments.php:23
+msgid "Name *"
+msgstr "Navn *"
+
+#: inc/comments.php:24
+msgid "Email *"
+msgstr "E-mail *"
+
+#: inc/comments.php:25
+msgid "Website"
+msgstr "Websted"
+
+#: inc/customizer/customizer.php:434
+msgid "Theme Design"
+msgstr "Tema design"
+
+#: inc/customizer/customizer.php:435
+#, php-format
+msgid "Theme Specific Customizations For %s."
+msgstr "Tema specifikke tilpasninger for %s."
+
+#: inc/customizer/customizer.php:616
+msgid "Are you sure you want to reset your theme customizations?"
+msgstr "Er du sikker på du vil nulstille dine tema tilpasninger?"
+
+#: inc/customizer/customizer.php:617
+msgid "Reset Customizations"
+msgstr "Nulstil tilpasninger"
+
+#: inc/panels-lite/inc/plugin-activation.php:10
+#: inc/panels-lite/inc/plugin-activation.php:11 inc/panels.php:20
+msgid "Install Page Builder Plugin"
+msgstr "Installer Page Builder plugin"
+
+#: inc/panels-lite/inc/plugin-activation.php:77
+#: inc/plugin-activation/plugin-activation.php:79
+#, php-format
+msgid "Installing %s"
+msgstr "Installerer %s"
+
+#: inc/panels-lite/inc/plugin-activation.php:110
+#: inc/panels-lite/panels-lite.php:28 inc/panels-lite/panels-lite.php:74
+#: inc/panels.php:17
+msgid "Page Builder"
+msgstr "Page Builder"
+
+#: inc/panels-lite/panels-lite.php:15 inc/panels.php:18
+msgid "Custom Home Page Builder"
+msgstr "Byg en unik forside"
+
+#: inc/panels-lite/panels-lite.php:16 inc/panels.php:19
+msgid "Home Page"
+msgstr "Forside"
+
+#: inc/panels-lite/panels-lite.php:76
+msgid "Install"
+msgstr "Installer"
+
+#: inc/panels-lite/panels-lite.php:77
+msgid "Cancel"
+msgstr "Annuller"
+
+#: inc/panels-lite/panels-lite.php:79
+msgid "Refresh this page after you've installed Page Builder."
+msgstr "Opdater denne side, når du har installeret Page Builder."
+
+#: inc/panels-lite/panels-lite.php:461
+#, php-format
+msgid ""
+"<a href=\"%s\">Install Page Builder</a> to <a href=\"%s\">edit</a> this "
+"default home page."
+msgstr ""
+"<a href=\"%s\">Installer Page Builder</a> for <a href=\"%s\">at redigere</a> "
+"denne standard forside."
+
+#: inc/panels-lite/panels-lite.php:467
+#, php-format
+msgid ""
+"<a href='%s'>Disable this page</a> if you'd prefer to have a standard blog "
+"home."
+msgstr ""
+"<a href='%s'>Deaktiver denne side</a> hvis du foretrækker at have et "
+"standard blog websted."
+
+#: inc/panels-lite/tpl/admin-home-page.php:10 inc/panels.php:135
+msgid "Custom Home Page"
+msgstr "Unik forside"
+
+#: inc/panels-lite/tpl/admin-home-page.php:13
+msgid "ON"
+msgstr "ON"
+
+#: inc/panels-lite/tpl/admin-home-page.php:14
+msgid "OFF"
+msgstr "OFF"
+
+#: inc/panels-lite/tpl/admin-home-page.php:20
+msgid ""
+"This theme is compatible with SiteOrigin's powerful drag and drop page "
+"builder."
+msgstr ""
+"Dette tema er kompatibelt med SiteOrigins kraftfulde træk- og slip "
+"sideopbygger."
+
+#: inc/panels-lite/tpl/admin-home-page.php:21
+msgid ""
+"It allows you to build responsive columnized pages, populated with the "
+"widgets you know and love."
+msgstr ""
+"Det giver dig mulighed for at opbygge responsive kolonne sider fuld af "
+"widgets du kender og elsker."
+
+#: inc/panels-lite/tpl/admin-home-page.php:22
+msgid ""
+"It's a <strong>free plugin</strong> that works well with most WordPress "
+"themes."
+msgstr ""
+"Det er et <strong>gratis plugin</strong> som fungerer godt med de fleste "
+"WordPress temaer."
+
+#: inc/panels-lite/tpl/admin-home-page.php:23
+msgid ""
+"If you don't want to use it, click the toggle switch above to disable the "
+"default home page."
+msgstr ""
+"Hvis du ikke vil bruge det, skal du klikke på on/off-knappen ovenfor for at "
+"deaktivere standard forsiden."
+
+#: inc/panels-lite/tpl/admin-home-page.php:27
+msgid "Install Page Builder"
+msgstr "Installer Page Builder"
+
+#: inc/panels-lite/tpl/install.php:7
+msgid "SiteOrigin Page Builder"
+msgstr "SiteOrigin Page Builder"
+
+#: inc/panels-lite/tpl/install.php:8
+msgid "The Free Responsive WordPress Page Builder"
+msgstr "Den gratis responsive WordPress Page Builder"
+
+#: inc/panels-lite/tpl/install.php:17
+msgid ""
+"Page Builder by SiteOrigin is the most popular page creation plugin for "
+"WordPress. It makes it easy to create responsive column based content, using "
+"the widgets you know and love. Your content will accurately adapt to all "
+"mobile devices, ensuring your site is mobile-ready."
+msgstr ""
+"Page Builder fra SiteOrigin er den mest populære side opbygger plugin til "
+"WordPress. Det gør det nemt at oprette responsivt kolonnebaseret indhold ved "
+"hjælp af de widgets, du kender og elsker. Dit indhold tilpasser sig "
+"nøjagtigt til alle mobilenheder, hvilket sikrer, at dit website er mobilt "
+"klar."
+
+#: inc/panels-lite/tpl/install.php:19
+msgid ""
+"We've created an intuitive interface that looks just like WordPress itself. "
+"It's easy to learn, so you'll be building beautiful, responsive content in "
+"no time."
+msgstr ""
+"Vi har skabt en intuitiv brugerflade, der ligner WordPress selv. Det er nemt "
+"at lære, så du vil bygge smukt, responsivt indhold på ingen tid."
+
+#: inc/panels-lite/tpl/install.php:22
+msgid ""
+"It's a free plugin that will instantly enhance your WordPress experience."
+msgstr "Det er et gratis plugin, som straks forbedre din WordPress oplevelse."
+
+#: inc/panels-lite/tpl/install.php:23
+msgid "<a href='#install'>Install Page Builder</a> now to get started."
+msgstr "<a href='#install'>Installer Page Builder</a> nu for at komme i gang."
+
+#: inc/panels.php:21
+msgid "On"
+msgstr "On"
+
+#: inc/panels.php:22
+msgid "Off"
+msgstr "Off"
+
+#: inc/panels.php:23
+msgid ""
+"Ultra supports Page Builder to create beautifully proportioned column based "
+"content."
+msgstr ""
+"Ultra understøtter Page Builder for at skabe smukt proportioneret "
+"kolonnebaseret indhold."
+
+#: inc/panels.php:68
+msgid "Default Home"
+msgstr "Standard forside"
+
+#: inc/panels.php:82
+msgid "Responsive Design"
+msgstr "Responsivt design"
+
+#: inc/panels.php:84 inc/panels.php:95 inc/panels.php:106
+msgid "Read More"
+msgstr "Læs mere"
+
+#: inc/panels.php:93
+msgid "Drag and Drop Layouts"
+msgstr "Træk og slip layout"
+
+#: inc/panels.php:104
+msgid "Professional Support"
+msgstr "Professionel support"
+
+#: inc/panels.php:137
+msgid ""
+"This full-width headline was created using SiteOrigin's Page Builder and the "
+"Visual Editor widget."
+msgstr ""
+"Denne overskrift i fuld bredde blev oprettet ved hjælp af SiteOrigins Page "
+"Builder og widget'en Visual Editor."
+
+#: inc/plugin-activation/plugin-activation.php:8
+#: inc/plugin-activation/plugin-activation.php:9
+msgid "Install Theme Plugin"
+msgstr "Installer tema plugin"
+
+#: inc/premium/premium.php:12 inc/premium/premium.php:179
+#: inc/premium/premium.php:277 inc/premium/tpl/upgrade-page.php:16
+#: inc/premium/tpl/upgrade-page.php:123
+msgid "Premium"
+msgstr "Premium"
+
+#: inc/premium/premium.php:64
+#, php-format
+msgid "Your Order Number is [%s]"
+msgstr "Dit ordrenummer er [%s]"
+
+#: inc/premium/premium.php:68
+msgid "There was a problem contacting our validation servers."
+msgstr "Der opstod et problem under kontakt med vores valideringsservere."
+
+#: inc/premium/premium.php:69 inc/premium/premium.php:95
+msgid ""
+"Please try again later, or upgrade manually using the ZIP file we sent you."
+msgstr ""
+"Prøv igen senere, eller opgrader manuelt ved hjælp af den ZIP-fil, vi har "
+"sendt til dig."
+
+#: inc/premium/premium.php:73
+msgid "We've validated your order number."
+msgstr "Vi har valideret dit ordrenummer."
+
+#: inc/premium/premium.php:76
+#, php-format
+msgid "You can update now, or later on your <a href=\"%s\">Themes page</a>."
+msgstr "Du kan opdatere nu eller senere på din<a href=\"%s\">Tema side</a>."
+
+#: inc/premium/premium.php:80
+msgid "This update will add all the premium features."
+msgstr "Denne opdatering vil tilføje alle premium funktionerne."
+
+#: inc/premium/premium.php:85
+msgid ""
+"Updating this theme will lose any code customizations (CSS, PHP, Javascript, "
+"etc) you have made to the free version. You will not lose your content, "
+"images or settings. 'Cancel' to stop, 'OK' to update."
+msgstr ""
+"Opdatering af dette tema vil gøre at du mister alle kode tilpasninger (CSS, "
+"PHP, Javascript, osv.), du har lavet til den gratis version. Du mister ikke "
+"dit indhold, dine billeder eller dine indstillinger. 'Annuller' for at "
+"stoppe, 'OK' for at opdatere."
+
+#: inc/premium/premium.php:88
+msgid "Update Theme"
+msgstr "Opdater tema"
+
+#: inc/premium/premium.php:93
+msgid "We couldn't validate your order number."
+msgstr "Vi kunne ikke bekræfte dit ordrenummer."
+
+#: inc/premium/premium.php:94
+msgid "There might be a problem with our validation server."
+msgstr "Der kan være et problem med vores valideringsserver."
+
+#: inc/premium/premium.php:141
+msgid "Get Additional Templates"
+msgstr "Få yderligere skabeloner"
+
+#: inc/premium/premium.php:143
+#, php-format
+msgid "%s Premium includes additional templates"
+msgstr "%s Premium indeholder yderligere skabeloner"
+
+#: inc/premium/premium.php:179
+#, php-format
+msgid ""
+"Only available in <strong>%s</strong> - <strong class=\"upgrade\">Upgrade "
+"Now</strong>"
+msgstr ""
+"Kun tilgængelig i <strong>%s</strong> - <strong class=\"upgrade\">Opgrader "
+"nu</strong>"
+
+#: inc/premium/premium.php:268
+msgid "Get Additional Customizations"
+msgstr "Få yderligere tilpasninger"
+
+#: inc/premium/premium.php:281
+#, php-format
+msgid "A Copy of %s Premium"
+msgstr "En kopi af %s Premium"
+
+#: inc/premium/premium.php:282
+#, php-format
+msgid ""
+"You get a copy of %s, delivered instantly to your PayPal email address. This "
+"includes the same basic support we offer users of our free themes."
+msgstr ""
+"Du får en kopi af %s, leveret med det samme til din PayPal-e-mail adresse. "
+"Dette omfatter den samme grundlæggende support, som vi tilbyder brugere af "
+"vores gratis temaer."
+
+#: inc/premium/premium.php:287
+msgid "Premium Support"
+msgstr "Premium-support"
+
+#: inc/premium/premium.php:288
+msgid ""
+"This includes Premium email support from our support team for a single site. "
+"We'll help you as quickly as possible with all your setup and configuration "
+"questions."
+msgstr ""
+"Dette omfatter Premium e-mail support fra vores support team for et enkelt "
+"websted. Vi hjælper dig så hurtigt som muligt med alle dine spørgsmål om "
+"opsætning og konfiguration."
+
+#: inc/premium/premium.php:293
+msgid "Advanced Premium Support"
+msgstr "Avanceret premium-support"
+
+#: inc/premium/premium.php:294
+#, php-format
+msgid ""
+"We'll go the extra mile and help you with minor CSS customizations, plugin "
+"conflicts and anything else that falls outside standard %s support."
+msgstr ""
+"Vi vil gå den ekstra kilometer og hjælpe dig med mindre CSS tilpasninger, "
+"plugin konflikter og alt andet, der falder uden for standard %s support."
+
+#: inc/premium/premium.php:299
+msgid "A Special Thank You"
+msgstr "En særlig tak til dig"
+
+#: inc/premium/premium.php:300
+#, php-format
+msgid ""
+"Our highest level of support. If you need it, you'll get support directly "
+"from the developer of %s. We'll also include your name on our contributors "
+"list."
+msgstr ""
+"Vores højeste niveau af support. Hvis du har brug for det, får du support "
+"direkte fra udvikleren af %s. Vi vil også inkludere dit navn på vores "
+"bidragyderliste."
+
+#: inc/premium/tpl/upgrade-page.php:15
+#, php-format
+msgid ""
+"After you pay for %s, we'll email you an order number to your <strong>PayPal "
+"email address</strong>. "
+msgstr ""
+"Når du har betalt for %s, sender vi dig et ordrenummer via e-mail til din "
+"<strong>PayPal-e-mail adresse</strong>. "
+
+#: inc/premium/tpl/upgrade-page.php:19
+#, php-format
+msgid ""
+"Use <a href='%s' target='_blank'>this form</a> if you don't receive your "
+"order number in the next 15 minutes. "
+msgstr ""
+"Brug <a href='%s' target='_blank'>denne formular</a> hvis du ikke modtager "
+"dit ordrenummer inden for de næste 15 minutter. "
+
+#: inc/premium/tpl/upgrade-page.php:22
+msgid "To be sure, check your spam folder."
+msgstr "Tjek din spammappe for at være sikker."
+
+#: inc/premium/tpl/upgrade-page.php:26 inc/update/update.php:48
+msgid "Order Number"
+msgstr "Ordrenummer"
+
+#: inc/premium/tpl/upgrade-page.php:28
+msgid "Enable Upgrade"
+msgstr "Aktiver opgradering"
+
+#: inc/premium/tpl/upgrade-page.php:32
+msgid "Already Paid?"
+msgstr "Allerede betalt?"
+
+#: inc/premium/tpl/upgrade-page.php:37
+msgid "Premium Upgrade"
+msgstr "Premium opgradering"
+
+#: inc/premium/tpl/upgrade-page.php:41
+msgid ""
+"The premium version of this theme is no longer available. If you need any "
+"help, please contact <a href='mailto:support@purothemes.com'>Puro support</"
+"a>."
+msgstr ""
+"Premium-versionen af dette tema er ikke længere tilgængelig. Hvis du har "
+"brug for hjælp, bedes du <a href='mailto:support@purothemes.com'>kontakte "
+"Puro support</a>."
+
+#: inc/premium/tpl/upgrade-page.php:81
+msgid "Buy Now"
+msgstr "Køb Nu"
+
+#: inc/premium/tpl/upgrade-page.php:87
+msgid ""
+"Although we appreciate and support all our users, we only offer prioritized "
+"support for orders of <strong>$15</strong> or more."
+msgstr ""
+"Selvom vi sætter pris på og støtter alle vores brugere, tilbyder vi kun "
+"prioriteret support til ordrer <strong>på $15</strong> eller mere."
+
+#: inc/premium/tpl/upgrade-page.php:91
+#, php-format
+msgid "You choose the price, so you can pay what %s is worth to you."
+msgstr "Du vælger prisen, så du kan betale, hvad %s er værd for dig."
+
+#: inc/premium/tpl/upgrade-page.php:95
+msgid "Building your site on a budget"
+msgstr "Opbygning af dit websted på et budget"
+
+#: inc/premium/tpl/upgrade-page.php:96
+msgid "A fair price for a powerful theme"
+msgstr "En rimelig pris for et stærkt tema"
+
+#: inc/premium/tpl/upgrade-page.php:97
+msgid "Our sincere thanks"
+msgstr "Vores oprigtige tak"
+
+#: inc/premium/tpl/upgrade-page.php:98
+msgid "We'll go that extra mile for you"
+msgstr "Vi vil gå den ekstra kilometer for dig"
+
+#: inc/premium/tpl/upgrade-page.php:99
+msgid "A huge contribution to its development"
+msgstr "Et stort bidrag til dens udvikling"
+
+#: inc/premium/tpl/upgrade-page.php:100
+msgid "Custom"
+msgstr "Tilpasset"
+
+#: inc/premium/tpl/upgrade-page.php:103
+msgid "Please enable Javascript to change pricing"
+msgstr "Aktiver Javascript for at ændre prisen"
+
+#: inc/premium/tpl/upgrade-page.php:107
+#, php-format
+msgid ""
+"Happy customers are our first priority. In the event, however, that you "
+"decide %s isn't quite right for you, we want to make things right. Within 60 "
+"days of purchase, we'll refund the full price you paid upon request."
+msgstr ""
+"Glade kunder er vores første prioritet. Men i tilfælde af, at du beslutter "
+"%s er ikke helt rigtigt for dig, ønsker vi at gøre tingene rigtigt. Inden "
+"for 60 dage efter købet refunderer vi den fulde pris, du har betalt efter "
+"anmodning."
+
+#: inc/premium/tpl/upgrade-page.php:118
+msgid "Download"
+msgstr "Download"
+
+#: inc/premium/tpl/upgrade-page.php:123
+#, php-format
+msgid "Sign up to our newsletter and download %s for free."
+msgstr "Tilmeld dig vores nyhedsbrev og download %s gratis."
+
+#: inc/premium/tpl/upgrade-page.php:132
+#, php-format
+msgid "Your contribution will help fund new features in %s."
+msgstr "Dit bidrag hjælper med at finansiere nye funktioner i %s."
+
+#: inc/premium/tpl/upgrade-page.php:133
+#, php-format
+msgid "Find out more on our <a href=\"%s\" target=\"_blank\">roadmap</a>."
+msgstr ""
+"Få mere at vide om vores <a href=\"%s\" target=\"_blank\">køreplan</a>."
+
+#: inc/premium/tpl/upgrade-page.php:138
+msgid "Our User Feedback"
+msgstr "Vores brugerfeedback"
+
+#: inc/settings.php:9 inc/settings.php:43 inc/settings.php:463
+#: premium/inc/customizer.php:23
+msgid "Header"
+msgstr "Sidehoved"
+
+#: inc/settings.php:10
+msgid "Navigation"
+msgstr "Navigation"
+
+#: inc/settings.php:11
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/settings.php:13
+msgid "Pages"
+msgstr "Sider"
+
+#: inc/settings.php:14 inc/settings.php:342
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/settings.php:15
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: inc/settings.php:16
+msgid "Social"
+msgstr "Sociale medier"
+
+#: inc/settings.php:18
+msgid "Site Text"
+msgstr "Websteds tekst"
+
+#: inc/settings.php:21
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/settings.php:22
+msgid "Your own custom logo."
+msgstr "Dit eget tilpasset logo."
+
+#: inc/settings.php:25 premium/inc/settings.php:13 upgrade/upgrade.php:23
+msgid "Retina Logo"
+msgstr "Retina logo"
+
+#: inc/settings.php:26 premium/inc/settings.php:14
+msgid "Choose Image"
+msgstr "Vælg billede"
+
+#: inc/settings.php:27 premium/inc/settings.php:15
+msgid "Set Logo"
+msgstr "Indstil logo"
+
+#: inc/settings.php:28 premium/inc/settings.php:16
+msgid ""
+"A double sized version of your logo for use on high pixel density displays. "
+"Must be used in addition to standard logo."
+msgstr ""
+"En version af logoet i dobbelt størrelse til brug på skærme med høj "
+"pixeltæthed. Skal bruges sammen med standard logoet."
+
+#: inc/settings.php:31
+msgid "Display Site Title and Logo"
+msgstr "Vis websteds titel og logo"
+
+#: inc/settings.php:32
+msgid "Only applicable if a logo image has been set."
+msgstr "Gælder kun, hvis der er angivet et logo billede."
+
+#: inc/settings.php:35
+msgid "Tagline"
+msgstr "Slogan"
+
+#: inc/settings.php:36
+msgid "Display the website tagline."
+msgstr "Vis webstedets slogan."
+
+#: inc/settings.php:39 inc/settings.php:456 premium/inc/customizer.php:18
+msgid "Top Bar"
+msgstr "Top panel"
+
+#: inc/settings.php:40
+msgid "Display the top bar."
+msgstr "Vis top panelet."
+
+#: inc/settings.php:44
+msgid "Display the header."
+msgstr "Vis sidehovedet."
+
+#: inc/settings.php:47
+msgid "Header Layout"
+msgstr "Sidehoved layout"
+
+#: inc/settings.php:49 inc/settings.php:447 premium/inc/customizer.php:150
+#: premium/inc/customizer.php:238 premium/inc/customizer.php:483
+#: premium/inc/customizer.php:638 premium/inc/customizer.php:784
+#: premium/inc/customizer.php:852
+msgid "Default"
+msgstr "Standard"
+
+#: inc/settings.php:50
+msgid "Centered"
+msgstr "Centreret"
+
+#: inc/settings.php:52
+msgid "Select the header layout."
+msgstr "Vælg layout for sidehovedet."
+
+#: inc/settings.php:55
+msgid "Sticky Header"
+msgstr "Fastgjort sidehoved"
+
+#: inc/settings.php:56
+msgid "Sticks the header to the top of the screen as the user scrolls down."
+msgstr ""
+"Fastgør sidehovedet øverst på skærmen, når brugeren ruller ned på siden."
+
+#: inc/settings.php:59
+msgid "Mobile Sticky Header"
+msgstr "Fastgjort sidehoved på mobilenheder"
+
+#: inc/settings.php:60
+msgid "Use the sticky header on mobile devices."
+msgstr "Anvend et fastgjort sidehoved på mobilenheder."
+
+#: inc/settings.php:63
+msgid "Sticky Header Opacity"
+msgstr "Gennemsigtighed på det fastgjorte sidehoved"
+
+#: inc/settings.php:64
+msgid ""
+"Set the header background opacity once it turns sticky. 0.1 (lowest) - 1 "
+"(highest)."
+msgstr ""
+"Angiver baggrundens gennemsigtighed når den fastgøres. 0.1 (laveste) - 1 "
+"(højeste)."
+
+#: inc/settings.php:67
+msgid "Sticky Header Scaling"
+msgstr "Skalering af det fastgjorte sidehoved"
+
+#: inc/settings.php:68
+msgid "Scale the header down as it becomes sticky."
+msgstr "Skaler sidehovedet ned når det bliver fastgjort."
+
+#: inc/settings.php:73
+msgid "Display the right top bar menu."
+msgstr "Vis menuen i højre top panel."
+
+#: inc/settings.php:76
+msgid "Responsive Top Bar"
+msgstr "Responsiv top panel"
+
+#: inc/settings.php:77
+msgid "Collapse the top bar for small screen devices."
+msgstr "Sammenfold top panelet på mindre skærme."
+
+#: inc/settings.php:81
+msgid "Display the primary menu."
+msgstr "Vis den primære menu."
+
+#: inc/settings.php:84
+msgid "Responsive Menu"
+msgstr "Responsiv menu"
+
+#: inc/settings.php:85
+msgid ""
+"Use a special responsive menu for small screen devices. Requires the Primary "
+"Menu setting to be enabled."
+msgstr ""
+"Brug en speciel responsiv menu på mindre skærme. Dette kræver at den primære "
+"menu indstilling er aktiveret."
+
+#: inc/settings.php:88
+msgid "Responsive Menu Collapse"
+msgstr "Sammenfoldet responsiv menu"
+
+#: inc/settings.php:89
+msgid "The pixel resolution when the primary menu and top bar collapse."
+msgstr "Pixel opløsningen, når den primære menu og top panelet sammenfoldes."
+
+#: inc/settings.php:92
+msgid "Menu Search"
+msgstr "Menu søgning"
+
+#: inc/settings.php:93
+msgid "Display a search icon in the main menu."
+msgstr "Vis et søgeikon i hovedmenuen."
+
+#: inc/settings.php:96
+msgid "Smooth Scroll"
+msgstr "Jævn rulning"
+
+#: inc/settings.php:97
+msgid "Smooth scroll for internal anchor links from the main menu."
+msgstr "Jævn rulning til interne anker-links fra hovedmenuen."
+
+#: inc/settings.php:100
+msgid "Breadcrumb Trail"
+msgstr "Brødkrumme spor"
+
+#: inc/settings.php:101
+msgid ""
+"Display a breadcrumb trail below the menu. De-activate this setting if using "
+"Yoast Breadcrumbs or Breadcrumb NavXT."
+msgstr ""
+"Vis et brødkrumme spor nedenunder menuen. Deaktiver indstillingen hvis du "
+"anvender Yoast Breadcrumbs eller Breadcrumb NavXT."
+
+#: inc/settings.php:104
+msgid "Post Navigation"
+msgstr "Indlægs navigation"
+
+#: inc/settings.php:105
+msgid "Display next/previous post navigation."
+msgstr "Vis næste/forrige på indlægsnavigation."
+
+#: inc/settings.php:108
+msgid "Scroll to Top"
+msgstr "Rul-til-top"
+
+#: inc/settings.php:109
+msgid "Display the scroll to top button."
+msgstr "Vis Rul-til-top knappen."
+
+#: inc/settings.php:112
+msgid "Mobile Scroll to Top"
+msgstr "Rul-til-top på mobilenheder"
+
+#: inc/settings.php:113
+msgid "Display the scroll to top button on mobile devices."
+msgstr "Vis Rul-til-top knap på mobilenheder."
+
+#: inc/settings.php:117
+msgid "Layout Bound"
+msgstr "Afgrænset layout"
+
+#: inc/settings.php:119 inc/settings.php:449
+msgid "Full Width"
+msgstr "Fuld bredde"
+
+#: inc/settings.php:120
+msgid "Boxed"
+msgstr "Indrammet i boks"
+
+#: inc/settings.php:122
+msgid "Select a full width or boxed theme layout."
+msgstr "Vælg et tema lsyout i fuld bredde eller indrammet i boks."
+
+#: inc/settings.php:125
+msgid "Responsive Layout"
+msgstr "Responsivt layout"
+
+#: inc/settings.php:126
+msgid "Adapt the site layout for mobile devices."
+msgstr "Tilpas webstedets layout til mobilenheder."
+
+#: inc/settings.php:129
+msgid "FitVids.js"
+msgstr "FitVids.js"
+
+#: inc/settings.php:130
+msgid "Include FitVids.js for fluid width video embeds."
+msgstr "Inkluder FitVids.js med flydende bredde for video indlejring."
+
+#: inc/settings.php:137
+#, php-format
+msgid ""
+"This theme supports Smart Slider 3. %1$s for free to create beautiful "
+"responsive sliders - %2$s"
+msgstr ""
+"Dette tema understøtter Smart Slider 3. %1$s for gratis at oprette smukke "
+"responsive diasshows - %2$s"
+
+#: inc/settings.php:143
+msgid "Home Page Slider"
+msgstr "Forside diasshow"
+
+#: inc/settings.php:149
+msgid "Stretch Home Slider"
+msgstr "Stræk forsidens diasshow"
+
+#: inc/settings.php:150
+msgid "Stretch"
+msgstr "Stræk"
+
+#: inc/settings.php:151
+msgid ""
+"Stretch the home page slider to the width of the screen if using the full "
+"width layout."
+msgstr ""
+"Strækker forsidens diasshow til skærmbredden hvis du bruger et layout i fuld "
+"bredde."
+
+#: inc/settings.php:156
+msgid "Header Overlaps Slider"
+msgstr "Overlejr sidehoved diasshow"
+
+#: inc/settings.php:157
+msgid "Should the header overlap the home page slider?"
+msgstr "Skal sidehovedet overlejre forsidens diasshow?"
+
+#: inc/settings.php:162
+msgid "Featured Image"
+msgstr "Fremhævet billede"
+
+#: inc/settings.php:163
+msgid "Display the featured image on pages."
+msgstr "Vis det fremhævede billede på sider."
+
+#: inc/settings.php:167
+msgid "Blog Page Title"
+msgstr "Blog sidetitel"
+
+#: inc/settings.php:168
+msgid "The page title of the blog page."
+msgstr "Blogsidens sidetitel."
+
+#: inc/settings.php:171
+msgid "Blog Archive Layout"
+msgstr "Blokarkivets layout"
+
+#: inc/settings.php:173
+msgid "Choose the layout to be used on blog and archive pages."
+msgstr "Vælg layoutet, der skal anvendes til blog og arkiv sider."
+
+#: inc/settings.php:176
+msgid "Archive Featured Image"
+msgstr "Fremhævet billede på arkiv"
+
+#: inc/settings.php:177
+msgid "Display the featured image on the blog archive pages."
+msgstr "Vis det fremhævede billede på blog arkiv siderne."
+
+#: inc/settings.php:180
+msgid "Archive Post Content"
+msgstr "Arkiveret indlægsindhold"
+
+#: inc/settings.php:182
+msgid "Full Post Content"
+msgstr "Hele indlægget"
+
+#: inc/settings.php:183
+msgid "Post Excerpt"
+msgstr "Uddrag af indlæg"
+
+#: inc/settings.php:185
+msgid ""
+"Choose how to display your post content on blog and archive pages. Select "
+"Full Post Content if using the \"more\" quicktag."
+msgstr ""
+"Vælg hvordan dine indlæg på blog og arkivsiderne skal vises. Vælg hele "
+"indlægget hvis du bruger \"mere\" quick-tagget."
+
+#: inc/settings.php:188
+msgid "Read More Text"
+msgstr "Tekst som Læs mere"
+
+#: inc/settings.php:189
+msgid ""
+"The link text displayed when posts are split using the \"more\" quicktag."
+msgstr ""
+"Link teksten, der vises når indlæg opdeles ved brug af \"mere\" quick-tagget."
+
+#: inc/settings.php:192
+msgid "Post Excerpt Length"
+msgstr "Længden på uddrag"
+
+#: inc/settings.php:193
+msgid ""
+"If no manual post excerpt is added one will be generated. How many words "
+"should it be?"
+msgstr ""
+"Hvis der ikke manuelt indsættes et indlægsuddrag, så vil der blive oprettet "
+"et. Hvor mange ord skal det være?"
+
+#: inc/settings.php:197
+msgid "Post Excerpt Read More Link"
+msgstr "Læs mere link til uddrag"
+
+#: inc/settings.php:198
+msgid ""
+"Display the Read More text below the post excerpt. Only applicable if Post "
+"Excerpt has been selected from the Archive Post Content setting."
+msgstr ""
+"Vis teksten Læs mere nedenunder uddrag. Gælder kun hvis indlægsuddrag er "
+"valgt fra indlægsarkiv indstillingen."
+
+#: inc/settings.php:201
+msgid "Post Featured Image"
+msgstr "Fremhævet billede til indlægget"
+
+#: inc/settings.php:202
+msgid "Display the featured image on the single post page."
+msgstr "Vis det fremhævet billede på enkelt-indlægsside."
+
+#: inc/settings.php:205
+msgid "Post Date"
+msgstr "Dato for indlæg"
+
+#: inc/settings.php:206
+msgid "Display the post date."
+msgstr "Vis dato for indlægget."
+
+#: inc/settings.php:209
+msgid "Post Author"
+msgstr "Forfatter"
+
+#: inc/settings.php:210
+msgid "Display the post author."
+msgstr "Vis indlæggets ophavsmand."
+
+#: inc/settings.php:213
+msgid "Post Comment Count"
+msgstr "Antal af kommentarer"
+
+#: inc/settings.php:214
+msgid "Display the post comment count."
+msgstr "Vis antal af kommentarer til indlægget."
+
+#: inc/settings.php:217
+msgid "Post Categories"
+msgstr "Indlægs kategorier"
+
+#: inc/settings.php:218
+msgid "Display the post categories."
+msgstr "Vis indlægs kategorierne."
+
+#: inc/settings.php:221
+msgid "Post Tags"
+msgstr "Indlægs-tags"
+
+#: inc/settings.php:222
+msgid "Display the post tags."
+msgstr "Vis indlægs-tags."
+
+#: inc/settings.php:225
+msgid "Post Author Box"
+msgstr "Forfatter boks"
+
+#: inc/settings.php:226
+msgid "Display the post author biographical info."
+msgstr "Vis indlægs forfatterens biografiske info."
+
+#: inc/settings.php:229
+msgid "Related Posts"
+msgstr "Relaterede indlæg"
+
+#: inc/settings.php:230
+msgid "Display related posts on the single post page."
+msgstr "Vis relaterede indlæg på enkelt-indlægsside."
+
+#: inc/settings.php:233
+msgid "Edit Link"
+msgstr "Rediger link"
+
+#: inc/settings.php:234
+msgid ""
+"Display an Edit link below post content. Visible if a user is logged in and "
+"allowed to edit the content. Also applies to Pages."
+msgstr ""
+"Vis et redigeringslink nedenunder indlægget. Synligt hvis en bruger er "
+"logget ind og har tilladelse til at redigere indholdet. Gælder også for "
+"sider."
+
+#: inc/settings.php:238
+msgid "Comment Form Allowed Tags"
+msgstr "Tilladte tags i kommentar formular"
+
+#: inc/settings.php:239
+msgid ""
+"Display the explanatory text below the comment form that lets users know "
+"which HTML tags may be used."
+msgstr ""
+"Vis en forklarende tekst nedenunder kommentar formularen, der fortæller "
+"brugerne hvilken HTML tags som kan anvendes."
+
+#: inc/settings.php:242 premium/inc/settings.php:20
+msgid "AJAX Comments"
+msgstr "AJAX kommentarer"
+
+#: inc/settings.php:243
+msgid "Allow users to submit comments without a page re-load."
+msgstr "Gør at brugerne kan sende kommentarer uden at siden skal genindlæses."
+
+#: inc/settings.php:247 premium/inc/settings.php:25 upgrade/upgrade.php:40
+msgid "Post Sharing"
+msgstr "Deling af indlæg"
+
+#: inc/settings.php:248
+msgid ""
+"Show icons to share your posts on Facebook, Twitter, Google+ and LinkedIn."
+msgstr ""
+"Vis ikoner for deling af dine indlæg på Facebook, Twitter, Google+ og "
+"LinkedIn."
+
+#: inc/settings.php:252
+msgid "Copyright Text"
+msgstr "Copyright tekst"
+
+#: inc/settings.php:253
+msgid ""
+"{site-title}, {copyright} and {year} can be used to display your website "
+"title, a copyright symbol and the current year."
+msgstr ""
+"{site-title}, {copyright} og {year} kan bruges til at vise dit websteds "
+"navn, et copyright symbol samt aktuelle årstal."
+
+#: inc/settings.php:257
+msgid "Privacy Policy Link"
+msgstr "Link til politik om beskyttelse af personlige oplysninger"
+
+#: inc/settings.php:258
+msgid "Display the Privacy Policy page link in the footer."
+msgstr ""
+"Vis et link til politik om beskyttelse af personlige oplysninger i sidefoden."
+
+#: inc/settings.php:261
+msgid "Enqueue JavaScript in Footer"
+msgstr "Indlæs JavaScript i sidefod"
+
+#: inc/settings.php:262
+msgid ""
+"Enqueue theme JavaScript files in the footer. Doing so can improve site load "
+"time."
+msgstr ""
+"Indlæs temaets JavaScript filer i sidefoden. Dette kan forbedre webstedets "
+"indlæsningstid."
+
+#: inc/settings.php:265 premium/inc/settings.php:39
+msgid "Footer Attribution Link"
+msgstr "Tilskrivningslink i sidefod"
+
+#: inc/settings.php:266 premium/inc/settings.php:40
+msgid ""
+"Remove the theme attribution link from your footer without editing any code."
+msgstr ""
+"Fjern temaets tilskrivningslink fra din sidefod uden at skulle skrive kode."
+
+#: inc/settings.php:270
+msgid "Phone Number"
+msgstr "Telefon nummer"
+
+#: inc/settings.php:271
+msgid ""
+"A phone number displayed in the top bar. Use international dialing format to "
+"enable click to call."
+msgstr ""
+"Et telefon nummer vises i top panelet. Anvend international opkaldsformat "
+"for at aktiver opringning ved et klik."
+
+#: inc/settings.php:274
+msgid "Email Address"
+msgstr "E-mail adresse"
+
+#: inc/settings.php:275
+msgid "An email address to be displayed in the top bar"
+msgstr "En e-mail adresse som vises i top panelet"
+
+#: inc/settings.php:278
+msgid "Comments Closed"
+msgstr "Lukket for kommentarer"
+
+#: inc/settings.php:279
+msgid "The text visitors see at the bottom of posts when comments are closed."
+msgstr ""
+"Teksen som de besøgende ser i bundet af et indlæg når, der er lukket for "
+"kommentarer."
+
+#: inc/settings.php:282
+msgid "No Search Results Heading"
+msgstr "Overskrift til ingen søgeresultater"
+
+#: inc/settings.php:283
+msgid "The search page heading visitors see when no results are found."
+msgstr ""
+"Overskriften som de besøgende ser når, der ikke blev fundet nogen "
+"søgeresultater."
+
+#: inc/settings.php:286
+msgid "No Search Results Text"
+msgstr "Tekst til ingen søge resultater"
+
+#: inc/settings.php:287
+msgid "The search page text visitors see when no results are found."
+msgstr ""
+"Teksten som de besøgende ser når, der ikke blev fundet nogen søgeresultater."
+
+#: inc/settings.php:290
+msgid "404 Error Page Heading"
+msgstr "Overskrift til 404-fejl side"
+
+#: inc/settings.php:291
+msgid "The heading visitors see when no page is found."
+msgstr "Overskriften de besøgende ser når, ingen side blev fundet."
+
+#: inc/settings.php:294
+msgid "404 Error Page Text"
+msgstr "Tekst til 404-fejl side"
+
+#: inc/settings.php:295
+msgid "The text visitors see no page is found."
+msgstr "Teksten de besøgende ser når, der ingen side blev fundet."
+
+#: inc/settings.php:366
+msgid "{copyright} {year} {site-title}"
+msgstr "{copyright} {year} {site-title}"
+
+#: inc/settings.php:371
+msgid "1800-345-6789"
+msgstr "12-345-678"
+
+#: inc/settings.php:372
+msgid "info@yourdomain.com"
+msgstr "info@mitdomæne.dk"
+
+#: inc/settings.php:373
+msgid "Comments are closed."
+msgstr "Der er lukket for yderligere kommentarer."
+
+#: inc/settings.php:374
+msgid "Nothing Found"
+msgstr "Der blev ikke fundet noget"
+
+#: inc/settings.php:375
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords. "
+msgstr ""
+"Beklager, men din søgning gav ingen resultater. Prøv igen med nogle andre "
+"søgeord. "
+
+#: inc/settings.php:376
+msgid "Oops! That page can't be found."
+msgstr "Hovsa! Siden kunne ikke findes."
+
+#: inc/settings.php:377
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Det ser ud til, at der ikke blev fundet noget her. Måske en søgning eller et "
+"af linkene nedenfor kan hjælpe?"
+
+#: inc/settings.php:416 inc/settings/settings.php:413
+msgid "Theme Settings"
+msgstr "Tema indstillinger"
+
+#: inc/settings.php:417
+msgid "Settings for your theme."
+msgstr "Indstillinger til dit tema."
+
+#: inc/settings.php:418
+msgid "Premium Only"
+msgstr "Kun Premium"
+
+#: inc/settings.php:421
+msgid "Page Settings"
+msgstr "Side indstillinger"
+
+#: inc/settings.php:423 inc/settings/inc/page_settings_customizer.php:38
+msgid "Page Template Settings"
+msgstr "Side skabelon indstillinger"
+
+#: inc/settings.php:424 inc/settings/inc/page_settings_customizer.php:39
+msgid "Change layouts for various pages on your site."
+msgstr "Ændre layoutet for de forskellige sider på dit websted."
+
+#: inc/settings.php:426 inc/settings/inc/page_settings_customizer.php:47
+msgid "Blog Page"
+msgstr "Blog side"
+
+#: inc/settings.php:427 inc/settings/inc/page_settings_customizer.php:48
+msgid "Search Results"
+msgstr "Søgeresultater"
+
+#: inc/settings.php:428 inc/settings/inc/page_settings_customizer.php:49
+msgid "Date Archives"
+msgstr "Dato arkiver"
+
+#: inc/settings.php:429 inc/settings/inc/page_settings_customizer.php:51
+msgid "Not Found"
+msgstr "Der blev ikke fundet noget"
+
+#: inc/settings.php:430 inc/settings/inc/page_settings_customizer.php:50
+msgid "Author Archives"
+msgstr "Forfatter arkiver"
+
+#: inc/settings.php:431 inc/settings/inc/page_settings_customizer.php:69
+msgid "Type"
+msgstr "Type"
+
+#: inc/settings.php:432 inc/settings/inc/page_settings_customizer.php:80
+msgid "Taxonomy"
+msgstr "Klassifikation"
+
+#: inc/settings.php:445
+msgid "Page Layout"
+msgstr "Side layout"
+
+#: inc/settings.php:448
+msgid "No Sidebar"
+msgstr "Ingen side panel"
+
+#: inc/settings.php:450
+msgid "Full Width, With Sidebar"
+msgstr "Fuld bredde med side panel"
+
+#: inc/settings.php:457 inc/settings.php:464 inc/settings.php:471
+#: inc/settings.php:478 inc/settings.php:485 inc/settings.php:492
+msgid "Enable"
+msgstr "Aktiver"
+
+#: inc/settings.php:458
+msgid "Display the top bar. Global setting must be enabled."
+msgstr "Vis top panelet. Globale indstillinger skal være aktiveret."
+
+#: inc/settings.php:465
+msgid "Display the header. Global setting must be enabled."
+msgstr "Vis sidehovedet. Globale indstillinger skal være aktiveret."
+
+#: inc/settings.php:470
+msgid "Header Bottom Margin"
+msgstr "Nederste margen i sidehoved"
+
+#: inc/settings.php:472
+msgid "Display the margin below the header."
+msgstr "Vis margenen nedenunder sidehovedet."
+
+#: inc/settings.php:477
+msgid "Page Title"
+msgstr "Side titel"
+
+#: inc/settings.php:479
+msgid "Display the page title."
+msgstr "Vis side titlen."
+
+#: inc/settings.php:484
+msgid "Footer Top Margin"
+msgstr "Top margen i sidefod"
+
+#: inc/settings.php:486
+msgid "Display the margin above the footer."
+msgstr "Vis margenen ovenover sidefoden."
+
+#: inc/settings.php:491
+msgid "Footer Widgets"
+msgstr "Sidefod widgets"
+
+#: inc/settings.php:493
+msgid "Display the footer widgets."
+msgstr "Vis sidefodens widgets."
+
+#: inc/settings.php:520
+msgid ""
+"To use these page settings, please use the <strong>Default</strong> template "
+"selected under <strong>Page Attributes</strong>."
+msgstr ""
+"For at bruge disse sideindstillinger, skal du bruge <strong>standard</"
+"strong> skabelonen som vælges under <strong>side egenskaber</strong>."
+
+#: inc/settings/inc/about_page.php:33
+#, php-format
+msgid "Thanks for choosing %s!"
+msgstr "Tak, fordi du valgte %s!"
+
+#: inc/settings/inc/about_page.php:36
+#, php-format
+msgid ""
+"You can learn more about it %shere%s, or head straight to the %scustomizer%s "
+"to start setting it up."
+msgstr ""
+"Du kan lære mere om det %sher%s eller gå direkte til %sTilpasseren%s for at "
+"opsætte det."
+
+#: inc/settings/inc/about_page.php:45
+#, php-format
+msgid "Learn About %s"
+msgstr "Lær mere om %s"
+
+#: inc/settings/inc/about_page.php:57 inc/settings/inc/about_page.php:58
+#: inc/settings/inc/about_page.php:118
+#, php-format
+msgid "About %s"
+msgstr "Om %s"
+
+#: inc/settings/inc/about_page.php:99
+msgid "Free #WordPress Theme from @SiteOrigin"
+msgstr "Gratis #WordPress tema fra @SiteOrigin"
+
+#: inc/settings/inc/about_page.php:143
+msgid "Take a Tour"
+msgstr "Tag en rundtur"
+
+#: inc/settings/inc/about_page.php:152
+msgid "Get Updates"
+msgstr "Modtag opdateringer"
+
+#: inc/settings/inc/about_page.php:161
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: inc/settings/inc/about_page.php:170
+msgid "Write a Review"
+msgstr "Skriv en anmeldelse"
+
+#: inc/settings/inc/about_page.php:179
+msgid "Upgrade to Premium"
+msgstr "Opgrader til Premium"
+
+#: inc/settings/inc/about_page.php:237
+msgid "Watch The Video"
+msgstr "Se videoen"
+
+#: inc/settings/inc/about_page.php:250
+#, php-format
+msgid "If you like %s, please share it!"
+msgstr "Hvis du kan lide %s, kan du dele det!"
+
+#: inc/settings/inc/about_page.php:280
+msgid "Proudly Created By"
+msgstr "Stolt skabt af"
+
+#: inc/settings/inc/control/font.php:63
+msgid "Variant"
+msgstr "Variant"
+
+#: inc/settings/inc/control/font.php:68
+msgid "Subset"
+msgstr "Undersæt"
+
+#: inc/settings/inc/control/premium.php:15
+#, php-format
+msgid ""
+"%s Premium adds loads of extra customization settings and useful features. "
+"They'll save you time and make your site more professional."
+msgstr ""
+"%s Premium tilføjer masser af ekstra tilpasningsindstillinger og nyttige "
+"funktioner. De vil spare dig tid og gør dit websted mere professionelt."
+
+#: inc/settings/inc/control/premium.php:24
+msgid "Find Out More"
+msgstr "Find ud af mere"
+
+#: inc/settings/inc/control/teaser.php:24
+msgid "Available in Premium"
+msgstr "Tilgængelig i Premium"
+
+#: inc/settings/inc/control/widget.php:27
+msgid "This field requires the Widgets Bundle plugin."
+msgstr "Feltet kræver Widgets Bundle plugin'et."
+
+#: inc/settings/inc/control/widget.php:29
+#, php-format
+msgid "<a href=\"%s\">Install</a> the Widgets Bundle now."
+msgstr "<a href=\"%s\">Installer</a> Widgets Bundle plugin'et nu."
+
+#: inc/settings/inc/control/widget.php:51
+#: inc/settings/inc/control/widget.php:56
+msgid "Close"
+msgstr "Luk"
+
+#: inc/settings/inc/control/widget.php:63
+msgid "Edit Widget"
+msgstr "Rediger widget"
+
+#: inc/settings/inc/page_settings.php:174
+msgid "Page settings"
+msgstr "Side indstillinger"
+
+#: inc/settings/settings.php:414
+msgid "Change settings for your theme."
+msgstr "Ændre indstillinger for dit tema."
+
+#: inc/settings/settings.php:425 inc/settings/settings.php:443
+msgid "SiteOrigin Premium"
+msgstr "SiteOrigin Premium"
+
+#: inc/sliders.php:7
+msgid "Ultra (Flex)"
+msgstr "Ultra (Flex)"
+
+#: inc/sliders.php:78
+msgid "Page Slider"
+msgstr "Side diasshow"
+
+#: inc/sliders.php:113
+msgid "Display Page Slider"
+msgstr "Vis side diasshow"
+
+#: inc/sliders.php:123
+msgid "Stretch Page Meta Slider"
+msgstr "Stræk side meta diasshow"
+
+#: inc/sliders.php:127
+msgid "Overlap Header"
+msgstr "Sidehoved overlejring"
+
+#: inc/sliders/sliders.php:7
+msgid "None"
+msgstr "Ingen"
+
+#: inc/sliders/sliders.php:17
+msgid "MetaSlider: "
+msgstr "MetaSlider: "
+
+#: inc/sliders/sliders.php:26
+msgid "Smart Slider: "
+msgstr "Smart Slider: "
+
+#: inc/template-tags.php:27
+msgid "View posts by "
+msgstr "Vis indlæg af "
+
+#: inc/template-tags.php:47
+msgid "Sticky"
+msgstr "Fastgjort"
+
+#: inc/template-tags.php:64
+msgid "Leave a comment"
+msgstr "Skriv en kommentar"
+
+#: inc/template-tags.php:64
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: inc/template-tags.php:64
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: inc/template-tags.php:83 inc/template-tags.php:87
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:134
+#, php-format
+msgid "%s Logo"
+msgstr "%s logo"
+
+#: inc/template-tags.php:207
+msgid "You May Also Like"
+msgstr "Du er måske også interesseret i"
+
+#: inc/template-tags.php:223
+msgid "No related posts."
+msgstr "Der findes ingen relateret indlæg."
+
+#. Theme Name of the plugin/theme
+#: inc/update/update.php:47
+msgid "Ultra Premium"
+msgstr "Ultra Premium"
+
+#: inc/update/update.php:49
+msgid "Enter the order number we sent you by email."
+msgstr "Indtast det ordrenummer, vi har sendt dig via e-mail."
+
+#. translators: 1: Theme author.
+#: parts/bottom-bar.php:28
+#, php-format
+msgid "Theme by %1$s"
+msgstr "Tema af %1$s"
+
+#: premium/extras/share/share.php:20
+msgid "like"
+msgstr "synes godt om"
+
+#: premium/inc/customizer.php:13
+msgid "General"
+msgstr "Generelt"
+
+#: premium/inc/customizer.php:28
+msgid "Main Menu"
+msgstr "Hovedmenu"
+
+#: premium/inc/customizer.php:33
+msgid "Mobile Menu"
+msgstr "Mobilmenu"
+
+#: premium/inc/customizer.php:38
+msgid "Content Header"
+msgstr "Indhold sidehoved"
+
+#: premium/inc/customizer.php:43
+msgid "Content"
+msgstr "Indhold"
+
+#: premium/inc/customizer.php:58
+msgid "Bottom Bar"
+msgstr "Nederste panel"
+
+#: premium/inc/customizer.php:70
+msgid "Site Max Width (px)"
+msgstr "Websteds maks. bredde (px)"
+
+#: premium/inc/customizer.php:81 premium/inc/customizer.php:252
+#: premium/inc/customizer.php:356 premium/inc/customizer.php:497
+#: premium/inc/customizer.php:735 premium/inc/customizer.php:815
+msgid "Link Color"
+msgstr "Link farve"
+
+#: premium/inc/customizer.php:89 premium/inc/customizer.php:260
+#: premium/inc/customizer.php:373 premium/inc/customizer.php:743
+#: premium/inc/customizer.php:823
+msgid "Link Hover Color"
+msgstr "Link hover-farve"
+
+#: premium/inc/customizer.php:98
+msgid "Menu Hover Accent Color"
+msgstr "Fremhævet farve på menu-hover"
+
+#: premium/inc/customizer.php:106 premium/inc/customizer.php:320
+msgid "Font"
+msgstr "Skrift"
+
+#: premium/inc/customizer.php:113 premium/inc/customizer.php:327
+#: premium/inc/customizer.php:518 premium/inc/customizer.php:688
+#: premium/inc/customizer.php:726 premium/inc/customizer.php:806
+msgid "Text Size (px)"
+msgstr "Tekst størrelse (px)"
+
+#: premium/inc/customizer.php:122 premium/inc/customizer.php:212
+msgid "Height (px)"
+msgstr "Højde (px)"
+
+#: premium/inc/customizer.php:130 premium/inc/customizer.php:220
+#: premium/inc/customizer.php:463 premium/inc/customizer.php:764
+#: premium/inc/customizer.php:832
+msgid "Background Color"
+msgstr "Baggrunds farve"
+
+#: premium/inc/customizer.php:138 premium/inc/customizer.php:227
+#: premium/inc/customizer.php:471 premium/inc/customizer.php:626
+#: premium/inc/customizer.php:772 premium/inc/customizer.php:840
+msgid "Background Image"
+msgstr "Baggrunds billede"
+
+#: premium/inc/customizer.php:146 premium/inc/customizer.php:234
+#: premium/inc/customizer.php:479 premium/inc/customizer.php:634
+#: premium/inc/customizer.php:780 premium/inc/customizer.php:848
+msgid "Background Image Layout"
+msgstr "Layout for baggrunds billede"
+
+#: premium/inc/customizer.php:151 premium/inc/customizer.php:239
+#: premium/inc/customizer.php:484 premium/inc/customizer.php:639
+#: premium/inc/customizer.php:785 premium/inc/customizer.php:853
+msgid "Center"
+msgstr "Center"
+
+#: premium/inc/customizer.php:152 premium/inc/customizer.php:240
+#: premium/inc/customizer.php:485 premium/inc/customizer.php:640
+#: premium/inc/customizer.php:786 premium/inc/customizer.php:854
+msgid "Tile"
+msgstr "Flise"
+
+#: premium/inc/customizer.php:153 premium/inc/customizer.php:241
+#: premium/inc/customizer.php:486 premium/inc/customizer.php:641
+#: premium/inc/customizer.php:787 premium/inc/customizer.php:855
+msgid "Cover"
+msgstr "Dække"
+
+#: premium/inc/customizer.php:164
+msgid "Site Title Color"
+msgstr "Farve på webstedets titel"
+
+#: premium/inc/customizer.php:172
+msgid "Site Title Font"
+msgstr "Skrift for webstedets titel"
+
+#: premium/inc/customizer.php:179
+msgid "Site Title Font Size (px)"
+msgstr "Skrift størrelse for webstedets titel (px)"
+
+#: premium/inc/customizer.php:188
+msgid "Site Tagline Color"
+msgstr "Farve på webstedets slogan"
+
+#: premium/inc/customizer.php:196
+msgid "Site Tagline Font"
+msgstr "Skrift for webstedets slogan"
+
+#: premium/inc/customizer.php:203
+msgid "Site Tagline Font Size (px)"
+msgstr "Skrift størrelse for webstedets slogan (px)"
+
+#: premium/inc/customizer.php:268
+msgid "Current Link Color"
+msgstr "Nuværende link farve"
+
+#: premium/inc/customizer.php:279
+msgid "Current Link Underline"
+msgstr "Nuværende link understregning"
+
+#: premium/inc/customizer.php:286
+msgid "Dropdown Background Color"
+msgstr "Baggrunds farve på rullemenu"
+
+#: premium/inc/customizer.php:294
+msgid "Dropdown Link Color"
+msgstr "Link farve i rullemenu"
+
+#: premium/inc/customizer.php:302
+msgid "Dropdown Background Hover Color"
+msgstr "Baggrunds hover-farve på rullemenu"
+
+#: premium/inc/customizer.php:311
+msgid "Dropdown Link Hover Color"
+msgstr "Link hover-farve i rullemenu"
+
+#: premium/inc/customizer.php:336
+msgid "Link Right Margin (px)"
+msgstr "Højre margen i links (px)"
+
+#: premium/inc/customizer.php:348
+msgid "Link Background Color"
+msgstr "Baggrundsfarve på links"
+
+#: premium/inc/customizer.php:364
+msgid "Link Background Hover Color"
+msgstr "Baggrunds farve på hover-links"
+
+#: premium/inc/customizer.php:386 premium/inc/customizer.php:535
+#: premium/inc/customizer.php:663 premium/inc/customizer.php:701
+msgid "Heading Color"
+msgstr "Farve på overskrift"
+
+#: premium/inc/customizer.php:394 premium/inc/customizer.php:543
+msgid "Heading Font"
+msgstr "Skrift til overskrift"
+
+#: premium/inc/customizer.php:401
+msgid "Heading Font Size (px)"
+msgstr "Skrift størrelse på overskrift (px)"
+
+#: premium/inc/customizer.php:410
+msgid "Breadcrumb Font"
+msgstr "Skrift til brødkrummer"
+
+#: premium/inc/customizer.php:417
+msgid "Breadcrumb Font Size (px)"
+msgstr "Skrift størrelse på brødkrummer (px)"
+
+#: premium/inc/customizer.php:426
+msgid "Breadcrumb Text Color"
+msgstr "Tekst farve på brødkrummer"
+
+#: premium/inc/customizer.php:434
+msgid "Breadcrumb Link Color"
+msgstr "Link farve på brødkrummer"
+
+#: premium/inc/customizer.php:442
+msgid "Breadcrumb Link Hover Color"
+msgstr "Link-hover farve på brødkrummer"
+
+#: premium/inc/customizer.php:451
+msgid "Content Header Padding (px)"
+msgstr "Polstring af sidehoved indhold (px)"
+
+#: premium/inc/customizer.php:504 premium/inc/customizer.php:680
+#: premium/inc/customizer.php:718 premium/inc/customizer.php:798
+msgid "Text Color"
+msgstr "Tekst farve"
+
+#: premium/inc/customizer.php:511
+msgid "Text Font"
+msgstr "Skrift til tekst"
+
+#: premium/inc/customizer.php:526
+msgid "Post Meta Text Size (px)"
+msgstr "Tekst størrelse for indlægsmeta (px)"
+
+#: premium/inc/customizer.php:550
+msgid "H1 Text Size (px)"
+msgstr "H1 tekst størrelse (px)"
+
+#: premium/inc/customizer.php:559
+msgid "H2 Text Size (px)"
+msgstr "H2 tekst størrelse (px)"
+
+#: premium/inc/customizer.php:568
+msgid "H3 Text Size (px)"
+msgstr "H3 tekst størrelse (px)"
+
+#: premium/inc/customizer.php:577
+msgid "H4 Text Size (px)"
+msgstr "H4 tekst størrelse (px)"
+
+#: premium/inc/customizer.php:586
+msgid "H5 Text Size (px)"
+msgstr "H5 tekst størrelse (px)"
+
+#: premium/inc/customizer.php:595
+msgid "H6 Text Size (px)"
+msgstr "H6 tekst størrelse (px)"
+
+#: premium/inc/customizer.php:604
+msgid "Element Border Color"
+msgstr "Kant farve på element"
+
+#: premium/inc/customizer.php:611
+msgid "Element Background Color"
+msgstr "Baggrunds farve på element"
+
+#: premium/inc/customizer.php:618
+msgid "Page Background Color"
+msgstr "Side baggrunds farve"
+
+#: premium/inc/customizer.php:652
+msgid "Position"
+msgstr "Justering"
+
+#: premium/inc/customizer.php:655
+msgid "Right"
+msgstr "Højre"
+
+#: premium/inc/customizer.php:656
+msgid "Left"
+msgstr "Venstre"
+
+#: premium/inc/customizer.php:671 premium/inc/customizer.php:709
+msgid "Heading Size (px)"
+msgstr "Overskrift størrelse (px)"
+
+#: premium/inc/customizer.php:752
+msgid "Footer Padding (px)"
+msgstr "Polstring af sidefod (px)"
+
+#: premium/inc/settings.php:21
+msgid "Allow users to submit comments without a page re-load on submit."
+msgstr "Gør at brugerne kan sende kommentarer uden at siden skal genindlæses."
+
+#: premium/inc/settings.php:26
+msgid "Show icons to share your posts on Facebook, Twitter and LinkedIn."
+msgstr ""
+"Vis ikoner for deling af dine indlæg på Facebook, Twitter, Google+ og "
+"LinkedIn."
+
+#: premium/inc/settings.php:29
+msgid "Page Sharing"
+msgstr "Sidedeling"
+
+#: premium/inc/settings.php:30
+msgid "Show icons to share your pages on Facebook, Twitter and LinkedIn."
+msgstr ""
+"Vis ikoner for deling af dine sider på Facebook, Twitter, Google+ og "
+"LinkedIn."
+
+#: premium/inc/settings.php:33
+msgid "Twitter Handle"
+msgstr "Twitter navn"
+
+#: premium/inc/settings.php:34
+msgid "This handle will be recommended after a user shares one of your posts."
+msgstr ""
+"Dette Twitter navn vil blive anbefalet når en bruger deler et af dine indlæg."
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Søgeresultater for: %s"
+
+#: searchform.php:15
+msgid "Search for:"
+msgstr "Søg efter:"
+
+#: searchform.php:16 searchform.php:18
+msgid "Search"
+msgstr "Søg"
+
+#: slider/demo.php:5 slider/demo.php:7 slider/demo.php:11 slider/demo.php:13
+msgid "Demo Slide"
+msgstr "Demo dias/slideshow"
+
+#: upgrade/upgrade.php:4
+msgid "Upgrade to Ultra Premium"
+msgstr "Opgrader til Ultra Premium"
+
+#: upgrade/upgrade.php:5
+msgid ""
+"Hi, my name is Andrew Misplon, the developer of Ultra. If you've enjoyed "
+"Ultra Free then I know you're going to love Ultra Premium. Below you'll find "
+"an outline of the premium features."
+msgstr ""
+"Hej, mit navn er Andrew Misplon, udvikleren af Ultra. Hvis du holder af "
+"Ultra Free, så ved jeg at du vil elske at gå videre til Ultra Premium. "
+"Nedenfor finder du en oversigt over premium funktionerne."
+
+#: upgrade/upgrade.php:13
+msgid "Premium Email Support"
+msgstr "Premium e-mail support"
+
+#: upgrade/upgrade.php:14
+msgid ""
+"Ultra Premium comes with priority email support. Let us know if you run into "
+"any challenges or simply need a hand getting setup. We're here to help."
+msgstr ""
+"Ultra Premium kommer med prioriteret e-mail support. Lad os vide hvis du "
+"løber ind i nogle problemer eller blot har brug for en hånd til opsætningen. "
+"Vi er her for, at hjælpe."
+
+#: upgrade/upgrade.php:18
+msgid "Name the Price"
+msgstr "Nævn prisen"
+
+#: upgrade/upgrade.php:19
+msgid ""
+"You choose the price, so you can pay what Ultra is worth to you. Choose from "
+"one our suggested options or specify your own custom price. Regardless of "
+"what you pay you'll receive the same premium upgrade and be supporting the "
+"continued development of the theme."
+msgstr ""
+"Du kan vælge prisen, som du syntes du syntes at Ultra er værd for dig. Vælg "
+"mellem vores forslag eller angiv din egen pris. Uanset hvad du betaler, vil "
+"du modtage samme den samme premium opgradering og støtte den fortsatte "
+"udvikling af temaet."
+
+#: upgrade/upgrade.php:24
+msgid ""
+"Ultra Premium allows you to upload an additional, double-sized logo, to be "
+"displayed on Apple Retina and other high pixel density displays."
+msgstr ""
+"Ultra Premium giver dig mulighed for, at uploade et ekstra logo i dobbelt "
+"størrelse, der vises på Apple Retina og andre skærme med høj pixeltæthed."
+
+#: upgrade/upgrade.php:28
+msgid "Enhanced Customizer Integration"
+msgstr "Forbedret tilpasnings integration"
+
+#: upgrade/upgrade.php:29
+msgid ""
+"Make Ultra your own with enhanced Customizer integration. Choose from "
+"Google's huge selection of fonts; change colors, spacing and more all using "
+"the live-updating WordPress Customizer."
+msgstr ""
+"Gør Ultra til dit eget med forbedret tilpasnings integration. Vælg mellem "
+"Google's enorme udvalg af skrifter; skift farver, afstand med mere, alt ved "
+"brug af live-opdatering i WordPress Tilpasseren."
+
+#: upgrade/upgrade.php:34
+msgid "Ajax Comments"
+msgstr "Ajax kommentarer"
+
+#: upgrade/upgrade.php:35
+msgid ""
+"Remove page re-loads from your comment forms. This means that users can "
+"submit comments without losing their place in a gallery or interrupting a "
+"video."
+msgstr ""
+"Fjern side genindlæsning fra dine kommentar formularer. Dette betyder, at "
+"brugere kan sende kommentarer uden, at miste deres plads i et galleri eller "
+"afbryde en video."
+
+#: upgrade/upgrade.php:41
+msgid ""
+"Add sharing icons for Facebook, Twitter and LinkedIn to the bottom of your "
+"posts."
+msgstr ""
+"Tilføj delingsikoner til Facebook, Twitter og LinkedIn i bunden af dine "
+"indlæg."
+
+#: upgrade/upgrade.php:46
+msgid "Remove Attribution Link"
+msgstr "Fjern tilskrivningslinket"
+
+#: upgrade/upgrade.php:47
+msgid ""
+"Ultra Premium gives you the option to remove the \"Theme by Puro\" text from "
+"your Footer without editing any code."
+msgstr ""
+"Ultra Premium giver dig mulighed for, at fjerne \"Tema fra Puro\" teksten "
+"fra din sidefod, uden at skrive kode."
+
+#: upgrade/upgrade.php:52
+msgid "Continued Updates"
+msgstr "Fortsatte opdateringer"
+
+#: upgrade/upgrade.php:53
+msgid ""
+"Your premium upgrade is a valuable contribution to the future development of "
+"Ultra, ensuring it's compatible with future versions of WordPress."
+msgstr ""
+"Din premium opgradering, er et værdsat bidrag til fortsættelse af "
+"udviklingen af Ultra, og sikre at det er kompatibel med fremtidige versioner "
+"af WordPress."
+
+#: upgrade/upgrade.php:62
+msgid ""
+"LOVE this theme - so many options, and so gorgeous! I HIGHLY suggest "
+"submitting a question on their support forum if you run into any problems - "
+"they respond within minutes to my questions! Doesn't get much better than "
+"that. Thanks for all of your help, Andrew, and thank you for the awesome "
+"theme!"
+msgstr ""
+"ELSKER dette tema - så mange muligheder, så fantastisk! Jeg ANBEFALER at "
+"indsende et spørgsmål til deres support forum hvis du løber ind i problemer "
+"- de reagerer indenfor få minutter på mine spørgsmål! Det bliver ikke bedre "
+"end dette. Tak for al din hjælp Andrew og tak for det fantastiske tema!"
+
+#: upgrade/upgrade.php:68
+msgid ""
+"The Ultra WordPress theme looks awesome and the best part is it's a free "
+"theme, I really love this theme and my site is starting to come together and "
+"looks really sharp thanks to this amazing theme also the theme designer "
+"Andrew Misplon from Puro themes provided me with great support when I needed "
+"assistance in setting up a few things."
+msgstr ""
+"Ultra WordPress temaet ser fantastisk ud og er den bedste part er, at det er "
+"gratis. Jeg elsker virkelig dette tema og mit websted begynder at ligne "
+"noget nu og ser virkelig skarp ud, tak og være dette fantastiske tema og "
+"dens udvikler Andrew Misplon fra Puro themes gav mig stor støtte da jeg "
+"behøvede hjælp til at opsætte et par ting."
+
+#: upgrade/upgrade.php:74
+msgid "Theme is very responsive and so is the support. Highly recommended!."
+msgstr ""
+"Temaet er meget responsivt og det samme er supporten. Anbefales på det "
+"stærkeste!."
+
+#: upgrade/upgrade.php:80
+msgid ""
+"The Ultra+ theme is great (my FAVORITE). I'm impressed by the ease of set-up "
+"(even for a WP beginner). The versatility of design along with everything "
+"needed in the customizing menu gave me the ability to see a live preview "
+"before publishing. It's OBVIOUS that the author put a lot of effort into "
+"creating Ultra+ because it's so easy to use - my admin board isn't cluttered "
+"with a bunch of plugins. The interface is clean and simple... perfect!"
+msgstr ""
+"Ultra+ temaet er godt (min FAVORIT). Jeg er imponeret af hvor let det er at "
+"opsætte (selv for en WP begynder). Alsidigheden af designet sammen med alt "
+"det nødvendige i tilpasnings menuen, gav mig muligheden for at se live-"
+"visning før udgivelsen. Det er INDLYSENDE at forfatteren har lagt en masse "
+"arbejde i skabelsen af Ultra+ fordi, det er så let at anvende - mit "
+"kontrolpanel er ikke rodet til i en masse plugin'er. Græsenfladen er "
+"enkelt .. perfekt!"
+
+#. Theme URI of the plugin/theme
+msgid "https://purothemes.com/themes/ultra/"
+msgstr "https://purothemes.com/themes/ultra/"
+
+#. Description of the plugin/theme
+msgid ""
+"Use it to launch your business site, blog or portfolio. Create detailed "
+"layouts without writing a line of code using SiteOrigin's drag and drop Page "
+"Builder plugin. Start your pages off with a bold full-width Smart Slider and "
+"keep users engaged with a sticky menu. Fast, responsive, SEO optimized and "
+"backed by professional level support, Ultra is ready for your next project. "
+"For assistance, check out our <a href=\"http://purothemes.com/documentation/"
+"\">theme documentation</a> (http://purothemes.com/documentation/) or ask a "
+"question on our <a href=\"https://purothemes.com/support/\">support forum</"
+"a> (https://purothemes.com/support/)."
+msgstr ""
+"Brug det til at starte din virksomheds websted, blog eller portefølje. Opret "
+"detaljerede layout uden at skrive en kodelinje ved hjælp af SiteOrigin's "
+"træk og slip Page Builder-plugin. Start dine sider med Smart Slider i fuld "
+"bredde, og hold brugernes opmærksomhed med en fastgjort menu. Hurtig, "
+"responsivt, SEO optimeret og bakket op af professionel support, Ultra er "
+"klar til dit næste projekt. For at få hjælp kan du se <a href=\"http://"
+"purothemes.com/documentation/\">vores tema dokumentation</a> (http://"
+"purothemes.com/documentation/) eller stille et spørgsmål på <a href="
+"\"https://purothemes.com/support/\">vores supportforum</a> (https://"
+"purothemes.com/support/)."
+
+#. Author of the plugin/theme
+msgid "Puro"
+msgstr "Puro"
+
+#. Author URI of the plugin/theme
+msgid "https://purothemes.com/"
+msgstr "https://purothemes.com/"
+
+#. Template Name of the plugin/theme
+msgid "Page Builder Home"
+msgstr "Page Builder Forside"

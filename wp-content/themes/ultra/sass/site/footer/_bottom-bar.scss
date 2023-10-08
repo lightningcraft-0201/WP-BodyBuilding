@@ -1,0 +1,60 @@
+.site-footer .bottom-bar {
+	background: $color__background-dark;
+	color: $color__text-main-minus-3;
+
+	@media (max-width: $medium) {
+		.resp & {
+			padding-bottom: 0;
+		}
+	}
+
+	a {
+		color: $color__text-main-minus-3;
+		text-decoration: none;
+
+		&:hover {
+			color: $color__background-body;
+		}
+	}
+
+	.site-info {
+		display: inline-block;
+		@include font-size(0.85714);
+		padding: 1.2em 0;
+		text-align: left;
+		vertical-align: middle;
+		width: 30%;
+		
+		span {
+
+			&:after {
+				content: "\002d";
+				display: inline-block;
+				padding: 0 5px;
+			}
+
+			&:last-of-type {
+
+				&:after {
+					content: none;
+				}
+			}
+		}
+
+		@media (max-width: $medium) {
+			.resp & {
+				display: block;
+				height: auto;
+				line-height: normal;
+				padding: 1.33929em 0;
+				text-align: center;
+				width: 100%;
+			}
+		}
+	}
+
+	.container div:only-of-type {
+		text-align: center;
+		width: 100%;
+	}
+}

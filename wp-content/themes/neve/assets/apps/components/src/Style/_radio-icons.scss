@@ -1,0 +1,81 @@
+.neve-radio-icons {
+  display: flex;
+  padding: 3px;
+
+  span {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+  }
+
+  label {
+	text-align: center;
+	font-weight: 800;
+	font-size: 9px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #555d66;
+	margin-top: 7px;
+  }
+
+  > span {
+	&:not(:first-child) {
+	  margin-left: -1px;
+	}
+  }
+
+  button {
+	align-items: center;
+	justify-content: center !important;
+	flex: 1;
+	padding: 3px;
+	height: 28px;
+	border: 1px solid $input-borders;
+	border-radius: 0;
+	margin-left: -1px;
+
+	&:first-child {
+	  margin-left: 0;
+	}
+
+	svg, .dashicon {
+	  width: 20px;
+	  margin: 0 auto !important;
+	}
+
+	&.active {
+	  &, &:hover {
+		background-color: $accent-color !important;
+		border-color: $accent-color !important;
+		color: #fff !important;
+		box-shadow: none !important;
+	  }
+	}
+  }
+}
+
+.neve-radio-icons.large-buttons button {
+  height: 45px !important;
+
+  svg {
+	width: 40px;
+	height: 30px;
+  }
+}
+
+.neve-radio-icons-custom-svg {
+  overflow: hidden;
+  animation: .3s appear ease-out;
+  padding: 3px;
+
+  .custom-svg-buttons {
+	display: flex;
+	justify-content: flex-end;
+	column-gap: 5px;
+  }
+}
+
+@keyframes appear {
+  from { max-height: 0; }
+  to { max-height: 300px; }
+}

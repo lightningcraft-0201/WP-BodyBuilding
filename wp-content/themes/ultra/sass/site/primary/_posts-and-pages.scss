@@ -1,0 +1,787 @@
+/*--------------------------------------------------------------
+13.6.1 - General Styles
+--------------------------------------------------------------*/
+article {
+	border-color: $color__background-hr;
+	border-bottom-style: solid;
+	border-bottom-width: 0.07143em;
+	padding-bottom: 2.60714em;
+	margin-bottom: 2.67857em;
+
+	&:last-of-type {
+		border-bottom: none;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+
+/*--------------------------------------------------------------
+13.6.2 - Post and Page Featured Image
+--------------------------------------------------------------*/
+.entry-thumbnail {
+	border: none;
+	display: block;
+	height: auto; 
+	margin-bottom: 1.78571em;
+
+	a {
+		display: block;
+	}
+
+	img {
+		@include center-block;
+	}
+}
+
+.sticky {
+	/* Style the sticky class */
+}
+
+/*--------------------------------------------------------------
+13.6.3 - General Post and Page Header
+--------------------------------------------------------------*/
+.entry-header,
+.page-header {
+
+	.entry-title,
+	.page-title {
+		@include font-size(1.78571);
+		line-height: 1.78571;
+		margin: 0;
+
+		@media (max-width: $small) {
+			.resp & {
+				@include font-size(1.57143);
+				line-height: normal;
+			}
+		}
+
+		a {
+			border: none;
+			color: $color__text-headings;
+
+			&:hover {
+				border: none;
+				color: $color__link;
+			}
+		}
+	}
+
+	.breadcrumbs {
+		box-sizing: border-box;
+		color: $color__text-main-minus-3;
+		display: inline-block;
+		text-align: right;
+		vertical-align: middle;
+		width: 30%;
+
+		@media (max-width: $medium) {
+			.resp & {
+				text-align: center;
+				width: 100%;
+			}
+		}
+
+		> * {
+			@include font-size(0.92857);
+			line-height: normal;
+		}
+
+		&.breadcrumb-trail {
+			margin-left: -4px;
+		}
+
+		a {
+			color: $color__text-main-minus-3;
+
+			&:hover {
+				color: $color__link;
+			}
+		}
+	}
+}
+
+.single .entry-header, 
+.page .site-content > .entry-header,
+.blog .page-header,
+.archive .page-header,
+.search-results .page-header,
+.search-no-results .page-header,
+.error404 .page-header {
+	background: $color__background-lighter;
+	box-sizing: content-box;
+	margin-bottom: 2.67857em;
+	padding: 1.33929em 0;
+}
+
+// If page settings Header Bottom Margin is disabled.
+.page-layout-no-header-margin .site-content > .entry-header,
+.page-layout-no-header-margin .page-header {
+	margin-bottom: 0;
+}
+
+.single .entry-header {
+	margin-bottom: 0.89286em;
+}
+
+.single .entry-header h1.entry-title,
+.page .site-content > .entry-header h1.entry-title,
+.blog .page-header h1.page-title,
+.search-results .page-header h1.page-title,
+.search-no-results .page-header h1.page-title,
+.error404 .page-header h1.page-title {
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: middle;
+	width: 70%;
+}
+
+@media (max-width: $medium) {
+	.resp {
+		&.single .entry-header h1.entry-title,
+		&.page .site-content > .entry-header h1.entry-title,
+		&.blog .page-header h1.page-title,
+		&.search-results .page-header h1.page-title,
+		&.search-no-results .page-header h1.page-title,
+		&.error404 .page-header h1.page-title {
+			text-align: center;
+			width: 100%;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+13.6.4 - Single Post Header
+--------------------------------------------------------------*/
+.single {
+
+	.entry-meta {
+		box-sizing: content-box;
+		
+		.container > div {
+			border-bottom: 1px solid $color__background-hr; 	
+			@include clearfix;
+			margin-bottom: 3.57143em;
+			padding-bottom: 0.44643em;
+			width: 100%;
+		}
+
+		.entry-meta-inner {
+			float: left;
+		}
+
+		div > span {
+			@include font-size(0.92857);
+			line-height: 1.92308em;
+		}
+
+		.post-navigation {
+			display: inline-block;
+			float: right;
+
+			.nav-previous,
+			.nav-next {
+				display: inline-block;
+				float: none;
+			}
+
+			@media (max-width: $medium) {
+				@at-root .resp#{&} {
+					.nav-previous,
+					.nav-next {
+						margin-bottom: 0;
+						width: auto;
+					}
+				}
+			}
+
+			.nav-previous a:before,
+			.nav-next a:after {
+				display: block;
+				font-family: $font__icon;
+				font-size: 1.1429em;
+				line-height: normal;
+				padding-top: 3px;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+13.6.5 - Archive Header
+--------------------------------------------------------------*/
+.archive {
+	
+	.container .title-wrapper {
+		box-sizing: border-box;
+		display: inline-block;
+		vertical-align: middle;
+		width: 70%;
+
+		.taxonomy-description {
+			p {
+				color: $color__text-main-minus-3;
+				margin: 0;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+13.6.6 - Post Entry Meta
+--------------------------------------------------------------*/
+.site-content .entry-meta {
+	color: $color__text-main-minus-3;
+	margin-bottom: 1.78571em;
+
+	a {
+		border: none;
+		color: $color__text-main-minus-3;
+		display: inline-block;
+		font-weight: 400;
+
+		&:hover {
+			border: none;
+			color: $color__link;
+		}
+	}
+
+	div > span {
+		@include font-size(0.92857);
+		line-height: 1.92308em;
+	}
+
+	span {
+		display: inline-block;
+		margin-right: 1.0769em;
+
+		span {
+			margin-right: 0;
+		}
+	}
+
+	span:before, a:before {
+		@include font-size(0.92857);
+		font-family: $font__icon;
+		line-height: 1.92308em;
+		padding-right: 0.4554em;
+	}
+
+	.featured-post:before {
+		content: "\f0c6";
+	}
+
+	.entry-date:before {
+		content: "\f133";
+	}
+
+	.updated {
+		display: none;
+	}
+
+	.author:before {
+		content: "\f040";
+	}
+
+	.comments-link:before {
+		content: "\f0e6";
+	}
+}
+
+/*--------------------------------------------------------------
+13.6.7 - Content Area Link Formatting
+--------------------------------------------------------------*/
+.entry-content {
+
+	// a:not(.ow-button-hover):not([class^="ow-icon-placement"]):not(.button) { // Exclude Page Builder button links.
+	// color: $color__link;
+
+	// 	&:hover {
+	// 		color: $color__text-main;
+	// 	}
+	// }
+
+	a[href$=".jpg"], 
+	a[href$=".jpeg"], 
+	a[href$=".jpe"], 
+	a[href$=".png"], 
+	a[href$=".gif"] {
+		border: none !important;
+	}
+
+	.page-links {
+		clear: both;
+		padding: 0 0 1.78571em;
+
+		.page-links-title {
+			color: $color__text-main;
+			font-weight: 600;
+		}
+
+		.post-page-numbers {
+			background: $color__background-light;
+			border-radius: 3px;
+			color: $color__text-main;
+			display: inline-block;
+			line-height: normal;
+			margin-right: 0.1285em;
+			padding: 0.7142em 1.1428em;
+			transition: .3s;
+
+			&:hover,
+			&.current {
+				background: $color__link;
+				color: #fff;
+			}
+		}
+	}
+}
+
+.entry-content,
+.entry-summary {
+
+	.more-wrapper {
+		display: block;
+		overflow: auto;
+
+		&.excerpt {
+			margin-top: 1.78571em;
+		}
+
+		.more-link {
+			background: $color__background-light;
+			border: none;
+			border-radius: 3px;
+			color: $color__text-main;
+			display: block;
+			float: left;
+			font-weight: 400;
+			line-height: normal;
+			outline-style: none;
+			padding: 0.7142em 1.2143em;
+			transition: 0.3s;
+
+			&:hover {
+				background: $color__link;
+				border-bottom: none;
+				color: $color__background-body;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+13.6.8 - Block Styles
+--------------------------------------------------------------*/
+// Apply a bottom margin to top level blocks.
+.entry-content > div[class^='wp-block-'] {
+	margin-bottom: 2.67857em;
+}
+
+.wp-block-group {
+
+	&.has-background {
+		padding: 1.78571em;
+
+		&.alignfull {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+13.6.9 - Search and Post Password Form Specific
+--------------------------------------------------------------*/
+.search-form, 
+.post-password-form {
+	margin-bottom: 0.8438em;
+
+	label {
+		display: inline-block;
+		margin-right: 0.3125em;
+	}
+}
+
+@media (max-width: $small) {
+
+	.resp .post-password-form {
+
+		label input {
+			display: block;
+			margin-top: 0.8438em;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+13.6.10 - Post Formats
+--------------------------------------------------------------*/
+.format-chat .entry-content {
+	background: $color__background-lighter;
+	border-radius: 3px;
+	color: $color__text-headings;
+	font-family: $font__code;
+	padding: 1.78571em;
+}
+
+/*--------------------------------------------------------------
+13.6.11 - Single Post Author Box
+--------------------------------------------------------------*/
+.author-box {
+	border-top: 1px solid $color__background-hr;
+	display: table;
+	margin: 1.7857em 0;
+	padding-top: 2.67857em;
+	width: 100%;
+
+	.author-avatar {
+		display: table-cell;
+		vertical-align: top;
+		width: 105px;
+
+		@media (max-width: $medium) {
+			display: block;
+			width: 100%;
+		}
+
+		img {
+			border-radius: 40px;
+			display: block;
+			height: 80px;
+			width: 80px;
+
+			@media (max-width: $medium) {
+				margin: 0 auto 1em;
+			}
+		}
+	}
+
+	.author-description {
+		display: table-cell;
+		vertical-align: top;
+
+		@media (max-width: $medium) {
+			display: block;
+			text-align: center;
+		}
+
+		h3 {
+			line-height: normal;
+			margin: 0;
+		}
+
+		span {
+			display: block;
+			@include font-size(0.875);
+			margin-bottom: 0.7142em;
+
+			a {
+				color: $color__text-main-minus-3;
+
+				&:hover {
+					color: $color__link;
+				}
+			}
+		}
+
+		div {
+			@include font-size(1);
+
+			p:only-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+13.6.12 - Related Posts
+--------------------------------------------------------------*/
+.yarpp-related,
+.related-posts-section {
+	border-top: 1px solid $color__background-hr;
+	display: inline-block;
+	margin-top: 25px;
+	padding-bottom: 25px;
+	width: 100%; 
+
+	.related-posts {
+		font-size: 20px;
+	}
+
+	ol {
+		@include clearfix;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+
+		li {
+			display: block;
+			float: left;
+			margin: 0 0 25px 0;
+			width: 31%;
+
+			@media (max-width: 480px) {
+				width: 100%;
+			}
+
+			&:nth-child(3n+1) {
+				margin-right: 3.5%;
+
+				@media (max-width: 480px) {
+					margin-right: 0;
+				}
+			}
+
+			&:nth-child(3n+3) {
+				margin-left: 3.5%;
+
+				@media (max-width: 480px) {
+					margin-left: 0;
+				}
+			}
+
+			&:only-child {
+				margin: 0;
+			}
+
+			a {
+				display: block;
+				line-height: 0;
+				text-decoration: none;
+			}
+
+			img {
+				margin-bottom: 10px;
+			}
+
+			.related-post-title {
+				font-size: 14px;
+				font-weight: bold;
+				line-height: normal;
+				margin: 0 0 3px;
+
+				@at-root &:hover {
+					color: $color__link;
+				}
+			}
+
+			.related-post-date {
+				color: $color__text-main-minus-3;
+				font-size: 13px;
+				font-weight: normal;
+				line-height: normal;
+				margin: 0;
+
+				&:hover {
+					color: $color__link;
+				}
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+13.6.13 - Post Entry Footer
+--------------------------------------------------------------*/
+.entry-footer {
+
+	.share-buttons {
+		display: flex;
+		justify-content: space-evenly;
+		padding: 0;
+		margin: 2.67857em 0 0;
+		max-width: 300px;
+
+		li {
+			display: inline-block;
+			line-height: normal;
+			overflow: visible;
+			vertical-align: top;
+
+			&:first-of-type {
+				margin-left: -22px;
+			}
+
+			&:last-of-type {
+				margin-left: -18px;
+			}
+		}
+	}
+
+	span a {
+		border: none;
+		color: $color__text-main-minus-3;
+		font-weight: 400;
+
+		&:hover {
+			border: none;
+			color: $color__link;
+		}
+	}
+
+	> span {
+		@include font-size(0.92857);
+		line-height: 1.92308em;
+		margin: 2.67857em 1.0769em 0 0;
+	}
+
+	span {
+		color: $color__text-main-minus-3;
+		display: inline-block;
+	}
+
+	span:before,
+	a:before {
+		font-family: $font__icon;
+		padding-right: 0.4554em;
+	}
+
+	.cat-links:before {
+		content: "\f03a";
+	}
+
+	.tags-links:before {
+		content: "\f02c";
+	}
+
+	.edit-link:before {
+		content: "\f0f6";
+	}
+}
+
+/*--------------------------------------------------------------
+13.6.14 - Search Results
+--------------------------------------------------------------*/
+.search-results .entry-footer > span {
+	margin-top: 0;
+}
+
+/*--------------------------------------------------------------
+13.6.15 - Left Thumbnail Post Loop
+--------------------------------------------------------------*/
+.ultra-left-thumb-loop .featured-image {
+
+	.entry-thumbnail {
+		box-sizing: border-box;
+		float: left;
+		padding-right: 2.67857em;
+		width: 25%;
+
+		@media (max-width: $medium) {
+			.resp & {
+				float: none;
+				padding-right: 0;
+				width: 100%;
+			}
+		}
+	}
+
+	.entry-header,
+	.entry-content {
+		box-sizing: border-box;
+		float: left;
+		width: 75%;
+
+		@media (max-width: $medium) {
+			.resp & {
+				float: none;
+				width: 100%;
+			}
+		}
+	}
+
+	.entry-header .entry-title {
+		margin-top: -0.5em;
+
+		@media (max-width: $medium) {
+			.resp & {
+				margin: 0;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+13.6.16 - Left Medium Post Loop
+--------------------------------------------------------------*/
+.ultra-left-medium-loop .featured-image {
+
+	.entry-thumbnail {
+		box-sizing: border-box;
+		float: left;
+		padding-right: 2.67857em;
+		width: 45%;
+
+		@media (max-width: $medium) {
+			.resp & {
+				float: none;
+				padding-right: 0;
+				width: 100%;
+			}
+		}
+	}
+
+	.entry-header,
+	.entry-content {
+		box-sizing: border-box;
+		float: left;
+		width: 55%;
+
+		@media (max-width: $medium) {
+			.resp & {
+				float: none;
+				width: 100%;
+			}
+		}
+	}
+
+	.entry-header .entry-title {
+		margin-top: -0.5em;
+
+		@media (max-width: $medium) {
+			.resp & {
+				margin: 0;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+13.6.17 - Masonry Post Loop
+--------------------------------------------------------------*/
+.ultra-masonry-loop {
+	margin-left: -15px;
+	margin-right: -15px;
+
+	.post {
+		border: 0;
+		margin-bottom: 2.67857em;
+		padding: 0 15px;
+		width: 33.333%;
+
+		@media (max-width: $medium) {
+			width: 50%;
+		}
+
+		@media (max-width: $small) {
+			width: 100%;
+		}
+
+		.entry-thumbnail {
+			margin-bottom: .75em;
+		}
+
+		.entry-title {
+			@include font-size(1.42857);
+			line-height: 1.25em;
+			margin-bottom: .5em;
+		}
+
+		.entry-meta {
+			margin-bottom: 1em;
+		}
+	}
+}

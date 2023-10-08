@@ -1,0 +1,1197 @@
+/*--------------------------------------------------------------
+5.2.1 - Top Bar Left Menu
+--------------------------------------------------------------*/
+.top-bar-menu {
+	display: inline-block;
+	line-height: normal;
+	vertical-align: middle;
+
+	.menu {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			color: $color__text-main-minus-3;
+			display: inline-block;
+			line-height: 38px;
+			margin-right: 0.89286em;
+			position: relative;
+			vertical-align: middle;
+
+			a {
+				color: $color__text-main-minus-3;
+				display: block;
+				@include font-size(0.85714);
+				height: 38px;
+				line-height: 38px;
+				text-decoration: none;
+				white-space: nowrap;
+
+				&:before {
+					color: $color__text-main-minus-3;
+				}
+
+				&:hover:before {
+					color: $color__text-main-minus-5;
+				}
+			}
+
+			&:hover > a {
+				color: $color__text-main-minus-5;
+			}
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+5.2.2 - Top Bar Right Menu
+--------------------------------------------------------------*/
+.top-bar-navigation {
+	box-sizing: border-box;
+	display: inline-block;
+	position: relative;
+	text-align: right;
+	width: 50%;
+
+	@media (max-width: $medium) {
+		text-align: center;
+		width: 100%; 
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			color: $color__text-main-minus-3;
+			display: inline-block;
+			margin-right: 1.33929em;
+			position: relative;
+			vertical-align: middle;
+
+			a {
+				color: $color__text-main-minus-3;
+				display: block;
+				@include font-size(0.85714);
+				line-height: 2.08333em;
+				text-decoration: none;
+				white-space: nowrap;
+
+				&:before {
+					color: $color__text-main-minus-3;
+				}
+
+				&:hover:before {
+					color: $color__text-main-minus-5;
+				}
+			}
+
+			&:hover > a {
+				color: $color__text-main-minus-5;
+			}
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+		}
+
+		ul {
+			background: $color__background-body;
+			box-shadow: rgba(0, 0, 0, 0.1) 0 0.5714rem 1.0714rem;
+			border-top: 3px solid $color__link;
+			left: 0;
+			padding: 0;
+			position: absolute;
+			text-align: left;
+			top: 35px;
+			transform: scale(0.95);
+			transition: all 0.15s ease-in;
+			transform-origin: center top;
+			visibility: hidden;
+			z-index: 9999;
+
+			li {
+				min-width: 10em;
+				padding: 0;
+				width: 100%;
+
+				a {
+					color: $color__text-main;
+					padding: 0.4em 0.8em;
+					transition: none;
+				}
+
+				&:hover > a {
+					background: $color__link;
+					color: $color__background-body;
+				}
+			}
+
+			ul {
+				left: 100%;
+				top: -3px;
+			}
+		}
+
+		.menu-item-has-children,
+		.page_item_has_children {
+
+			a:after {
+				content: "\f107";
+				font-family: $font__icon;
+				line-height: normal;
+				position: relative;
+				padding: 0 0 0 0.5785em;
+				top: 0.2435em;
+			}
+		}
+
+		.sub-menu,
+		.children {
+
+			.menu-item-has-children,
+			.page_item_has_children {
+
+				> a:after {
+					content: "\f105";
+					font-family: $font__icon;
+					position: absolute;
+					right: 1em;
+					top: 0.9167em;
+				}
+			}
+
+			a:after {
+				content: none;
+			}
+		}
+
+		@at-root body:not(.ios) & {
+			li:hover > ul,
+			li.focus > ul {
+				opacity: 1;
+				transform: scale(1);
+				visibility: visible;
+			}
+		}
+
+		li.hover > ul {
+			opacity: 1;
+			transform: scale(1);
+			visibility: visible;
+		}
+	}
+
+	div > ul > li {
+
+		> a {
+			display: block;
+			height: 38px;
+			line-height: 38px;
+
+			&:hover {
+				border-bottom: 3px solid $color__link;
+
+				@media (max-width: $large) {
+					.resp & {
+						border-bottom: none;
+					}
+				}
+			}
+		}
+
+		&.menu-item-has-children > a:hover,
+		&.page_item_has_children > a:hover {
+			border-bottom: none;
+			
+			@media (max-width: $large) {
+				.resp & {
+					border-bottom: none;
+				}
+			}
+		}
+	}
+}
+
+/* If a class of left is added to a menu item, break drop down menu items to the left */
+.top-bar-navigation ul li.left {
+
+	ul {
+		left: initial;
+		left: auto;
+		right: 0;
+		text-align: right;
+
+		ul {
+			right: 100%;
+		}
+	}
+
+	.sub-menu,
+	.children {
+	
+		.menu-item-has-children,
+		.page_item_has_children {
+
+			> a:after {
+				content: "\f104";
+				font-family: $font__icon;
+				position: absolute;
+				left: 1em;
+				padding: 0 0.5785em 0 0;
+				right: initial;
+				top: 0.9167em;
+			}
+		}
+
+		a:after {
+			content: none;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+5.2.3 - Main Menu
+--------------------------------------------------------------*/
+.main-navigation {
+	box-sizing: border-box;
+	float: right;
+	max-width: 65%;
+
+	> div {
+		float: left;
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+			margin-right: 1.78571em;
+			position: relative;
+			vertical-align: middle;
+
+			a {
+				color: $color__text-headings;
+				display: block;
+				@include font-size(1);
+				line-height: 1.78571em;
+				outline: 0;
+				text-decoration: none;
+				white-space: nowrap;
+			}
+
+			&:hover > a {
+				color: $color__link;
+			}
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+		}
+
+		ul {
+			background: $color__background-body;
+			border-top: 3px solid $color__link;
+			box-shadow: rgba(0, 0, 0, 0.1) 0 8px 15px;
+			left: 0;
+			opacity: 0;
+			padding: 0;
+			position: absolute;
+			text-align: left;
+			top: 109px;
+			transform: scale(0.95);
+			transition: all 0.15s ease-in;
+			transform-origin: center top;
+			visibility: hidden;
+			z-index: 9999;
+
+			li {
+				min-width: 12em;
+				padding: 0;
+				width: 100%;
+
+				a {
+					color: $color__text-main;
+					padding: 0.4em 0.8em;
+				}
+
+				&:hover > a {
+					background: $color__link;
+					border-color: $color__link;
+					color: $color__background-body;
+				}
+			}
+
+			ul {
+				left: 100%;
+				top: -3px;
+			}
+		}
+
+		.menu-item-has-children,
+		.page_item_has_children {
+
+			a:after {
+				content: "\f107";
+				font-family: $font__icon;
+				font-size: 0.8571em;
+				position: relative;
+				padding: 0 0 0 0.4952em;
+				top: 0.2435em;
+			}
+		}
+
+		.sub-menu,
+		.children {
+		
+			.menu-item-has-children,
+			.page_item_has_children {
+
+				> a:after {
+					content: "\f105";
+					font-family: $font__icon;
+					position: absolute;
+					right: 1em;
+					top: 0.5em;
+				}
+			}
+
+			a:after {
+				content: none;
+			}
+		}
+
+		@at-root body:not(.ios) & {
+			li:hover > ul,
+			li.focus > ul {
+				opacity: 1;
+				transform: scale(1);
+				visibility: visible;
+			}
+		}
+
+		li.hover > ul {
+			opacity: 1;
+			transform: scale(1);
+			visibility: visible;
+		}
+	}
+
+	.current-menu-item > a,
+	.current a {
+		color: $color__link;
+	}
+
+	div > ul > li {
+
+		> ul {
+			@include font-size(0.92857);
+			line-height: 1.92308em;
+		}
+
+		> a {
+			display: block;
+			height: 112px;
+			line-height: 112px;
+
+			&:hover {
+				border-bottom: 3px solid $color__link;
+			}
+		}
+
+		&.menu-item-has-children > a:hover,
+		&.page_item_has_children > a:hover {
+			border-bottom: none;
+		}
+	}
+}
+
+// Centered header layout.
+body:not(.resp).header-centered .main-navigation {
+	float: none;
+	max-width: 100%;
+	text-align: center;
+
+	> div {
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+	}
+}
+
+// If a class of left is added to a menu item, break drop down menu items to the left.
+.main-navigation ul li.left {
+
+	ul {
+		left: initial;
+		left: auto;
+		right: 0;
+		text-align: right;
+
+		ul {
+			right: 100%;
+		}
+	}
+
+	.sub-menu,
+	.children {
+	
+		.menu-item-has-children,
+		.page_item_has_children {
+
+			> a:after {
+				content: "\f104";
+				font-family: $font__icon;
+				position: absolute;
+				left: 1em;
+				padding: 0 0.4952em 0 0;
+				right: initial;
+				top: 0.5em;
+			}
+		}
+
+		a:after {
+			content: none; 
+		}
+	}
+}
+
+// If responsive menu is de-activated, center align the menu below $medium and maintain the menu width at $large.
+header:not(.responsive-menu) .main-navigation {
+
+	@media (max-width: $large) {
+		.resp & {
+			max-width: 60%;
+		}
+	}
+
+	@media (max-width: $medium) {
+		.resp & {
+			float: none;
+			max-width: 100%;
+			
+			ul {
+				text-align: center;
+			}
+
+			> div {
+				float: none;
+			}
+
+			.menu-search {
+				display: none;
+			}
+		}
+	}
+}
+
+// Scale the menu height if header scale is enabled.
+.scale.scaled {
+
+	.main-navigation {
+		
+		ul ul {
+			top: 72px;
+		}
+
+		ul ul ul {
+			top: -3px;
+		}
+
+		div > ul > li > a {
+			height: 75px;
+			line-height: 75px;
+		}
+	}
+}
+
+.main-navigation .menu-search {
+	height: 112px;
+	position: relative;
+
+	.search-icon {
+		float: left;
+		padding-left: 2.78571em;
+		cursor: pointer;
+		position: relative;
+
+		&:before {
+			color: $color__text-headings;
+			content: '\f002';
+			font-family: $font__icon;
+			height: 112px;
+			line-height: 112px;
+			position: absolute;
+			right: 0;
+			transition: .3s;
+			top: 50%;
+		}
+
+		&:hover:before {
+			color: $color__link;
+			cursor: pointer;
+		}
+	}
+
+	.searchform {
+		background: $color__background-body;
+		display: none;
+		margin-top: -3px;
+		position: absolute;
+		right: 0;
+		top: 100%;
+		width: 17.8571rem;
+		z-index: 500;
+
+		input[name=s] {
+			background-color: transparent;
+			border: none;
+			border-top: 3px solid $color__link;
+			border-radius: 0;
+			box-shadow: rgba(0, 0, 0, 0.1) 0 8px 15px;
+			color: $color__text-headings;
+			width: 100%;
+		}
+	}
+}
+
+// Scale the search icon height if header scale is enabled.
+.scale.scaled {
+
+	.main-navigation .menu-search {
+		height: 75px;
+		
+		.search-icon:before {
+			height: 75px;
+			line-height: 75px;
+		}
+	}
+}
+
+// Handle social icons if they are inserted into the main menu.
+.main-navigation .menu a {
+
+	&:before {
+		color: $color__text-headings;
+	}
+
+	&:hover:before {
+		color: $color__link;
+	}
+}
+
+/*--------------------------------------------------------------
+5.2.4 - Responsive Menu
+--------------------------------------------------------------*/
+.responsive-menu {
+
+	.menu-toggle {
+		background: none;
+		border-radius: 0;
+		color: $color__background-dark;
+		-webkit-appearance: none;
+		display: none;
+		height: 20px;
+		margin-top: -10px;
+		padding: 0;
+		position: absolute;
+		right: 1.78571em;
+		top: 50%;
+
+		&:after {
+			content: "\f0c9";
+			font-family: $font__icon;
+			font-size: 1.4286rem;
+			line-height: normal;
+		}
+
+		&:hover {
+			background: none;
+		}
+	}
+
+	.main-navigation.toggled .menu-toggle:after {
+		content: "\f00d";
+	}
+
+	.main-navigation.toggled {
+		height: auto;
+		margin-bottom: 1.78571em;
+		max-width: 100%;
+		width: 100%;
+
+		> div {
+			float: none;
+		}
+
+		ul {
+			display: block;
+			margin: 0;
+
+			> li[class*=children] {
+
+				.sub-menu li,
+				.children li {
+					margin-bottom: 2px;
+				}
+
+				&.up > .sub-menu,
+				&.up > .children {
+					display: block;
+				}
+
+				&.up a {
+					margin-bottom: 0 !important;
+				}
+
+				> .sub-menu,
+				> .children {
+					display: none;
+				}
+
+				> span {
+					display: block;
+					cursor: pointer;
+					height: 46px;
+					line-height: 46px;
+					margin: 0;
+					position: absolute;
+					right: 0;
+					text-align: center;
+					top: 0;
+					width: 45px;
+
+					&:after {
+						content: "\f078";
+						font-family: $font__icon;
+					}
+				}
+
+				> a:hover ~ span {
+					color: #fff;
+				}
+
+				&.up > span:after {
+					content: "\f077" !important;
+				}
+
+				// Level one.
+				ul li {
+
+					a {
+						padding-left: 36px;
+					}
+
+					// Level two.
+					ul li {
+
+						a {
+							padding-left: 54px;
+						}
+
+						// Level three.
+						ul li {
+
+							a {
+								padding-left: 72px;
+							}
+
+							// Level three.
+							ul li {
+
+								a {
+									padding-left: 90px;
+								}
+
+								// Level four.
+								ul li {
+									a {
+										padding-left: 108px;
+									}
+									
+									// Level five.
+									ul li a {
+										padding-left: 126px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			li {
+				display: block;
+				margin: 0;
+				width: 100%;
+
+				a {
+					background: $color__background-light;
+					color: $color__text-main;
+					height: auto !important;
+					line-height: normal !important;
+					margin: 0 0 2px;
+					padding: 14px 18px 15px;
+					text-align: left;
+					transition: none;
+
+					&:hover,
+					&:hover:before {
+						background: $color__link;
+						border-bottom: none;
+						color: $color__text-main-minus-5;
+					}
+				}
+			}
+
+			> ul > li > a:last-of-type {
+				margin-bottom: 0;
+			}
+
+			.menu-item-has-children,
+			.page_item_has_children {
+
+				a:after{
+					content: none;
+				}
+
+				> a:hover {
+					border-bottom: none;
+				}
+			}
+
+			ul {
+				background: none;
+				border-top: none;
+				box-shadow: none;
+				display: none;
+				margin-top: 2px;
+				opacity: 1 !important;
+				position: static;
+				transition: none;
+				transform: none;
+				transform-origin: initial;
+				visibility: visible;
+				z-index: 2;
+
+				li:hover > a {
+					background: $color__background-light;
+					color: $color__text-main;
+				}
+
+				li a {
+					font-size: 1rem;
+					line-height: normal;
+
+					&:hover {
+						background: $color__link;
+						border-bottom: none;
+						color: $color__text-main-minus-5;
+					}
+				}
+			}
+		}
+
+		/* If a class of "left" has been added, reverse the alignment back to normal for the responsive menu */
+		ul li.left ul {
+			text-align: left;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+5.2.5 - Comment, Post and Page Navigation
+--------------------------------------------------------------*/
+.site-main .comment-navigation,
+.site-main .post-navigation {
+	border-color: $color__background-hr;
+	border-top-style: solid;
+	border-top-width: 0.07143em;
+	padding-top: 1.71429em;
+	margin-top: 1.78571em;
+	margin-bottom: 1.78571em;
+	overflow: hidden;
+}
+
+.site-main .comment-navigation:nth-of-type(2) {
+	border-bottom-style: solid;
+	border-bottom-width: 0.07143em;
+	float: left;
+	margin-top: 1.78571em;
+	margin-bottom: 1.78571em;
+	padding-bottom: 1.71429em;
+	width: 100%;
+}
+
+.comment-navigation .nav-links,
+.paging-navigation .nav-links,
+.post-navigation .nav-links {
+	text-align: center;
+
+	a {
+		color: $color__text-main-minus-3;
+		text-transform: capitalize;
+
+		&:hover {
+			color: $color__link;
+		}
+	}
+}
+
+.comment-navigation .nav-previous,
+.paging-navigation .nav-previous,
+.post-navigation .nav-previous {
+	float: left;
+	position: relative;
+
+	@media (max-width: $medium) {
+		.resp & {
+			float: none;
+			margin-bottom: 1.78571em;
+			width: 100%;
+		}
+	}
+}
+
+.comment-navigation .nav-next,
+.paging-navigation .nav-next,
+.post-navigation .nav-next {
+	float: right;
+	position: relative;
+
+	@media (max-width: $medium) {
+		.resp & {
+			float: none;
+			width: 100%;
+		}
+	}
+}
+
+.comment-navigation,
+.post-navigation {
+
+	.nav-previous a:before,
+	.nav-next a:after {
+		font-family: $font__icon;
+		font-size: 0.8125em;
+		position: relative;
+		top: -1px;
+	}
+
+	.nav-previous a:before {
+		content: "\f104";
+		padding-right: 0.5em;
+	}
+
+	.nav-next a:after {
+		content: "\f105";
+		padding-left: 0.5em;
+	}
+}
+
+.pagination {
+	margin-top: 4.46429em;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	text-align: center;
+
+	.page-numbers {
+		background: $color__background-light;
+		border-radius: 3px;
+		color: $color__text-main;
+		display: inline-block;
+		font-weight: 400;
+		line-height: normal;
+		margin-right: 0.1285em;
+		outline-style: none;
+		padding: 0.7142em 1.1428em;
+		transition: .3s;
+
+		@media (max-width: $small) {
+			.resp & {
+				display: none;
+			}
+		}
+
+		&:hover {
+			background: $color__link;
+			color: $color__background-body;
+		}
+
+		&.dots {
+			background: none;
+			padding-right: 0;
+			padding-left: 0;
+
+			&:hover {
+				background: none;
+				color: $color__text-main;
+			}
+		}
+	}
+
+	.current {
+		background: $color__link;
+		color: $color__background-body;
+	}
+
+	.prev, 
+	.next { 
+		display: block;
+		float: left;
+		margin-right: 0;
+
+		@media (max-width: $small) {
+			.resp & {
+				display: block;
+			}
+		}
+	}
+
+	.next {
+		float: right;
+	}
+}
+
+.meta-nav { 
+	font-size: 0.8125em;
+}
+
+.nav-previous .meta-nav {
+	margin-right: 0.1875em;
+}
+
+.nav-next .meta-nav {
+	margin-left: 0.1875em;
+}
+
+/*--------------------------------------------------------------
+5.2.6 - Bottom Bar Menu
+--------------------------------------------------------------*/
+.bottom-bar-menu {
+	display: inline-block;
+	text-align: right;
+	width: 70%;
+
+	@media (max-width: $medium) {
+		.resp & {
+			display: block;
+			text-align: center;
+			padding-bottom: 0.89286em;
+			width: 100%;
+		}
+	}
+
+	.menu {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			color: $color__text-main-minus-3;
+			display: inline-block;
+			margin-right: 0.89286em;
+			position: relative;
+			vertical-align: middle;
+
+			a {
+				color: $color__text-main-minus-3;
+				display: block;
+				@include font-size(0.85714);
+				height: 50px;
+				line-height: 50px;
+				text-decoration: none;
+				white-space: nowrap;
+
+				@media (max-width: $medium) {
+					.resp & {
+						height: auto;
+						line-height: normal;
+					}
+				}
+
+				&:before {
+					color: $color__text-main-minus-3;
+				}
+
+				&:hover:before {
+					color: $color__text-main-minus-5;
+				}
+			}
+
+			&:hover > a {
+				color: $color__text-main-minus-5;
+			}
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+5.2.7 - Social Menus
+--------------------------------------------------------------*/
+.menu > li:not(.menu-item-has-children) {
+
+	a[href*="behance.net"], a[href*="codepen.io"], a[href*="delicious.com"], a[href*="deviantart.com"], a[href*="digg.com"], a[href*="dribbble.com"], a[href*="facebook.com"], a[href*="/feed/"], a[href*="flickr.com"], a[href*="foursquare.com"], a[href*="github.com"], a[href*="plus.google.com"], a[href*="instagram.com"], a[href*="linkedin.com"], a[href*="pinterest.com"], a[href*="reddit.com"], a[href*="soundcloud.com"], a[href*="stackexchange.com"], a[href*="stackoverflow.com"], a[href*="tumblr.com"], a[href*="twitter.com"], a[href*="vimeo.com"], a[href*="vine.co"], a[href*="vk.com"], a[href*="weibo.com"], a[href*="wordpress.com"], a[href*="xing.com"], a[href*="yelp.com"], a[href*="youtube.com"] {		
+		border-bottom: none;
+		color: transparent !important;
+		font-size: 0 !important;
+		text-align: center;
+
+		&:before {
+			font-family: $font__icon;
+			font-size: medium;
+		}
+	}
+
+	a[href*="behance.net"]:before {
+		content: "\f1b4";
+	}
+
+	a[href*="codepen.io"]:before {
+		content: "\f1cb";
+	}
+
+	a[href*="delicious.com"]:before {
+		content: "\f1a5";
+	}
+
+	a[href*="deviantart.com"]:before {
+		content: "\f1bd";
+	}
+
+	a[href*="digg.com"]:before {
+		content: "\f1a6";
+	}
+
+	a[href*="dribbble.com"]:before {
+		content: "\f17d";
+	}
+
+	a[href*="facebook.com"]:before {
+		content: "\f09a";
+	}
+
+	a[href*="/feed/"]:before {
+		content: "\f09e";
+	}
+
+	a[href*="flickr.com"]:before {
+		content: "\f16e";
+	}
+
+	a[href*="foursquare.com"]:before {
+		content: "\f180";
+	}
+
+	a[href*="github.com"]:before {
+		content: "\f09b";
+	}
+
+	a[href*="plus.google.com"]:before {
+		content: "\f0d5";
+	}
+
+	a[href*="instagram.com"]:before {
+		content: "\f16d";
+	}
+
+	a[href*="linkedin.com"]:before {
+		content: "\f0e1";
+	}
+
+	a[href*="pinterest.com"]:before {
+		content: "\f0d2";
+	}
+
+	a[href*="reddit.com"]:before {
+		content: "\f1a1";
+	}
+
+	a[href*="snapchat.com"]:before {
+		content: "\f2ac";
+	}
+
+	a[href*="soundcloud.com"]:before {
+		content: "\f1be";
+	}
+
+	a[href*="stackexchange.com"]:before {
+		content: "\f18d";
+	}
+
+	a[href*="stackoverflow.com"]:before {
+		content: "\f16c";
+	}
+
+	a[href*="tumblr.com"]:before {
+		content: "\f173";
+	}
+
+	a[href*="twitter.com"]:before {
+		content: "\f099";
+	}
+
+	a[href*="vimeo.com"]:before {
+		content: "\f194";
+	}
+
+	a[href*="vine.co"]:before {
+		content: "\f1ca";
+	}
+
+	a[href*="vk.com"]:before {
+		content: "\f189";
+	}
+
+	a[href*="weibo.com"]:before {
+		content: "\f18a";
+	}
+
+	a[href*="wordpress.com"]:before {
+		content: "\f19a";
+	}
+
+	a[href*="xing.com"]:before {
+		content: "\f168";
+	}
+
+	a[href*="yelp.com"]:before {
+		content: "\f1e9";
+	}
+
+	a[href*="youtube.com"]:before {
+		content: "\f16a";
+	}
+}
+
+.widget .menu {
+
+	a[href*="behance.net"], a[href*="codepen.io"], a[href*="delicious.com"], a[href*="deviantart.com"], a[href*="digg.com"], a[href*="dribbble.com"], a[href*="facebook.com"], a[href*="flickr.com"], a[href*="foursquare.com"], a[href*="github.com"], a[href*="plus.google.com"], a[href*="instagram.com"], a[href*="linkedin.com"], a[href*="pinterest.com"], a[href*="reddit.com"], a[href*="snapchat.com"], a[href*="soundcloud.com"], a[href*="stackexchange.com"], a[href*="stackoverflow.com"], a[href*="tumblr.com"], a[href*="twitter.com"], a[href*="vimeo.com"], a[href*="vine.co"], a[href*="vk.com"], a[href*="weibo.com"], a[href*="wordpress.com"], a[href*="xing.com"], a[href*="yelp.com"], a[href*="youtube.com"] {		
+
+		&:hover {
+			border-bottom: none;
+		}
+
+		&:before {
+			color: $color__text-main;
+		}
+
+		&:hover:before {
+			color: $color__link;
+		}
+	}
+}

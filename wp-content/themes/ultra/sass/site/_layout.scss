@@ -1,0 +1,202 @@
+/*--------------------------------------------------------------
+13.1.1 - Page Wrapper
+--------------------------------------------------------------*/
+#page {
+	background: $color__background-body;
+}
+
+/*--------------------------------------------------------------
+13.1.2 - Boxed Layout Page Wrapper
+--------------------------------------------------------------*/
+.boxed #page {
+	box-sizing: border-box; 
+	background: none;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	max-width: 85.7143rem;
+	overflow-x: visible;
+}
+
+body:not(.resp).boxed #page {
+	width: 85.7143rem;
+}
+
+.page-layout-full-width.boxed #page,
+.page-layout-full-width-sidebar.boxed #page {
+	max-width: none;
+}
+
+/*--------------------------------------------------------------
+13.1.3 - Full Width Inner Container
+--------------------------------------------------------------*/
+.container {
+	box-sizing: border-box;
+	display: block;
+	padding: 0 1.78571em;
+	position: relative;
+	margin: 0 auto;
+	max-width: 85.7143rem;
+}
+
+.boxed .container {
+	padding: 0 2.67857em;
+
+	@media (max-width: $default-site-width) {
+		@at-root .resp#{&} {
+			padding: 0 1.78571em;
+		}
+	}
+}
+
+body:not(.resp) .container {
+	width: 85.7143rem;
+}
+
+.page-layout-full-width .container,
+.page-layout-full-width-sidebar .container {
+	max-width: none;
+}
+
+/*--------------------------------------------------------------
+13.1.4 - Content Wrapper
+--------------------------------------------------------------*/
+.site-content {
+	background: $color__background-body;
+	padding: 3.57143em 0 3.57143em;
+}
+
+.page-layout-no-header-margin .site-content {
+	padding-top: 0;
+}
+
+.page-layout-no-footer-margin .site-content {
+	padding-bottom: 0;
+}
+
+.no-page-title:not(.page-layout-no-header-margin) .site-content {
+	padding-top: 3.57143em;
+}
+
+/*--------------------------------------------------------------
+13.1.5 - Regular Containers
+--------------------------------------------------------------*/
+#primary {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.sidebar #primary {
+	border-color: $color__background-hr;
+	border-style: solid;
+	border-width: 0 1px 0 0;
+	float: left;
+	padding-right: 3.5%;
+	width: 75%;
+
+	@media (max-width: $medium) {
+		@at-root .resp#{&} {
+			border: none;
+			padding-right: 0;
+			padding-left: 0;
+			width: 100%;
+		}
+	}
+}
+
+.page-layout-no-sidebar.sidebar #primary,
+.page-layout-full-width.sidebar #primary {
+	border-width: 0;
+	float: none;
+	padding-right: 0;
+	width: 100%;
+}
+
+#secondary {
+	box-sizing: border-box;
+	float: right;
+	padding-left: 3.5%;
+	width: 25%;
+	
+	@media (max-width: $medium) {
+		.resp & {
+			border-color: $color__background-hr;
+			margin-top: 3.57143em;
+			border-top-style: solid;
+			border-top-width: 0.07143em;
+			padding-top: 3.5em;
+			padding-left: 0;
+			width: 100%;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+13.1.6 - Full Width Page Templates
+--------------------------------------------------------------*/
+.home.blog.siteorigin-panels-home #primary,
+.page-template-home-panels #primary,
+.page-template-full-width #primary,
+.page-template-full-width-no-title #primary {
+	border: none; 
+	float: none;
+	padding: 0;
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+13.1.7 - Templates With Full Width Page Titles
+--------------------------------------------------------------*/
+.single .site-content, 
+.page .site-content, 
+.blog .site-content,
+.archive .site-content, 
+.search-results .site-content, 
+.error404 .site-content,
+.search-no-results .site-content {
+	padding-top: 0;
+}
+
+/*--------------------------------------------------------------
+13.1.8 - Templates Without Full Width Page Titles
+--------------------------------------------------------------*/
+.home.blog.siteorigin-panels-home .site-content,
+.page-template-home-panels .site-content,
+.page-template-full-width-no-title .site-content > .container,
+.page-template-default-no-title .site-content > .container,
+.blog .site-content .container.no-blog-title {
+	padding-top: 3.57143em;
+}
+
+/*--------------------------------------------------------------
+13.1.9 - Block Editor Styles
+--------------------------------------------------------------*/
+.full.page-layout-no-sidebar {
+
+	.alignfull {
+		margin-left: calc(50% - 50vw);
+		width: 100vw;
+	}
+
+	@media (min-width: calc(1080px + 200px)) {
+
+		.alignwide {
+			left: -100px;
+			position: relative;
+			width: calc(100% + 20vw);
+		}
+	}
+
+	.alignfull .wp-block-group__inner-container {
+		margin: auto;
+		max-width: 1080px;
+	}
+}
+
+.boxed.page-layout-no-sidebar {
+
+	.alignfull {
+		margin-right: -2.67857em;
+		margin-left: -2.67857em;
+	}
+}

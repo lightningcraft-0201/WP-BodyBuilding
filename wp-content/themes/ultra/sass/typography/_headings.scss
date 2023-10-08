@@ -1,0 +1,48 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	color: $color__text-headings;
+	font-weight: 700;
+	hyphens: auto;
+	margin: 0.89286em 0;
+
+	@media (max-width: $small) {
+		.resp & {
+			line-height: normal;
+		}
+	}
+}
+
+h1 {
+	@include font-size(1.78571);
+	line-height: 2em;
+}
+
+h2 {
+	@include font-size(1.57143);
+	line-height: 2.27273em;
+}
+
+h3 {
+	@include font-size(1.42857);
+	line-height: 1.25em;
+}
+
+h4 {
+	@include font-size(1.28571);
+	line-height: 1.38889em;
+}
+
+h5 {
+	@include font-size(1.14286);
+	line-height: 1.5625em;
+}
+
+h6 {
+	@include font-size(1);
+	line-height: 1.78571em;
+}

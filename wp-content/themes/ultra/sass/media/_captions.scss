@@ -1,0 +1,23 @@
+figure.wp-caption {
+	background: $color__background-lighter;
+	border-radius: 3px;
+	padding: 0.89286em;
+}
+
+.wp-caption {
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	@include center-block;
+}
+
+.wp-caption-text {
+	@include font-size(0.85714);
+	line-height: 2.08333em;
+	text-align: center;
+}
+
+.wp-caption .wp-caption-text {
+	padding: 0.89286em 0 0;
+}

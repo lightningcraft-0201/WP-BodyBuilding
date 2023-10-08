@@ -1,0 +1,1839 @@
+# Copyright (C) 2020 ultra
+# This file is distributed under the same license as the ultra package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ultra\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Puro <support@purothemes.com>\n"
+"Last-Translator: Puro <support@purothemes.com>\n"
+"Report-Msgid-Bugs-To: https://purothemes.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:37
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:54
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:178
+msgid "Browse:"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:179 inc/settings.php:12
+msgid "Home"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:180
+msgid "404 Not Found"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:181
+msgid "Archives"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:183
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:185
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:187
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:189
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:716
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:733
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:750
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:766 breadcrumbs/breadcrumbs.php:795
+#: breadcrumbs/breadcrumbs.php:822 breadcrumbs/breadcrumbs.php:849
+#: breadcrumbs/breadcrumbs.php:1036
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:767 breadcrumbs/breadcrumbs.php:823
+#: breadcrumbs/breadcrumbs.php:1040
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:768 breadcrumbs/breadcrumbs.php:1044
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:796
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:1135 breadcrumbs/breadcrumbs.php:1171
+#: breadcrumbs/breadcrumbs.php:1188 breadcrumbs/breadcrumbs.php:1219
+#: inc/template-tags.php:91
+msgid "Edit"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:1163
+msgid "Split"
+msgstr ""
+
+#: breadcrumbs/breadcrumbs.php:1167
+msgid "Merge"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: content-none.php:15
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:35
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content-page.php:24 content-single.php:24 content.php:40
+#: loops/loop-masonry.php:47 loops/loop-medium-left.php:46
+#: loops/loop-thumbnail-left.php:46
+msgid "Pages:"
+msgstr ""
+
+#: demo/carousel/carousel.php:3
+msgid "Latest Posts"
+msgstr ""
+
+#: demo/carousel/carousel.php:5
+msgid "Next"
+msgstr ""
+
+#: demo/carousel/carousel.php:6
+msgid "Previous"
+msgstr ""
+
+#: functions.php:116 inc/settings.php:72
+msgid "Top Bar Menu"
+msgstr ""
+
+#: functions.php:117
+msgid "Top Bar Social Menu"
+msgstr ""
+
+#: functions.php:118 inc/settings.php:80
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:119
+msgid "Bottom Bar Social Menu"
+msgstr ""
+
+#: functions.php:217 premium/inc/customizer.php:48
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:219
+msgid "Visible on posts and pages that use the default template."
+msgstr ""
+
+#: functions.php:226 inc/settings.php:17 premium/inc/customizer.php:53
+msgid "Footer"
+msgstr ""
+
+#: functions.php:228
+msgid "A column will be automatically assigned to each widget inserted."
+msgstr ""
+
+#: functions.php:354
+#, php-format
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr ""
+
+#: functions.php:366 functions.php:379 inc/deprecated.php:17
+#: inc/settings.php:347
+msgid "Continue reading"
+msgstr ""
+
+#: functions.php:606
+msgid "Back To Top"
+msgstr ""
+
+#: functions.php:618
+msgid "Y"
+msgstr ""
+
+#: header.php:27
+msgid "Skip to content"
+msgstr ""
+
+#: inc/comments.php:23
+msgid "Name *"
+msgstr ""
+
+#: inc/comments.php:24
+msgid "Email *"
+msgstr ""
+
+#: inc/comments.php:25
+msgid "Website"
+msgstr ""
+
+#: inc/customizer/customizer.php:434
+msgid "Theme Design"
+msgstr ""
+
+#: inc/customizer/customizer.php:435
+#, php-format
+msgid "Theme Specific Customizations For %s."
+msgstr ""
+
+#: inc/customizer/customizer.php:616
+msgid "Are you sure you want to reset your theme customizations?"
+msgstr ""
+
+#: inc/customizer/customizer.php:617
+msgid "Reset Customizations"
+msgstr ""
+
+#: inc/panels-lite/inc/plugin-activation.php:10
+#: inc/panels-lite/inc/plugin-activation.php:11 inc/panels.php:20
+msgid "Install Page Builder Plugin"
+msgstr ""
+
+#: inc/panels-lite/inc/plugin-activation.php:77
+#: inc/plugin-activation/plugin-activation.php:79
+#, php-format
+msgid "Installing %s"
+msgstr ""
+
+#: inc/panels-lite/inc/plugin-activation.php:110
+#: inc/panels-lite/panels-lite.php:28 inc/panels-lite/panels-lite.php:74
+#: inc/panels.php:17
+msgid "Page Builder"
+msgstr ""
+
+#: inc/panels-lite/panels-lite.php:15 inc/panels.php:18
+msgid "Custom Home Page Builder"
+msgstr ""
+
+#: inc/panels-lite/panels-lite.php:16 inc/panels.php:19
+msgid "Home Page"
+msgstr ""
+
+#: inc/panels-lite/panels-lite.php:76
+msgid "Install"
+msgstr ""
+
+#: inc/panels-lite/panels-lite.php:77
+msgid "Cancel"
+msgstr ""
+
+#: inc/panels-lite/panels-lite.php:79
+msgid "Refresh this page after you've installed Page Builder."
+msgstr ""
+
+#: inc/panels-lite/panels-lite.php:461
+#, php-format
+msgid "<a href=\"%s\">Install Page Builder</a> to <a href=\"%s\">edit</a> this default home page."
+msgstr ""
+
+#: inc/panels-lite/panels-lite.php:467
+#, php-format
+msgid "<a href='%s'>Disable this page</a> if you'd prefer to have a standard blog home."
+msgstr ""
+
+#: inc/panels-lite/tpl/admin-home-page.php:10 inc/panels.php:135
+msgid "Custom Home Page"
+msgstr ""
+
+#: inc/panels-lite/tpl/admin-home-page.php:13
+msgid "ON"
+msgstr ""
+
+#: inc/panels-lite/tpl/admin-home-page.php:14
+msgid "OFF"
+msgstr ""
+
+#: inc/panels-lite/tpl/admin-home-page.php:20
+msgid "This theme is compatible with SiteOrigin's powerful drag and drop page builder."
+msgstr ""
+
+#: inc/panels-lite/tpl/admin-home-page.php:21
+msgid "It allows you to build responsive columnized pages, populated with the widgets you know and love."
+msgstr ""
+
+#: inc/panels-lite/tpl/admin-home-page.php:22
+msgid "It's a <strong>free plugin</strong> that works well with most WordPress themes."
+msgstr ""
+
+#: inc/panels-lite/tpl/admin-home-page.php:23
+msgid "If you don't want to use it, click the toggle switch above to disable the default home page."
+msgstr ""
+
+#: inc/panels-lite/tpl/admin-home-page.php:27
+msgid "Install Page Builder"
+msgstr ""
+
+#: inc/panels-lite/tpl/install.php:7
+msgid "SiteOrigin Page Builder"
+msgstr ""
+
+#: inc/panels-lite/tpl/install.php:8
+msgid "The Free Responsive WordPress Page Builder"
+msgstr ""
+
+#: inc/panels-lite/tpl/install.php:17
+msgid "Page Builder by SiteOrigin is the most popular page creation plugin for WordPress. It makes it easy to create responsive column based content, using the widgets you know and love. Your content will accurately adapt to all mobile devices, ensuring your site is mobile-ready."
+msgstr ""
+
+#: inc/panels-lite/tpl/install.php:19
+msgid "We've created an intuitive interface that looks just like WordPress itself. It's easy to learn, so you'll be building beautiful, responsive content in no time."
+msgstr ""
+
+#: inc/panels-lite/tpl/install.php:22
+msgid "It's a free plugin that will instantly enhance your WordPress experience."
+msgstr ""
+
+#: inc/panels-lite/tpl/install.php:23
+msgid "<a href='#install'>Install Page Builder</a> now to get started."
+msgstr ""
+
+#: inc/panels.php:21
+msgid "On"
+msgstr ""
+
+#: inc/panels.php:22
+msgid "Off"
+msgstr ""
+
+#: inc/panels.php:23
+msgid "Ultra supports Page Builder to create beautifully proportioned column based content."
+msgstr ""
+
+#: inc/panels.php:68
+msgid "Default Home"
+msgstr ""
+
+#: inc/panels.php:82
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/panels.php:84 inc/panels.php:95 inc/panels.php:106
+msgid "Read More"
+msgstr ""
+
+#: inc/panels.php:93
+msgid "Drag and Drop Layouts"
+msgstr ""
+
+#: inc/panels.php:104
+msgid "Professional Support"
+msgstr ""
+
+#: inc/panels.php:137
+msgid "This full-width headline was created using SiteOrigin's Page Builder and the Visual Editor widget."
+msgstr ""
+
+#: inc/plugin-activation/plugin-activation.php:8
+#: inc/plugin-activation/plugin-activation.php:9
+msgid "Install Theme Plugin"
+msgstr ""
+
+#: inc/premium/premium.php:12 inc/premium/premium.php:179
+#: inc/premium/premium.php:277 inc/premium/tpl/upgrade-page.php:16
+#: inc/premium/tpl/upgrade-page.php:123
+msgid "Premium"
+msgstr ""
+
+#: inc/premium/premium.php:64
+#, php-format
+msgid "Your Order Number is [%s]"
+msgstr ""
+
+#: inc/premium/premium.php:68
+msgid "There was a problem contacting our validation servers."
+msgstr ""
+
+#: inc/premium/premium.php:69 inc/premium/premium.php:95
+msgid "Please try again later, or upgrade manually using the ZIP file we sent you."
+msgstr ""
+
+#: inc/premium/premium.php:73
+msgid "We've validated your order number."
+msgstr ""
+
+#: inc/premium/premium.php:76
+#, php-format
+msgid "You can update now, or later on your <a href=\"%s\">Themes page</a>."
+msgstr ""
+
+#: inc/premium/premium.php:80
+msgid "This update will add all the premium features."
+msgstr ""
+
+#: inc/premium/premium.php:85
+msgid "Updating this theme will lose any code customizations (CSS, PHP, Javascript, etc) you have made to the free version. You will not lose your content, images or settings. 'Cancel' to stop, 'OK' to update."
+msgstr ""
+
+#: inc/premium/premium.php:88
+msgid "Update Theme"
+msgstr ""
+
+#: inc/premium/premium.php:93
+msgid "We couldn't validate your order number."
+msgstr ""
+
+#: inc/premium/premium.php:94
+msgid "There might be a problem with our validation server."
+msgstr ""
+
+#: inc/premium/premium.php:141
+msgid "Get Additional Templates"
+msgstr ""
+
+#: inc/premium/premium.php:143
+#, php-format
+msgid "%s Premium includes additional templates"
+msgstr ""
+
+#: inc/premium/premium.php:179
+#, php-format
+msgid "Only available in <strong>%s</strong> - <strong class=\"upgrade\">Upgrade Now</strong>"
+msgstr ""
+
+#: inc/premium/premium.php:268
+msgid "Get Additional Customizations"
+msgstr ""
+
+#: inc/premium/premium.php:281
+#, php-format
+msgid "A Copy of %s Premium"
+msgstr ""
+
+#: inc/premium/premium.php:282
+#, php-format
+msgid "You get a copy of %s, delivered instantly to your PayPal email address. This includes the same basic support we offer users of our free themes."
+msgstr ""
+
+#: inc/premium/premium.php:287
+msgid "Premium Support"
+msgstr ""
+
+#: inc/premium/premium.php:288
+msgid "This includes Premium email support from our support team for a single site. We'll help you as quickly as possible with all your setup and configuration questions."
+msgstr ""
+
+#: inc/premium/premium.php:293
+msgid "Advanced Premium Support"
+msgstr ""
+
+#: inc/premium/premium.php:294
+#, php-format
+msgid "We'll go the extra mile and help you with minor CSS customizations, plugin conflicts and anything else that falls outside standard %s support."
+msgstr ""
+
+#: inc/premium/premium.php:299
+msgid "A Special Thank You"
+msgstr ""
+
+#: inc/premium/premium.php:300
+#, php-format
+msgid "Our highest level of support. If you need it, you'll get support directly from the developer of %s. We'll also include your name on our contributors list."
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:15
+#, php-format
+msgid "After you pay for %s, we'll email you an order number to your <strong>PayPal email address</strong>. "
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:19
+#, php-format
+msgid "Use <a href='%s' target='_blank'>this form</a> if you don't receive your order number in the next 15 minutes. "
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:22
+msgid "To be sure, check your spam folder."
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:26 inc/update/update.php:48
+msgid "Order Number"
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:28
+msgid "Enable Upgrade"
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:32
+msgid "Already Paid?"
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:37
+msgid "Premium Upgrade"
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:41
+msgid "The premium version of this theme is no longer available. If you need any help, please contact <a href='mailto:support@purothemes.com'>Puro support</a>."
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:81
+msgid "Buy Now"
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:87
+msgid "Although we appreciate and support all our users, we only offer prioritized support for orders of <strong>$15</strong> or more."
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:91
+#, php-format
+msgid "You choose the price, so you can pay what %s is worth to you."
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:95
+msgid "Building your site on a budget"
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:96
+msgid "A fair price for a powerful theme"
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:97
+msgid "Our sincere thanks"
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:98
+msgid "We'll go that extra mile for you"
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:99
+msgid "A huge contribution to its development"
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:100
+msgid "Custom"
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:103
+msgid "Please enable Javascript to change pricing"
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:107
+#, php-format
+msgid "Happy customers are our first priority. In the event, however, that you decide %s isn't quite right for you, we want to make things right. Within 60 days of purchase, we'll refund the full price you paid upon request."
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:118
+msgid "Download"
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:123
+#, php-format
+msgid "Sign up to our newsletter and download %s for free."
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:132
+#, php-format
+msgid "Your contribution will help fund new features in %s."
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:133
+#, php-format
+msgid "Find out more on our <a href=\"%s\" target=\"_blank\">roadmap</a>."
+msgstr ""
+
+#: inc/premium/tpl/upgrade-page.php:138
+msgid "Our User Feedback"
+msgstr ""
+
+#: inc/settings.php:9 inc/settings.php:43 inc/settings.php:464
+#: premium/inc/customizer.php:23
+msgid "Header"
+msgstr ""
+
+#: inc/settings.php:10
+msgid "Navigation"
+msgstr ""
+
+#: inc/settings.php:11
+msgid "Layout"
+msgstr ""
+
+#: inc/settings.php:13
+msgid "Pages"
+msgstr ""
+
+#: inc/settings.php:14 inc/settings.php:343
+msgid "Blog"
+msgstr ""
+
+#: inc/settings.php:15
+msgid "Comments"
+msgstr ""
+
+#: inc/settings.php:16
+msgid "Social"
+msgstr ""
+
+#: inc/settings.php:18
+msgid "Site Text"
+msgstr ""
+
+#: inc/settings.php:21
+msgid "Logo"
+msgstr ""
+
+#: inc/settings.php:22
+msgid "Your own custom logo."
+msgstr ""
+
+#: inc/settings.php:25 premium/inc/settings.php:13 upgrade/upgrade.php:23
+msgid "Retina Logo"
+msgstr ""
+
+#: inc/settings.php:26 premium/inc/settings.php:14
+msgid "Choose Image"
+msgstr ""
+
+#: inc/settings.php:27 premium/inc/settings.php:15
+msgid "Set Logo"
+msgstr ""
+
+#: inc/settings.php:28 premium/inc/settings.php:16
+msgid "A double sized version of your logo for use on high pixel density displays. Must be used in addition to standard logo."
+msgstr ""
+
+#: inc/settings.php:31
+msgid "Display Site Title and Logo"
+msgstr ""
+
+#: inc/settings.php:32
+msgid "Only applicable if a logo image has been set."
+msgstr ""
+
+#: inc/settings.php:35
+msgid "Tagline"
+msgstr ""
+
+#: inc/settings.php:36
+msgid "Display the website tagline."
+msgstr ""
+
+#: inc/settings.php:39 inc/settings.php:457 premium/inc/customizer.php:18
+msgid "Top Bar"
+msgstr ""
+
+#: inc/settings.php:40
+msgid "Display the top bar."
+msgstr ""
+
+#: inc/settings.php:44
+msgid "Display the header."
+msgstr ""
+
+#: inc/settings.php:47
+msgid "Header Layout"
+msgstr ""
+
+#: inc/settings.php:49 inc/settings.php:448 premium/inc/customizer.php:150
+#: premium/inc/customizer.php:238 premium/inc/customizer.php:483
+#: premium/inc/customizer.php:638 premium/inc/customizer.php:784
+#: premium/inc/customizer.php:852
+msgid "Default"
+msgstr ""
+
+#: inc/settings.php:50
+msgid "Centered"
+msgstr ""
+
+#: inc/settings.php:52
+msgid "Select the header layout."
+msgstr ""
+
+#: inc/settings.php:55
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/settings.php:56
+msgid "Sticks the header to the top of the screen as the user scrolls down."
+msgstr ""
+
+#: inc/settings.php:59
+msgid "Mobile Sticky Header"
+msgstr ""
+
+#: inc/settings.php:60
+msgid "Use the sticky header on mobile devices."
+msgstr ""
+
+#: inc/settings.php:63
+msgid "Sticky Header Opacity"
+msgstr ""
+
+#: inc/settings.php:64
+msgid "Set the header background opacity once it turns sticky. 0.1 (lowest) - 1 (highest)."
+msgstr ""
+
+#: inc/settings.php:67
+msgid "Sticky Header Scaling"
+msgstr ""
+
+#: inc/settings.php:68
+msgid "Scale the header down as it becomes sticky."
+msgstr ""
+
+#: inc/settings.php:73
+msgid "Display the right top bar menu."
+msgstr ""
+
+#: inc/settings.php:76
+msgid "Responsive Top Bar"
+msgstr ""
+
+#: inc/settings.php:77
+msgid "Collapse the top bar for small screen devices."
+msgstr ""
+
+#: inc/settings.php:81
+msgid "Display the primary menu."
+msgstr ""
+
+#: inc/settings.php:84
+msgid "Responsive Menu"
+msgstr ""
+
+#: inc/settings.php:85
+msgid "Use a special responsive menu for small screen devices. Requires the Primary Menu setting to be enabled."
+msgstr ""
+
+#: inc/settings.php:88
+msgid "Responsive Menu Collapse"
+msgstr ""
+
+#: inc/settings.php:89
+msgid "The pixel resolution when the primary menu and top bar collapse."
+msgstr ""
+
+#: inc/settings.php:92
+msgid "Menu Search"
+msgstr ""
+
+#: inc/settings.php:93
+msgid "Display a search icon in the main menu."
+msgstr ""
+
+#: inc/settings.php:96
+msgid "Smooth Scroll"
+msgstr ""
+
+#: inc/settings.php:97
+msgid "Smooth scroll for internal anchor links from the main menu."
+msgstr ""
+
+#: inc/settings.php:100
+msgid "Breadcrumb Trail"
+msgstr ""
+
+#: inc/settings.php:101
+msgid "Display a breadcrumb trail below the menu. De-activate this setting if using Yoast Breadcrumbs or Breadcrumb NavXT."
+msgstr ""
+
+#: inc/settings.php:104
+msgid "Post Navigation"
+msgstr ""
+
+#: inc/settings.php:105
+msgid "Display next/previous post navigation."
+msgstr ""
+
+#: inc/settings.php:108
+msgid "Scroll to Top"
+msgstr ""
+
+#: inc/settings.php:109
+msgid "Display the scroll to top button."
+msgstr ""
+
+#: inc/settings.php:112
+msgid "Mobile Scroll to Top"
+msgstr ""
+
+#: inc/settings.php:113
+msgid "Display the scroll to top button on mobile devices."
+msgstr ""
+
+#: inc/settings.php:117
+msgid "Layout Bound"
+msgstr ""
+
+#: inc/settings.php:119 inc/settings.php:450
+msgid "Full Width"
+msgstr ""
+
+#: inc/settings.php:120
+msgid "Boxed"
+msgstr ""
+
+#: inc/settings.php:122
+msgid "Select a full width or boxed theme layout."
+msgstr ""
+
+#: inc/settings.php:125
+msgid "Responsive Layout"
+msgstr ""
+
+#: inc/settings.php:126
+msgid "Adapt the site layout for mobile devices."
+msgstr ""
+
+#: inc/settings.php:129
+msgid "FitVids.js"
+msgstr ""
+
+#: inc/settings.php:130
+msgid "Include FitVids.js for fluid width video embeds."
+msgstr ""
+
+#: inc/settings.php:137
+#, php-format
+msgid "This theme supports %1$s. %2$s for free to create beautiful responsive sliders - %3$s"
+msgstr ""
+
+#: inc/settings.php:144
+msgid "Home Page Slider"
+msgstr ""
+
+#: inc/settings.php:150
+msgid "Stretch Home Slider"
+msgstr ""
+
+#: inc/settings.php:151
+msgid "Stretch"
+msgstr ""
+
+#: inc/settings.php:152
+msgid "Stretch the home page slider to the width of the screen if using the full width layout."
+msgstr ""
+
+#: inc/settings.php:157
+msgid "Header Overlaps Slider"
+msgstr ""
+
+#: inc/settings.php:158
+msgid "Should the header overlap the home page slider?"
+msgstr ""
+
+#: inc/settings.php:163
+msgid "Featured Image"
+msgstr ""
+
+#: inc/settings.php:164
+msgid "Display the featured image on pages."
+msgstr ""
+
+#: inc/settings.php:168
+msgid "Blog Page Title"
+msgstr ""
+
+#: inc/settings.php:169
+msgid "The page title of the blog page."
+msgstr ""
+
+#: inc/settings.php:172
+msgid "Blog Archive Layout"
+msgstr ""
+
+#: inc/settings.php:174
+msgid "Choose the layout to be used on blog and archive pages."
+msgstr ""
+
+#: inc/settings.php:177
+msgid "Archive Featured Image"
+msgstr ""
+
+#: inc/settings.php:178
+msgid "Display the featured image on the blog archive pages."
+msgstr ""
+
+#: inc/settings.php:181
+msgid "Archive Post Content"
+msgstr ""
+
+#: inc/settings.php:183
+msgid "Full Post Content"
+msgstr ""
+
+#: inc/settings.php:184
+msgid "Post Excerpt"
+msgstr ""
+
+#: inc/settings.php:186
+msgid "Choose how to display your post content on blog and archive pages. Select Full Post Content if using the \"more\" quicktag."
+msgstr ""
+
+#: inc/settings.php:189
+msgid "Read More Text"
+msgstr ""
+
+#: inc/settings.php:190
+msgid "The link text displayed when posts are split using the \"more\" quicktag."
+msgstr ""
+
+#: inc/settings.php:193
+msgid "Post Excerpt Length"
+msgstr ""
+
+#: inc/settings.php:194
+msgid "If no manual post excerpt is added one will be generated. How many words should it be?"
+msgstr ""
+
+#: inc/settings.php:198
+msgid "Post Excerpt Read More Link"
+msgstr ""
+
+#: inc/settings.php:199
+msgid "Display the Read More text below the post excerpt. Only applicable if Post Excerpt has been selected from the Archive Post Content setting."
+msgstr ""
+
+#: inc/settings.php:202
+msgid "Post Featured Image"
+msgstr ""
+
+#: inc/settings.php:203
+msgid "Display the featured image on the single post page."
+msgstr ""
+
+#: inc/settings.php:206
+msgid "Post Date"
+msgstr ""
+
+#: inc/settings.php:207
+msgid "Display the post date."
+msgstr ""
+
+#: inc/settings.php:210
+msgid "Post Author"
+msgstr ""
+
+#: inc/settings.php:211
+msgid "Display the post author."
+msgstr ""
+
+#: inc/settings.php:214
+msgid "Post Comment Count"
+msgstr ""
+
+#: inc/settings.php:215
+msgid "Display the post comment count."
+msgstr ""
+
+#: inc/settings.php:218
+msgid "Post Categories"
+msgstr ""
+
+#: inc/settings.php:219
+msgid "Display the post categories."
+msgstr ""
+
+#: inc/settings.php:222
+msgid "Post Tags"
+msgstr ""
+
+#: inc/settings.php:223
+msgid "Display the post tags."
+msgstr ""
+
+#: inc/settings.php:226
+msgid "Post Author Box"
+msgstr ""
+
+#: inc/settings.php:227
+msgid "Display the post author biographical info."
+msgstr ""
+
+#: inc/settings.php:230
+msgid "Related Posts"
+msgstr ""
+
+#: inc/settings.php:231
+msgid "Display related posts on the single post page."
+msgstr ""
+
+#: inc/settings.php:234
+msgid "Edit Link"
+msgstr ""
+
+#: inc/settings.php:235
+msgid "Display an Edit link below post content. Visible if a user is logged in and allowed to edit the content. Also applies to Pages."
+msgstr ""
+
+#: inc/settings.php:239
+msgid "Comment Form Allowed Tags"
+msgstr ""
+
+#: inc/settings.php:240
+msgid "Display the explanatory text below the comment form that lets users know which HTML tags may be used."
+msgstr ""
+
+#: inc/settings.php:243 premium/inc/settings.php:20
+msgid "AJAX Comments"
+msgstr ""
+
+#: inc/settings.php:244
+msgid "Allow users to submit comments without a page re-load."
+msgstr ""
+
+#: inc/settings.php:248 premium/inc/settings.php:25 upgrade/upgrade.php:40
+msgid "Post Sharing"
+msgstr ""
+
+#: inc/settings.php:249
+msgid "Show icons to share your posts on Facebook, Twitter, Google+ and LinkedIn."
+msgstr ""
+
+#: inc/settings.php:253
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/settings.php:254
+msgid "{site-title}, {copyright} and {year} can be used to display your website title, a copyright symbol and the current year."
+msgstr ""
+
+#: inc/settings.php:258
+msgid "Privacy Policy Link"
+msgstr ""
+
+#: inc/settings.php:259
+msgid "Display the Privacy Policy page link in the footer."
+msgstr ""
+
+#: inc/settings.php:262
+msgid "Enqueue JavaScript in Footer"
+msgstr ""
+
+#: inc/settings.php:263
+msgid "Enqueue theme JavaScript files in the footer. Doing so can improve site load time."
+msgstr ""
+
+#: inc/settings.php:266 premium/inc/settings.php:39
+msgid "Footer Attribution Link"
+msgstr ""
+
+#: inc/settings.php:267 premium/inc/settings.php:40
+msgid "Remove the theme attribution link from your footer without editing any code."
+msgstr ""
+
+#: inc/settings.php:271
+msgid "Phone Number"
+msgstr ""
+
+#: inc/settings.php:272
+msgid "A phone number displayed in the top bar. Use international dialing format to enable click to call."
+msgstr ""
+
+#: inc/settings.php:275
+msgid "Email Address"
+msgstr ""
+
+#: inc/settings.php:276
+msgid "An email address to be displayed in the top bar"
+msgstr ""
+
+#: inc/settings.php:279
+msgid "Comments Closed"
+msgstr ""
+
+#: inc/settings.php:280
+msgid "The text visitors see at the bottom of posts when comments are closed."
+msgstr ""
+
+#: inc/settings.php:283
+msgid "No Search Results Heading"
+msgstr ""
+
+#: inc/settings.php:284
+msgid "The search page heading visitors see when no results are found."
+msgstr ""
+
+#: inc/settings.php:287
+msgid "No Search Results Text"
+msgstr ""
+
+#: inc/settings.php:288
+msgid "The search page text visitors see when no results are found."
+msgstr ""
+
+#: inc/settings.php:291
+msgid "404 Error Page Heading"
+msgstr ""
+
+#: inc/settings.php:292
+msgid "The heading visitors see when no page is found."
+msgstr ""
+
+#: inc/settings.php:295
+msgid "404 Error Page Text"
+msgstr ""
+
+#: inc/settings.php:296
+msgid "The text visitors see no page is found."
+msgstr ""
+
+#: inc/settings.php:367
+msgid "{copyright} {year} {site-title}"
+msgstr ""
+
+#: inc/settings.php:372
+msgid "1800-345-6789"
+msgstr ""
+
+#: inc/settings.php:373
+msgid "info@yourdomain.com"
+msgstr ""
+
+#: inc/settings.php:374
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/settings.php:375
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/settings.php:376
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords. "
+msgstr ""
+
+#: inc/settings.php:377
+msgid "Oops! That page can't be found."
+msgstr ""
+
+#: inc/settings.php:378
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: inc/settings.php:417 inc/settings/settings.php:413
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/settings.php:418
+msgid "Settings for your theme."
+msgstr ""
+
+#: inc/settings.php:419
+msgid "Premium Only"
+msgstr ""
+
+#: inc/settings.php:422
+msgid "Page Settings"
+msgstr ""
+
+#: inc/settings.php:424 inc/settings/inc/page_settings_customizer.php:38
+msgid "Page Template Settings"
+msgstr ""
+
+#: inc/settings.php:425 inc/settings/inc/page_settings_customizer.php:39
+msgid "Change layouts for various pages on your site."
+msgstr ""
+
+#: inc/settings.php:427 inc/settings/inc/page_settings_customizer.php:47
+msgid "Blog Page"
+msgstr ""
+
+#: inc/settings.php:428 inc/settings/inc/page_settings_customizer.php:48
+msgid "Search Results"
+msgstr ""
+
+#: inc/settings.php:429 inc/settings/inc/page_settings_customizer.php:49
+msgid "Date Archives"
+msgstr ""
+
+#: inc/settings.php:430 inc/settings/inc/page_settings_customizer.php:51
+msgid "Not Found"
+msgstr ""
+
+#: inc/settings.php:431 inc/settings/inc/page_settings_customizer.php:50
+msgid "Author Archives"
+msgstr ""
+
+#: inc/settings.php:432 inc/settings/inc/page_settings_customizer.php:69
+msgid "Type"
+msgstr ""
+
+#: inc/settings.php:433 inc/settings/inc/page_settings_customizer.php:80
+msgid "Taxonomy"
+msgstr ""
+
+#: inc/settings.php:446
+msgid "Page Layout"
+msgstr ""
+
+#: inc/settings.php:449
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/settings.php:451
+msgid "Full Width, With Sidebar"
+msgstr ""
+
+#: inc/settings.php:458 inc/settings.php:465 inc/settings.php:472
+#: inc/settings.php:479 inc/settings.php:486 inc/settings.php:493
+msgid "Enable"
+msgstr ""
+
+#: inc/settings.php:459
+msgid "Display the top bar. Global setting must be enabled."
+msgstr ""
+
+#: inc/settings.php:466
+msgid "Display the header. Global setting must be enabled."
+msgstr ""
+
+#: inc/settings.php:471
+msgid "Header Bottom Margin"
+msgstr ""
+
+#: inc/settings.php:473
+msgid "Display the margin below the header."
+msgstr ""
+
+#: inc/settings.php:478
+msgid "Page Title"
+msgstr ""
+
+#: inc/settings.php:480
+msgid "Display the page title."
+msgstr ""
+
+#: inc/settings.php:485
+msgid "Footer Top Margin"
+msgstr ""
+
+#: inc/settings.php:487
+msgid "Display the margin above the footer."
+msgstr ""
+
+#: inc/settings.php:492
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/settings.php:494
+msgid "Display the footer widgets."
+msgstr ""
+
+#: inc/settings.php:521
+msgid "To use these page settings, please use the <strong>Default</strong> template selected under <strong>Page Attributes</strong>."
+msgstr ""
+
+#: inc/settings/inc/about_page.php:33
+#, php-format
+msgid "Thanks for choosing %s!"
+msgstr ""
+
+#: inc/settings/inc/about_page.php:36
+#, php-format
+msgid "You can learn more about it %shere%s, or head straight to the %scustomizer%s to start setting it up."
+msgstr ""
+
+#: inc/settings/inc/about_page.php:45
+#, php-format
+msgid "Learn About %s"
+msgstr ""
+
+#: inc/settings/inc/about_page.php:57 inc/settings/inc/about_page.php:58
+#: inc/settings/inc/about_page.php:118
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: inc/settings/inc/about_page.php:99
+msgid "Free #WordPress Theme from @SiteOrigin"
+msgstr ""
+
+#: inc/settings/inc/about_page.php:143
+msgid "Take a Tour"
+msgstr ""
+
+#: inc/settings/inc/about_page.php:152
+msgid "Get Updates"
+msgstr ""
+
+#: inc/settings/inc/about_page.php:161
+msgid "Documentation"
+msgstr ""
+
+#: inc/settings/inc/about_page.php:170
+msgid "Write a Review"
+msgstr ""
+
+#: inc/settings/inc/about_page.php:179
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: inc/settings/inc/about_page.php:237
+msgid "Watch The Video"
+msgstr ""
+
+#: inc/settings/inc/about_page.php:250
+#, php-format
+msgid "If you like %s, please share it!"
+msgstr ""
+
+#: inc/settings/inc/about_page.php:280
+msgid "Proudly Created By"
+msgstr ""
+
+#: inc/settings/inc/control/font.php:63
+msgid "Variant"
+msgstr ""
+
+#: inc/settings/inc/control/font.php:68
+msgid "Subset"
+msgstr ""
+
+#: inc/settings/inc/control/premium.php:15
+#, php-format
+msgid "%s Premium adds loads of extra customization settings and useful features. They'll save you time and make your site more professional."
+msgstr ""
+
+#: inc/settings/inc/control/premium.php:24
+msgid "Find Out More"
+msgstr ""
+
+#: inc/settings/inc/control/teaser.php:24
+msgid "Available in Premium"
+msgstr ""
+
+#: inc/settings/inc/control/widget.php:27
+msgid "This field requires the Widgets Bundle plugin."
+msgstr ""
+
+#: inc/settings/inc/control/widget.php:29
+#, php-format
+msgid "<a href=\"%s\">Install</a> the Widgets Bundle now."
+msgstr ""
+
+#: inc/settings/inc/control/widget.php:51
+#: inc/settings/inc/control/widget.php:56
+msgid "Close"
+msgstr ""
+
+#: inc/settings/inc/control/widget.php:63
+msgid "Edit Widget"
+msgstr ""
+
+#: inc/settings/inc/page_settings.php:174
+msgid "Page settings"
+msgstr ""
+
+#: inc/settings/settings.php:414
+msgid "Change settings for your theme."
+msgstr ""
+
+#: inc/settings/settings.php:425 inc/settings/settings.php:443
+msgid "SiteOrigin Premium"
+msgstr ""
+
+#: inc/sliders.php:7
+msgid "Ultra (Flex)"
+msgstr ""
+
+#: inc/sliders.php:78
+msgid "Page Slider"
+msgstr ""
+
+#: inc/sliders.php:113
+msgid "Display Page Slider"
+msgstr ""
+
+#: inc/sliders.php:123
+msgid "Stretch Page Meta Slider"
+msgstr ""
+
+#: inc/sliders.php:127
+msgid "Overlap Header"
+msgstr ""
+
+#: inc/sliders/sliders.php:7
+msgid "None"
+msgstr ""
+
+#: inc/sliders/sliders.php:17
+msgid "MetaSlider: "
+msgstr ""
+
+#: inc/sliders/sliders.php:26
+msgid "Smart Slider: "
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "View posts by "
+msgstr ""
+
+#: inc/template-tags.php:47
+msgid "Sticky"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:83 inc/template-tags.php:87
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:134
+#, php-format
+msgid "%s Logo"
+msgstr ""
+
+#: inc/template-tags.php:207
+msgid "You May Also Like"
+msgstr ""
+
+#: inc/template-tags.php:223
+msgid "No related posts."
+msgstr ""
+
+#: inc/update/update.php:47
+msgid "Ultra Premium"
+msgstr ""
+
+#: inc/update/update.php:49
+msgid "Enter the order number we sent you by email."
+msgstr ""
+
+#: parts/bottom-bar.php:28
+#, php-format
+msgid "Theme by %1$s"
+msgstr ""
+
+#: premium/extras/share/share.php:20
+msgid "like"
+msgstr ""
+
+#: premium/inc/customizer.php:13
+msgid "General"
+msgstr ""
+
+#: premium/inc/customizer.php:28
+msgid "Main Menu"
+msgstr ""
+
+#: premium/inc/customizer.php:33
+msgid "Mobile Menu"
+msgstr ""
+
+#: premium/inc/customizer.php:38
+msgid "Content Header"
+msgstr ""
+
+#: premium/inc/customizer.php:43
+msgid "Content"
+msgstr ""
+
+#: premium/inc/customizer.php:58
+msgid "Bottom Bar"
+msgstr ""
+
+#: premium/inc/customizer.php:70
+msgid "Site Max Width (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:81 premium/inc/customizer.php:252
+#: premium/inc/customizer.php:356 premium/inc/customizer.php:497
+#: premium/inc/customizer.php:735 premium/inc/customizer.php:815
+msgid "Link Color"
+msgstr ""
+
+#: premium/inc/customizer.php:89 premium/inc/customizer.php:260
+#: premium/inc/customizer.php:373 premium/inc/customizer.php:743
+#: premium/inc/customizer.php:823
+msgid "Link Hover Color"
+msgstr ""
+
+#: premium/inc/customizer.php:98
+msgid "Menu Hover Accent Color"
+msgstr ""
+
+#: premium/inc/customizer.php:106 premium/inc/customizer.php:320
+msgid "Font"
+msgstr ""
+
+#: premium/inc/customizer.php:113 premium/inc/customizer.php:327
+#: premium/inc/customizer.php:518 premium/inc/customizer.php:688
+#: premium/inc/customizer.php:726 premium/inc/customizer.php:806
+msgid "Text Size (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:122 premium/inc/customizer.php:212
+msgid "Height (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:130 premium/inc/customizer.php:220
+#: premium/inc/customizer.php:463 premium/inc/customizer.php:764
+#: premium/inc/customizer.php:832
+msgid "Background Color"
+msgstr ""
+
+#: premium/inc/customizer.php:138 premium/inc/customizer.php:227
+#: premium/inc/customizer.php:471 premium/inc/customizer.php:626
+#: premium/inc/customizer.php:772 premium/inc/customizer.php:840
+msgid "Background Image"
+msgstr ""
+
+#: premium/inc/customizer.php:146 premium/inc/customizer.php:234
+#: premium/inc/customizer.php:479 premium/inc/customizer.php:634
+#: premium/inc/customizer.php:780 premium/inc/customizer.php:848
+msgid "Background Image Layout"
+msgstr ""
+
+#: premium/inc/customizer.php:151 premium/inc/customizer.php:239
+#: premium/inc/customizer.php:484 premium/inc/customizer.php:639
+#: premium/inc/customizer.php:785 premium/inc/customizer.php:853
+msgid "Center"
+msgstr ""
+
+#: premium/inc/customizer.php:152 premium/inc/customizer.php:240
+#: premium/inc/customizer.php:485 premium/inc/customizer.php:640
+#: premium/inc/customizer.php:786 premium/inc/customizer.php:854
+msgid "Tile"
+msgstr ""
+
+#: premium/inc/customizer.php:153 premium/inc/customizer.php:241
+#: premium/inc/customizer.php:486 premium/inc/customizer.php:641
+#: premium/inc/customizer.php:787 premium/inc/customizer.php:855
+msgid "Cover"
+msgstr ""
+
+#: premium/inc/customizer.php:164
+msgid "Site Title Color"
+msgstr ""
+
+#: premium/inc/customizer.php:172
+msgid "Site Title Font"
+msgstr ""
+
+#: premium/inc/customizer.php:179
+msgid "Site Title Font Size (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:188
+msgid "Site Tagline Color"
+msgstr ""
+
+#: premium/inc/customizer.php:196
+msgid "Site Tagline Font"
+msgstr ""
+
+#: premium/inc/customizer.php:203
+msgid "Site Tagline Font Size (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:268
+msgid "Current Link Color"
+msgstr ""
+
+#: premium/inc/customizer.php:279
+msgid "Current Link Underline"
+msgstr ""
+
+#: premium/inc/customizer.php:286
+msgid "Dropdown Background Color"
+msgstr ""
+
+#: premium/inc/customizer.php:294
+msgid "Dropdown Link Color"
+msgstr ""
+
+#: premium/inc/customizer.php:302
+msgid "Dropdown Background Hover Color"
+msgstr ""
+
+#: premium/inc/customizer.php:311
+msgid "Dropdown Link Hover Color"
+msgstr ""
+
+#: premium/inc/customizer.php:336
+msgid "Link Right Margin (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:348
+msgid "Link Background Color"
+msgstr ""
+
+#: premium/inc/customizer.php:364
+msgid "Link Background Hover Color"
+msgstr ""
+
+#: premium/inc/customizer.php:386 premium/inc/customizer.php:535
+#: premium/inc/customizer.php:663 premium/inc/customizer.php:701
+msgid "Heading Color"
+msgstr ""
+
+#: premium/inc/customizer.php:394 premium/inc/customizer.php:543
+msgid "Heading Font"
+msgstr ""
+
+#: premium/inc/customizer.php:401
+msgid "Heading Font Size (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:410
+msgid "Breadcrumb Font"
+msgstr ""
+
+#: premium/inc/customizer.php:417
+msgid "Breadcrumb Font Size (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:426
+msgid "Breadcrumb Text Color"
+msgstr ""
+
+#: premium/inc/customizer.php:434
+msgid "Breadcrumb Link Color"
+msgstr ""
+
+#: premium/inc/customizer.php:442
+msgid "Breadcrumb Link Hover Color"
+msgstr ""
+
+#: premium/inc/customizer.php:451
+msgid "Content Header Padding (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:504 premium/inc/customizer.php:680
+#: premium/inc/customizer.php:718 premium/inc/customizer.php:798
+msgid "Text Color"
+msgstr ""
+
+#: premium/inc/customizer.php:511
+msgid "Text Font"
+msgstr ""
+
+#: premium/inc/customizer.php:526
+msgid "Post Meta Text Size (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:550
+msgid "H1 Text Size (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:559
+msgid "H2 Text Size (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:568
+msgid "H3 Text Size (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:577
+msgid "H4 Text Size (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:586
+msgid "H5 Text Size (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:595
+msgid "H6 Text Size (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:604
+msgid "Element Border Color"
+msgstr ""
+
+#: premium/inc/customizer.php:611
+msgid "Element Background Color"
+msgstr ""
+
+#: premium/inc/customizer.php:618
+msgid "Page Background Color"
+msgstr ""
+
+#: premium/inc/customizer.php:652
+msgid "Position"
+msgstr ""
+
+#: premium/inc/customizer.php:655
+msgid "Right"
+msgstr ""
+
+#: premium/inc/customizer.php:656
+msgid "Left"
+msgstr ""
+
+#: premium/inc/customizer.php:671 premium/inc/customizer.php:709
+msgid "Heading Size (px)"
+msgstr ""
+
+#: premium/inc/customizer.php:752
+msgid "Footer Padding (px)"
+msgstr ""
+
+#: premium/inc/settings.php:21
+msgid "Allow users to submit comments without a page re-load on submit."
+msgstr ""
+
+#: premium/inc/settings.php:26
+msgid "Show icons to share your posts on Facebook, Twitter and LinkedIn."
+msgstr ""
+
+#: premium/inc/settings.php:29
+msgid "Page Sharing"
+msgstr ""
+
+#: premium/inc/settings.php:30
+msgid "Show icons to share your pages on Facebook, Twitter and LinkedIn."
+msgstr ""
+
+#: premium/inc/settings.php:33
+msgid "Twitter Handle"
+msgstr ""
+
+#: premium/inc/settings.php:34
+msgid "This handle will be recommended after a user shares one of your posts."
+msgstr ""
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:15
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:16 searchform.php:18
+msgid "Search"
+msgstr ""
+
+#: slider/demo.php:5 slider/demo.php:7 slider/demo.php:11 slider/demo.php:13
+msgid "Demo Slide"
+msgstr ""
+
+#: upgrade/upgrade.php:4
+msgid "Upgrade to Ultra Premium"
+msgstr ""
+
+#: upgrade/upgrade.php:5
+msgid "Hi, my name is Andrew Misplon, the developer of Ultra. If you've enjoyed Ultra Free then I know you're going to love Ultra Premium. Below you'll find an outline of the premium features."
+msgstr ""
+
+#: upgrade/upgrade.php:13
+msgid "Premium Email Support"
+msgstr ""
+
+#: upgrade/upgrade.php:14
+msgid "Ultra Premium comes with priority email support. Let us know if you run into any challenges or simply need a hand getting setup. We're here to help."
+msgstr ""
+
+#: upgrade/upgrade.php:18
+msgid "Name the Price"
+msgstr ""
+
+#: upgrade/upgrade.php:19
+msgid "You choose the price, so you can pay what Ultra is worth to you. Choose from one our suggested options or specify your own custom price. Regardless of what you pay you'll receive the same premium upgrade and be supporting the continued development of the theme."
+msgstr ""
+
+#: upgrade/upgrade.php:24
+msgid "Ultra Premium allows you to upload an additional, double-sized logo, to be displayed on Apple Retina and other high pixel density displays."
+msgstr ""
+
+#: upgrade/upgrade.php:28
+msgid "Enhanced Customizer Integration"
+msgstr ""
+
+#: upgrade/upgrade.php:29
+msgid "Make Ultra your own with enhanced Customizer integration. Choose from Google's huge selection of fonts; change colors, spacing and more all using the live-updating WordPress Customizer."
+msgstr ""
+
+#: upgrade/upgrade.php:34
+msgid "Ajax Comments"
+msgstr ""
+
+#: upgrade/upgrade.php:35
+msgid "Remove page re-loads from your comment forms. This means that users can submit comments without losing their place in a gallery or interrupting a video."
+msgstr ""
+
+#: upgrade/upgrade.php:41
+msgid "Add sharing icons for Facebook, Twitter and LinkedIn to the bottom of your posts."
+msgstr ""
+
+#: upgrade/upgrade.php:46
+msgid "Remove Attribution Link"
+msgstr ""
+
+#: upgrade/upgrade.php:47
+msgid "Ultra Premium gives you the option to remove the \"Theme by Puro\" text from your Footer without editing any code."
+msgstr ""
+
+#: upgrade/upgrade.php:52
+msgid "Continued Updates"
+msgstr ""
+
+#: upgrade/upgrade.php:53
+msgid "Your premium upgrade is a valuable contribution to the future development of Ultra, ensuring it's compatible with future versions of WordPress."
+msgstr ""
+
+#: upgrade/upgrade.php:62
+msgid "LOVE this theme - so many options, and so gorgeous! I HIGHLY suggest submitting a question on their support forum if you run into any problems - they respond within minutes to my questions! Doesn't get much better than that. Thanks for all of your help, Andrew, and thank you for the awesome theme!"
+msgstr ""
+
+#: upgrade/upgrade.php:68
+msgid "The Ultra WordPress theme looks awesome and the best part is it's a free theme, I really love this theme and my site is starting to come together and looks really sharp thanks to this amazing theme also the theme designer Andrew Misplon from Puro themes provided me with great support when I needed assistance in setting up a few things."
+msgstr ""
+
+#: upgrade/upgrade.php:74
+msgid "Theme is very responsive and so is the support. Highly recommended!."
+msgstr ""
+
+#: upgrade/upgrade.php:80
+msgid "The Ultra+ theme is great (my FAVORITE). I'm impressed by the ease of set-up (even for a WP beginner). The versatility of design along with everything needed in the customizing menu gave me the ability to see a live preview before publishing. It's OBVIOUS that the author put a lot of effort into creating Ultra+ because it's so easy to use - my admin board isn't cluttered with a bunch of plugins. The interface is clean and simple... perfect!"
+msgstr ""

@@ -1,0 +1,1558 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-25 21:25+0200\n"
+"PO-Revision-Date: Sat Oct 03 2015 15:31:54 GMT+0200 (Mitteleuropäische "
+"Sommerzeit)\n"
+"Last-Translator: Stefan <swidua@web.de>\n"
+"Language-Team: \n"
+"Language: German\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Loco-Target-Locale: de_DE"
+
+#: ../breadcrumbs/breadcrumbs.php:716
+msgid "g:i a"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:733
+msgid "i"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:750
+msgid "g a"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:766 ../breadcrumbs/breadcrumbs.php:795
+#: ../breadcrumbs/breadcrumbs.php:822 ../breadcrumbs/breadcrumbs.php:849
+#: ../breadcrumbs/breadcrumbs.php:1036
+msgid "Y"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:767 ../breadcrumbs/breadcrumbs.php:823
+#: ../breadcrumbs/breadcrumbs.php:1040
+msgid "F"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:768 ../breadcrumbs/breadcrumbs.php:1044
+msgid "j"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:796
+msgid "W"
+msgstr ""
+
+#: ../functions.php:296
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+"Du kannst diese <abbr title=\"HyperText Markup Language\">HTML</abbr>-Tags und "
+"-Attribute verwenden: %s"
+
+#: ../inc/settings.php:52
+msgid "Display the right top bar menu."
+msgstr "Das rechte Kopfzeilenmenü anzeigen."
+
+#: ../inc/settings.php:55
+msgid "Responsive Top Bar"
+msgstr "Responsive Kopfzeile"
+
+#: ../inc/settings.php:56
+msgid "Collapse the top bar for small screen devices."
+msgstr "Kopfzeile bei kleinen Bildschirmen einklappen."
+
+#: ../inc/settings.php:64
+msgid "The pixel resolution when the primary menu and top bar collapse."
+msgstr "Die Auflösung in Pixel, ab der das Hauptmenü zusammengeklappt wird"
+
+#: ../inc/settings.php:130
+msgid "Blog Archive Layout"
+msgstr "Layout Blogs/Archive"
+
+#: ../inc/settings.php:132
+msgid "Choose the layout to be used on blog and archive pages."
+msgstr "Wähle das Layout für deine Blog- und Archivseiten aus."
+
+#: ../upgrade/upgrade.php:62
+msgid ""
+"<p>LOVE this theme - so many options, and so gorgeous! I HIGHLY suggest "
+"submitting a question on their support forum if you run into any problems - "
+"they respond within minutes to my questions! Doesn't get much better than "
+"that. Thanks for all of your help, Andrew, and thank you for the awesome "
+"theme!</p>"
+msgstr ""
+
+#: ../upgrade/upgrade.php:68
+msgid ""
+"<p>The Ultra WordPress theme looks awesome and the best part is it's a free "
+"theme, I really love this theme and my site is starting to come together and "
+"looks really sharp thanks to this amazing theme also the theme designer "
+"Andrew Misplon from Puro themes provided me with great support when I needed "
+"assistance in setting up a few things.</p>"
+msgstr ""
+
+#: ../upgrade/upgrade.php:74
+msgid ""
+"<p>Great to see a solid follow up to Misplon's first theme Puro. Ultra has a "
+"good responsive design and that home page slider works lovely even on big "
+"resolution screens - not to mention seamless integration into the free "
+"MetaSlider plugin.</p>"
+msgstr ""
+
+#: ../upgrade/upgrade.php:80
+msgid "<p>Theme is very responsive and so is the support. Highly recommended!.</p>"
+msgstr ""
+
+#: ../404.php:33
+msgid "Most Used Categories"
+msgstr "Meistgenutzte Kategorien"
+
+#. translators: %1$s: smiley
+#: ../404.php:50
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Schau in die Monatsarchive. %1$s"
+
+#: ../breadcrumbs/breadcrumbs.php:178
+msgid "Browse:"
+msgstr "Durchsuchen:"
+
+#: ../breadcrumbs/breadcrumbs.php:179 ../inc/settings.php:11
+msgid "Home"
+msgstr "Startseite"
+
+#: ../breadcrumbs/breadcrumbs.php:180
+msgid "404 Not Found"
+msgstr "404 Not Found"
+
+#: ../breadcrumbs/breadcrumbs.php:181
+msgid "Archives"
+msgstr "Archive"
+
+#: ../breadcrumbs/breadcrumbs.php:183
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Suchergebnisse für &#8220;%s&#8221;"
+
+#: ../breadcrumbs/breadcrumbs.php:185 ../inc/extras.php:103
+#, php-format
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: ../breadcrumbs/breadcrumbs.php:187
+#, php-format
+msgid "Minute %s"
+msgstr "Minute %s"
+
+#: ../breadcrumbs/breadcrumbs.php:189
+#, php-format
+msgid "Week %s"
+msgstr "Woche %s"
+
+#: ../breadcrumbs/breadcrumbs.php:1135 ../breadcrumbs/breadcrumbs.php:1171
+#: ../breadcrumbs/breadcrumbs.php:1188 ../breadcrumbs/breadcrumbs.php:1219
+#: ../extras/settings/settings.php:563 ../inc/template-tags.php:66
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../breadcrumbs/breadcrumbs.php:1163
+msgid "Split"
+msgstr "Teilen"
+
+#: ../breadcrumbs/breadcrumbs.php:1167
+msgid "Merge"
+msgstr "Zusammenfügen"
+
+#: ../comments.php:30
+msgid "One Comment"
+msgstr "Ein Kommentar"
+
+#: ../comments.php:37 ../comments.php:57
+msgid "Comment navigation"
+msgstr "Navigation Kommentare"
+
+#: ../comments.php:39 ../comments.php:59
+msgid "Older Comments"
+msgstr "Ältere Kommentare"
+
+#: ../comments.php:40 ../comments.php:60
+msgid "Newer Comments"
+msgstr "Neuere Kommentare"
+
+#: ../content-none.php:15
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Bereit für deinen ersten Beitrag? <a href=\"%1$s\">Hier geht's los</a>."
+
+#: ../content-none.php:35
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Es scheint, dass wir nicht finden können wonach Sie suchen. Vielleicht kann "
+"die Suche helfen."
+
+#: ../content-page.php:22 ../content-single.php:20 ../content.php:36
+#: ../loops/loop-medium-left.php:47 ../loops/loop-thumbnail-left.php:47
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: ../demo/carousel/carousel.php:3
+msgid "Latest Posts"
+msgstr "Letzte Beiträge"
+
+#: ../demo/carousel/carousel.php:5
+msgid "Next"
+msgstr "Nächster"
+
+#: ../demo/carousel/carousel.php:6
+msgid "Previous"
+msgstr "Vorheriger"
+
+#: ../extras/plugin-activation/plugin-activation.php:7
+#: ../extras/plugin-activation/plugin-activation.php:8
+msgid "Install Theme Plugin"
+msgstr "Installiere Theme-Plugin"
+
+#: ../extras/plugin-activation/plugin-activation.php:74
+#: ../inc/panels-lite/inc/plugin-activation.php:77
+#, php-format
+msgid "Installing %s"
+msgstr "Installiere %s"
+
+#: ../extras/premium/premium.php:12 ../extras/premium/premium.php:179
+#: ../extras/premium/premium.php:279 ../extras/premium/tpl/upgrade-page.php:16
+#: ../extras/premium/tpl/upgrade-page.php:123
+#: ../extras/settings/settings.php:150 ../extras/settings/settings.php:478
+#: ../extras/update/update.php:51
+msgid "Premium"
+msgstr "Premium"
+
+#: ../extras/premium/premium.php:64
+#, php-format
+msgid "Your Order Number is [%s]"
+msgstr "Deine Auftragsnummer lautet [%s]"
+
+#: ../extras/premium/premium.php:68
+msgid "There was a problem contacting our validation servers."
+msgstr "Es gab ein Problem beim Kontakt zu unserem Verifizierungsserver."
+
+#: ../extras/premium/premium.php:69 ../extras/premium/premium.php:95
+msgid "Please try again later, or upgrade manually using the ZIP file we sent you."
+msgstr ""
+"Bitte versuche es später noch einmal, oder aktualisiere manuell mit der ZIP-"
+"Datei, die wir dir geschickt haben."
+
+#: ../extras/premium/premium.php:73
+msgid "We've validated your order number."
+msgstr "Wir haben deine Auftragsnummer verifiziert."
+
+#: ../extras/premium/premium.php:76
+#, php-format
+msgid "You can update now, or later on your <a href=\"%s\">Themes page</a>."
+msgstr ""
+"Du kannst jetzt aktualisieren, oder später auf der <a href=\"%s\">Themes "
+"Seite</a>."
+
+#: ../extras/premium/premium.php:80
+msgid "This update will add all the premium features."
+msgstr "Mit diesem Update werden alle Premium-Funktionen hinzugefügt."
+
+#: ../extras/premium/premium.php:85
+msgid ""
+"Updating this theme will lose any code customizations (CSS, PHP, Javascript, "
+"etc) you have made to the free version. You will not lose your content, "
+"images or settings. 'Cancel' to stop, 'OK' to update."
+msgstr ""
+"Mit der Aktualisierung dieses Themes verlierst du alle Code-Anpassungen (CSS,"
+" PHP, Javascript, etc.), die du in der kostenlosen Version gemacht hast. Du "
+"verlierst nicht deine Inhalte, Bilder oder Einstellungen. 'Abbrechen', um "
+"abzubrechen, 'OK', um zu aktualisieren."
+
+#: ../extras/premium/premium.php:88
+msgid "Update Theme"
+msgstr "Theme aktualisieren"
+
+#: ../extras/premium/premium.php:93
+msgid "We couldn't validate your order number."
+msgstr "Wir konnten deine Auftragsnummer nicht verifizieren."
+
+#: ../extras/premium/premium.php:94
+msgid "There might be a problem with our validation server."
+msgstr "Es könnte ein Problem mit unserer Verifizierungsserver vorliegen."
+
+#: ../extras/premium/premium.php:141
+msgid "Get Additional Templates"
+msgstr "Hole dir zusätzliche Templates"
+
+#: ../extras/premium/premium.php:143
+#, php-format
+msgid "%s Premium includes additional templates"
+msgstr "%s Premium enthält zusätzliche Templates"
+
+#: ../extras/premium/premium.php:179 ../extras/settings/settings.php:478
+#, php-format
+msgid ""
+"Only available in <strong>%s</strong> - <strong class=\"upgrade\">Upgrade "
+"Now</strong>"
+msgstr ""
+"Nur verfügbar in <strong>%s</strong> - <strong class=\"upgrade\">Jetzt "
+"upgraden</strong>"
+
+#: ../extras/premium/premium.php:268
+msgid "Get Additional Customizations"
+msgstr "Hole dir zusätzliche Anpassungen"
+
+#: ../extras/premium/premium.php:283
+#, php-format
+msgid "A Copy of %s Premium"
+msgstr "Eine Kopie von %s Premium"
+
+#: ../extras/premium/premium.php:284
+#, php-format
+msgid ""
+"You get a copy of %s, delivered instantly to your PayPal email address. This "
+"includes the same basic support we offer users of our free themes."
+msgstr ""
+"Du erhältst eine Kopie von % s, sofort an deine PayPal-E-Mail-Adresse. Dies "
+"beinhaltet den gleichen Basis-Support, den wir auch den Nutzern unserer "
+"kostenlosen Themes bieten."
+
+#: ../extras/premium/premium.php:289
+msgid "Premium Support"
+msgstr "Premium-Support"
+
+#: ../extras/premium/premium.php:290
+msgid ""
+"This includes Premium email support from our support team for a single site. "
+"We'll help you as quickly as possible with all your setup and configuration "
+"questions."
+msgstr ""
+"Dies beinhaltet Premium-Support per E-Mail durch unser Support-Team für eine "
+"einzelne Website. Wir werden dir so schnell wie möglich bei allen "
+"Einrichtungs- und Konfigurationsfragen helfen."
+
+#: ../extras/premium/premium.php:295
+msgid "Advanced Premium Support"
+msgstr "Erweiterter Premium-Support"
+
+#: ../extras/premium/premium.php:296
+#, php-format
+msgid ""
+"We'll go the extra mile and help you with minor CSS customizations, plugin "
+"conflicts and anything else that falls outside standard %s support."
+msgstr ""
+"Wir gehen einen Schritt weiter und helfen dir bei kleineren CSS-Anpassungen, "
+"Plugin-Konflikten und allem, was nicht unter den Standard %s Support fällt."
+
+#: ../extras/premium/premium.php:301
+msgid "A Special Thank You"
+msgstr "Ein besonderes Dankeschön"
+
+#: ../extras/premium/premium.php:302
+#, php-format
+msgid ""
+"Our highest level of support. If you need it, you'll get support directly "
+"from the developer of %s. We'll also include your name on our contributors "
+"list."
+msgstr ""
+"Unsere höchste Stufe an Support. Wenn es nötig ist, bekommst du direkt vom "
+"Entwickler von %s Unterstützung. Wir werden auch deinen Namen auf die Liste "
+"unserer Unterstützer setzen."
+
+#: ../extras/premium/tpl/upgrade-page.php:15
+#, php-format
+msgid ""
+"After you pay for %s, we'll email you an order number to your <strong>PayPal "
+"email address</strong>. "
+msgstr ""
+"Nachdem du für %s gezahlt hast, senden wir dir per E-Mail eine "
+"Auftragsnummer an deine <strong>PayPal-E-Mail-Adresse</strong>. "
+
+#: ../extras/premium/tpl/upgrade-page.php:19
+#, php-format
+msgid ""
+"Use <a href='%s' target='_blank'>this form</a> if you don't receive your "
+"order number in the next 15 minutes. "
+msgstr ""
+"Verwende <a href='%s' target='_blank'>dieses Formular</a>, wenn du nicht in "
+"den nächsten 15 Minuten deine Auftragsnummer erhältst. "
+
+#: ../extras/premium/tpl/upgrade-page.php:22
+msgid "To be sure, check your spam folder."
+msgstr "Um sicher zu gehen, überprüfe deinen Spam-Ordner."
+
+#: ../extras/premium/tpl/upgrade-page.php:26 ../extras/update/update.php:52
+msgid "Order Number"
+msgstr "Auftragsnummer"
+
+#: ../extras/premium/tpl/upgrade-page.php:28
+msgid "Enable Upgrade"
+msgstr "Upgrade aktivieren"
+
+#: ../extras/premium/tpl/upgrade-page.php:32
+msgid "Already Paid?"
+msgstr "Schon bezahlt?"
+
+#: ../extras/premium/tpl/upgrade-page.php:37
+msgid "Premium Upgrade"
+msgstr "Premium Upgrade"
+
+#: ../extras/premium/tpl/upgrade-page.php:41
+msgid ""
+"The premium version of this theme is no longer available. If you need any "
+"help, please contact <a href='mailto:support@purothemes.com'>Puro "
+"support</a>."
+msgstr ""
+"Die Premium Version dieses Themes ist nicht mehr verfügbar. Wenn du Hilfe "
+"benötigst, bitte wende dich an <a href='mailto:support@purothemes.com'>Puro "
+"Support</a>."
+
+#: ../extras/premium/tpl/upgrade-page.php:81
+msgid "Buy Now"
+msgstr "Jetzt kaufen"
+
+#: ../extras/premium/tpl/upgrade-page.php:87
+msgid ""
+"Although we appreciate and support all our users, we only offer prioritized "
+"support for orders of <strong>$15</strong> or more."
+msgstr ""
+"Obwohl wir alle unsere Anwender schätzen und unterstützen, bieten wir nur "
+"priorisierten Support für Aufträge von <strong>$15</strong> oder mehr."
+
+#: ../extras/premium/tpl/upgrade-page.php:91
+#, php-format
+msgid "You choose the price, so you can pay what %s is worth to you."
+msgstr "Du wählst den Preis. Zahle so viel, wie dir %s wert ist:"
+
+#: ../extras/premium/tpl/upgrade-page.php:95
+msgid "Building your site on a budget"
+msgstr "Baue deine Website für wenig Geld"
+
+#: ../extras/premium/tpl/upgrade-page.php:96
+msgid "A fair price for a powerful theme"
+msgstr "Ein fairer Preis für ein mächtiges Theme"
+
+#: ../extras/premium/tpl/upgrade-page.php:97
+msgid "Our sincere thanks"
+msgstr "Unseren herzlichen Dank"
+
+#: ../extras/premium/tpl/upgrade-page.php:98
+msgid "We'll go that extra mile for you"
+msgstr "Wir gehen für dich einen Schritt weiter"
+
+#: ../extras/premium/tpl/upgrade-page.php:99
+msgid "A huge contribution to its development"
+msgstr "Ein großer Beitrag für die Entwicklung"
+
+#: ../extras/premium/tpl/upgrade-page.php:100
+msgid "Custom"
+msgstr "Eigener Wert"
+
+#: ../extras/premium/tpl/upgrade-page.php:103
+msgid "Please enable Javascript to change pricing"
+msgstr "Bitte aktiviere Javascript, um die Preis zu ändern"
+
+#: ../extras/premium/tpl/upgrade-page.php:107
+#, php-format
+msgid ""
+"Happy customers are our first priority. In the event, however, that you "
+"decide %s isn't quite right for you, we want to make things right. Within 60 "
+"days of purchase, we'll refund the full price you paid upon request."
+msgstr ""
+"Zufriedene Kunden sind unsere höchste Priorität. Auch in dem Fall, wenn du "
+"feststellst, %s ist doch nicht ganz das Richtige für dich, möchten wir dich "
+"zufrieden stellen. Innerhalb von 60 Tagen nach dem Kauf, werden wir dir auf "
+"Anfrage den vollen Preis erstatten."
+
+#: ../extras/premium/tpl/upgrade-page.php:118
+msgid "Download"
+msgstr "Download"
+
+#: ../extras/premium/tpl/upgrade-page.php:123
+#, php-format
+msgid "Sign up to our newsletter and download %s for free."
+msgstr "Melden dich für unseren Newsletter an und lade %s kostenlos herunter."
+
+#: ../extras/premium/tpl/upgrade-page.php:132
+#, php-format
+msgid "Your contribution will help fund new features in %s."
+msgstr "Dein Beitrag fördert die Entwicklung neuer Features in %s."
+
+#: ../extras/premium/tpl/upgrade-page.php:133
+#, php-format
+msgid "Find out more on our <a href=\"%s\" target=\"_blank\">roadmap</a>."
+msgstr "Erfahre mehr auf unserer <a href=\"%s\" target=\"_blank\">Roadmap</a>."
+
+#: ../extras/premium/tpl/upgrade-page.php:138
+msgid "Our User Feedback"
+msgstr "Das sagen unsere Anwender"
+
+#: ../extras/settings/page.php:6 ../extras/settings/settings.php:75
+#, php-format
+msgid "%s Theme Settings"
+msgstr "%s Theme Einstellungen"
+
+#: ../extras/settings/page.php:16 ../extras/settings/page.php:98
+msgid "Save Settings"
+msgstr "Einstellungen sichern"
+
+#: ../extras/settings/page.php:17 ../extras/settings/page.php:74
+msgid "Preview"
+msgstr "Vorschau"
+
+#: ../extras/settings/page.php:19
+msgid "Theme Support Forum"
+msgstr "Theme Support-Forum"
+
+#: ../extras/settings/page.php:34
+#, php-format
+msgid "%s Theme Settings Preview"
+msgstr "%s Theme Einstellungen Vorschau"
+
+#: ../extras/settings/page.php:76
+msgid "Continue"
+msgstr "Fortfahren"
+
+#: ../extras/settings/page.php:91
+#, php-format
+msgid "Step %s of %s"
+msgstr "Schritt %s von %s"
+
+#: ../extras/settings/page.php:99
+msgid "Close"
+msgstr "Schließen"
+
+#: ../extras/settings/settings.php:76
+msgid "Theme Settings"
+msgstr "Theme Einstellungen"
+
+#: ../extras/settings/settings.php:106 ../extras/settings/settings.php:153
+msgid "Theme Tour"
+msgstr "Theme-Tour"
+
+#: ../extras/settings/settings.php:120
+msgid "Please update to the latest version of WordPress to use theme settings."
+msgstr ""
+"Bitte aktualisiere auf die neueste Version von Wordpress, um die Theme "
+"Einstellungen zu verwenden."
+
+#: ../extras/settings/settings.php:375
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: ../extras/settings/settings.php:432
+#, php-format
+msgid "You need to <a href=\"%s\">upgrade</a> to WordPress 3.5 to use media fields"
+msgstr ""
+"Du benötigst die <a href=\"%s\">Aktualisierung</a> auf WordPress 3.5, um Media-"
+"Felder verwenden zu können."
+
+#: ../extras/settings/settings.php:450
+msgid "Choose Media"
+msgstr "Medien-Datei auswählen"
+
+#: ../extras/settings/settings.php:451
+msgid "Set Media"
+msgstr "Medien-Datei festlegen"
+
+#: ../extras/settings/settings.php:465
+msgid "Remove"
+msgstr "Löschen"
+
+#: ../extras/settings/settings.php:495
+msgid "Select Images"
+msgstr "Bilder auswählen"
+
+#: ../extras/settings/settings.php:507 ../inc/metaslider.php:52
+msgid "None"
+msgstr "Keine"
+
+#: ../extras/settings/settings.php:534
+#, php-format
+msgid "This field requires the %s plugin. "
+msgstr "Für dieses Feld wird das %s Plugin benötigt."
+
+#: ../extras/settings/settings.php:537
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Install %s</a> now. "
+msgstr "Jetzt <a href=\"%s\" target=\"_blank\">%s installieren</a>. "
+
+#: ../extras/settings/settings.php:571
+msgid "Unknown Field Type"
+msgstr "Unbekannter Feldtyp"
+
+#: ../extras/settings/settings.php:702
+msgid "Settings saved."
+msgstr "Einstellungen gesichert."
+
+#: ../extras/settings/settings.php:721
+#, php-format
+msgid ""
+"Read %s's <a href='%s' target='_blank'>theme documentation</a> for help with "
+"these settings."
+msgstr ""
+"Lese %s's <a href='%s' target='_blank'>Theme-Dokumentation</a>, um Hilfe bei "
+"diesen Einstellungen zu finden."
+
+#: ../extras/settings/settings.php:728
+msgid "Settings Help"
+msgstr "Hilfe-Einstellungen"
+
+#: ../extras/settings/settings.php:778
+msgid "Set Media File"
+msgstr "Medien-Datei festlegen"
+
+#: ../extras/settings/settings.php:829
+msgid "Meta Slider: "
+msgstr "Meta Slider: "
+
+#: ../extras/settings/settings.php:839
+msgid "Revolution Slider: "
+msgstr "Revolution Slider: "
+
+#: ../extras/settings/settings.php:849
+msgid "LayerSlider: "
+msgstr "LayerSlider: "
+
+#: ../extras/update/update.php:53
+msgid "Enter the Ultra Premium order number sent to you via email."
+msgstr ""
+"Gebe hier die Ultra Premium Auftragsnummer ein, die du per E-Mail erhalten "
+"hast."
+
+#: ../functions.php:99 ../inc/settings.php:51
+msgid "Top Bar Menu"
+msgstr "Kopfmenü"
+
+#: ../functions.php:100
+msgid "Top Bar Social Menu"
+msgstr "Kopfmenü Netzwerke"
+
+#: ../functions.php:101
+msgid "Primary Menu"
+msgstr "Hauptmenü"
+
+#: ../functions.php:102
+msgid "Bottom Bar Social Menu"
+msgstr "Fußmenü Netzwerke"
+
+#: ../functions.php:179
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: ../functions.php:188 ../inc/settings.php:16
+msgid "Footer"
+msgstr "Footer"
+
+#: ../functions.php:466
+msgid "Back To Top"
+msgstr "Nach Oben"
+
+#: ../header.php:23
+msgid "Skip to content"
+msgstr "Direkt zum Inhalt"
+
+#: ../inc/metaslider.php:5
+msgid "Ultra (Flex)"
+msgstr "Ultra (Flex)"
+
+#: ../inc/metaslider.php:54
+msgid "Demo Slider"
+msgstr "Demo-Slider"
+
+#: ../inc/metaslider.php:64
+msgid "Slider: "
+msgstr "Slider: "
+
+#: ../inc/metaslider.php:89
+msgid "Page Meta Slider"
+msgstr "Seite Meta Slider"
+
+#: ../inc/metaslider.php:114
+msgid "Display Page Meta Slider"
+msgstr "Seite Meta Slider anzeigen"
+
+#: ../inc/metaslider.php:124
+msgid "Stretch Page Meta Slider"
+msgstr "Meta-Slider über die ganze Seite strecken"
+
+#: ../inc/metaslider.php:128
+msgid "Overlap Header"
+msgstr "Überlappung Header "
+
+#: ../inc/panels-lite/inc/plugin-activation.php:10
+#: ../inc/panels-lite/inc/plugin-activation.php:11
+msgid "Install Page Builder Plugin"
+msgstr "Page Builder Plugin installieren"
+
+#: ../inc/panels-lite/inc/plugin-activation.php:110
+#: ../inc/panels-lite/panels-lite.php:28 ../inc/panels-lite/panels-lite.php:74
+msgid "Page Builder"
+msgstr "Page Builder"
+
+#: ../inc/panels-lite/panels-lite.php:15
+msgid "Custom Home Page Builder"
+msgstr "Eigene Startseite Page Builder"
+
+#: ../inc/panels-lite/panels-lite.php:16
+msgid "Home Page"
+msgstr "Startseite"
+
+#: ../inc/panels-lite/panels-lite.php:76
+msgid "Install"
+msgstr "Installieren"
+
+#: ../inc/panels-lite/panels-lite.php:77
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: ../inc/panels-lite/panels-lite.php:79
+msgid "Refresh this page after you've installed Page Builder."
+msgstr "Aktualisiere diese Seite, nachdem du Page Builder installiert hast."
+
+#: ../inc/panels-lite/panels-lite.php:461
+#, php-format
+msgid ""
+"<a href=\"%s\">Install Page Builder</a> to <a href=\"%s\">edit</a> this default "
+"home page."
+msgstr ""
+"<a href=\"%s\">Installiere Page Builder</a>, um diese Standard-Startseite zu "
+"<a href=\"%s\">bearbeiten</a>."
+
+#: ../inc/panels-lite/panels-lite.php:467
+#, php-format
+msgid ""
+"<a href='%s'>Disable this page</a> if you'd prefer to have a standard blog "
+"home."
+msgstr ""
+"<a href='%s'>Deaktiviere diese Seite</a>, wenn du lieber eine Standard-"
+"Beitragsseite haben möchtest."
+
+#: ../inc/panels-lite/tpl/admin-home-page.php:13
+msgid "ON"
+msgstr "AN"
+
+#: ../inc/panels-lite/tpl/admin-home-page.php:14
+msgid "OFF"
+msgstr "AUS"
+
+#: ../inc/panels-lite/tpl/admin-home-page.php:20
+msgid ""
+"This theme is compatible with SiteOrigin's powerful drag and drop page "
+"builder."
+msgstr ""
+"Dieses Theme ist mit dem leistungsstarke Drag & Drop Page Builder von "
+"SiteOrigin kompatibel."
+
+#: ../inc/panels-lite/tpl/admin-home-page.php:21
+msgid ""
+"It allows you to build responsive columnized pages, populated with the "
+"widgets you know and love."
+msgstr ""
+"Das ermöglicht dir, responsive spaltenbasierte Inhalte zu erstellen, mit den "
+"Widgets, die du kennst und liebst. "
+
+#: ../inc/panels-lite/tpl/admin-home-page.php:22
+msgid ""
+"It's a <strong>free plugin</strong> that works well with most WordPress "
+"themes."
+msgstr ""
+"Das ist ein <strong>kostenloses Plugin</strong>, das gut mit den meisten "
+"WordPress Themes funktioniert."
+
+#: ../inc/panels-lite/tpl/admin-home-page.php:23
+msgid ""
+"If you don't want to use it, click the toggle switch above to disable the "
+"default home page."
+msgstr ""
+"Wenn du es nicht benutzen möchtest, klicke auf den Schalter oben, um die "
+"Standard-Startseite zu deaktivieren."
+
+#: ../inc/panels-lite/tpl/admin-home-page.php:27
+msgid "Install Page Builder"
+msgstr "Page Builder installieren"
+
+#: ../inc/panels-lite/tpl/install.php:7
+msgid "SiteOrigin Page Builder"
+msgstr "SiteOrigin Page Builder"
+
+#: ../inc/panels-lite/tpl/install.php:8
+msgid "The Free Responsive WordPress Page Builder"
+msgstr "Der kostenlose responsive WordPress Page Builder"
+
+#: ../inc/panels-lite/tpl/install.php:17
+msgid ""
+"Page Builder by SiteOrigin is the most popular page creation plugin for "
+"WordPress. It makes it easy to create responsive column based content, using "
+"the widgets you know and love. Your content will accurately adapt to all "
+"mobile devices, ensuring your site is mobile-ready."
+msgstr ""
+"Page Builder von SiteOrigin ist das beliebteste Seitenbaukasten-Plugins für "
+"Wordpress. Es macht es einfach, responsive spaltenbasierte Inhalte zu "
+"erstellen, mit den Widgets, die du kennst und liebst. Deine Inhalte passen "
+"sich genau allen mobilen Geräten an - so ist deine Website mobile-ready."
+
+#: ../inc/panels-lite/tpl/install.php:19
+msgid ""
+"We've created an intuitive interface that looks just like WordPress itself. "
+"It's easy to learn, so you'll be building beautiful, responsive content in "
+"no time."
+msgstr ""
+"Wir haben eine intuitive Benutzeroberfläche entworfen, die wie die eigene "
+"von Wordpress aussieht. Sie ist einfach zu erlernen, damit du schöne, "
+"responsive Inhalte in kürzester Zeit bauen kannst."
+
+#: ../inc/panels-lite/tpl/install.php:22
+msgid "It's a free plugin that will instantly enhance your WordPress experience."
+msgstr ""
+"Das ist ein kostenloses Plugin, das sofort dein Wordpress-Erlebnis "
+"verbessert."
+
+#: ../inc/panels-lite/tpl/install.php:23
+msgid "<a href='#install'>Install Page Builder</a> now to get started."
+msgstr "Jetzt <a href='#install'>Page Builder installieren</a> um loszulegen."
+
+#: ../inc/panels.php:17
+msgid "Default Home"
+msgstr "Standard-Startseite"
+
+#: ../inc/panels.php:30
+msgid "Responsive Design"
+msgstr "Responsives Design"
+
+#: ../inc/panels.php:32 ../inc/panels.php:43 ../inc/panels.php:54
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#: ../inc/panels.php:41
+msgid "Drag and Drop Layouts"
+msgstr "Drag & Drop Layouts"
+
+#: ../inc/panels.php:52
+msgid "Professional Support"
+msgstr "Professional Support"
+
+#: ../inc/panels.php:83
+msgid "Custom Home Page"
+msgstr "Eigene Startseite"
+
+#: ../inc/panels.php:85
+msgid ""
+"This full-width headline was created using SiteOrigin's Page Builder and the "
+"Visual Editor widget."
+msgstr ""
+"Diese seitenbreite Schlagzeile wurde mit SiteOrigin Page Builder und dem "
+"Visual Editor-Widget erstellt."
+
+#: ../inc/settings.php:8
+msgid "Header"
+msgstr "Header"
+
+#: ../inc/settings.php:9
+msgid "Navigation"
+msgstr "Menüs"
+
+#: ../inc/settings.php:10
+msgid "Layout"
+msgstr "Layout"
+
+#: ../inc/settings.php:12
+msgid "Pages"
+msgstr "Seiten"
+
+#: ../inc/settings.php:13 ../inc/settings.php:296
+msgid "Blog"
+msgstr "Beitragsseite"
+
+#: ../inc/settings.php:14
+msgid "Comments"
+msgstr "Kommentare"
+
+#: ../inc/settings.php:15
+msgid "Social"
+msgstr "Netzwerke"
+
+#: ../inc/settings.php:17
+msgid "Site Text"
+msgstr "Texte Website"
+
+#: ../inc/settings.php:20
+msgid "Logo"
+msgstr "Logo"
+
+#: ../inc/settings.php:21
+msgid "Your own custom logo."
+msgstr "Dein eigenes Logo."
+
+#: ../inc/settings.php:24 ../upgrade/upgrade.php:23
+msgid "Retina Logo"
+msgstr "Retina Logo"
+
+#: ../inc/settings.php:25
+msgid "Choose Image"
+msgstr "Bild auswählen"
+
+#: ../inc/settings.php:26
+msgid "Set Logo"
+msgstr "Logo festlegen"
+
+#: ../inc/settings.php:27
+msgid ""
+"A double sized version of your logo for use on high pixel density displays. "
+"Must be used in addition to standard logo."
+msgstr ""
+"Die doppelt so große Version deines Logos für hochauflösende Displays. Wird "
+"zusätzlich zum Standard-Logo verwendet."
+
+#: ../inc/settings.php:30
+msgid "Tagline"
+msgstr "Untertitel"
+
+#: ../inc/settings.php:31
+msgid "Display the website tagline."
+msgstr "Untertitel der Website anzeigen."
+
+#: ../inc/settings.php:34
+msgid "Top Bar"
+msgstr "Kopfzeile"
+
+#: ../inc/settings.php:35
+msgid "Display the top bar."
+msgstr "Kopfzeile anzeigen."
+
+#: ../inc/settings.php:38
+msgid "Sticky Header"
+msgstr "Sticky-Header"
+
+#: ../inc/settings.php:39
+msgid "Sticks the header to the top of the screen as the user scrolls down."
+msgstr ""
+"Heftet den Header an der Oberkannte des Bildschirms fest, wenn der Benutzer "
+"herunterscrollt."
+
+#: ../inc/settings.php:42
+msgid "Sticky Header Opacity"
+msgstr "Sticky-Header Deckkraft"
+
+#: ../inc/settings.php:43
+msgid ""
+"Set the header background opacity once it turns sticky. 0.1 (lowest) - 1 "
+"(highest)."
+msgstr ""
+"Deckkraft des Header-Hintergrunds einstellen, wenn er am Bildschirmrand "
+"pinnt. 0.1 (niedrigste) - 1 (höchste).\n"
+
+#: ../inc/settings.php:46
+msgid "Sticky Header Scaling"
+msgstr "Sticky-Header Verkleinerung"
+
+#: ../inc/settings.php:47
+msgid "Scale the header down as it becomes sticky."
+msgstr "Header als Sticky-Header verkleinern."
+
+#: ../inc/settings.php:59
+msgid "Responsive Menu"
+msgstr "Responsives Menü"
+
+#: ../inc/settings.php:60
+msgid "Use a special responsive menu for small screen devices."
+msgstr "Verwende ein angepasstes responsives Menü für kleine Bildschirme."
+
+#: ../inc/settings.php:63
+msgid "Responsive Menu Collapse"
+msgstr "Responsives Menü einklappen"
+
+#: ../inc/settings.php:67
+msgid "Menu Search"
+msgstr "Menü-Suche"
+
+#: ../inc/settings.php:68
+msgid "Display a search icon in the main menu."
+msgstr "Icon für die Suche im Menü anzeigen."
+
+#: ../inc/settings.php:71
+msgid "Breadcrumb Trail"
+msgstr "Breadcrumb-Navigation"
+
+#: ../inc/settings.php:72
+msgid ""
+"Display a breadcrumb trail below the menu. De-activate this setting if using "
+"Yoast Breadcrumbs or Breadcrumb NavXT."
+msgstr ""
+"Breadcrumb-Navigation unter dem Menü anzeigen. Deaktiviere diese Einstellung,"
+" wenn du Yoast Breadcrumbs oder Breadcrumb NavXT verwendest."
+
+#: ../inc/settings.php:75
+msgid "Post Navigation"
+msgstr "Navigation Beiträge"
+
+#: ../inc/settings.php:76
+msgid "Display next/previous post navigation."
+msgstr "Navigation für Beiträge 'Vorheriger'/'Nächster' anzeigen."
+
+#: ../inc/settings.php:79
+msgid "Scroll to Top"
+msgstr "Nach oben scrollen"
+
+#: ../inc/settings.php:80
+msgid "Display the scroll to top button."
+msgstr "Nach-Oben-Knopf anzeigen."
+
+#: ../inc/settings.php:84
+msgid "Layout Bound"
+msgstr "Layout Rahmen"
+
+#: ../inc/settings.php:86
+msgid "Full Width"
+msgstr "Volle Breite"
+
+#: ../inc/settings.php:87
+msgid "Boxed"
+msgstr "Begrenzt"
+
+#: ../inc/settings.php:89
+msgid "Select a full width or boxed theme layout."
+msgstr "Wähle ein Layout mit voller oder begrenzter Breite aus."
+
+#: ../inc/settings.php:92
+msgid "Responsive Layout"
+msgstr "Responsives Layout"
+
+#: ../inc/settings.php:93
+msgid "Adapt the site layout for mobile devices."
+msgstr "Das Website-Layout für mobile Geräte anpassen."
+
+#: ../inc/settings.php:96
+msgid "FitVids.js"
+msgstr "FitVids.js"
+
+#: ../inc/settings.php:97
+msgid "Include FitVids.js for fluid width video embeds."
+msgstr "FitVids.js einfügen, um Videos mit fließender Breite einzubetten."
+
+#: ../inc/settings.php:101
+msgid "Home Slider"
+msgstr "Startseiten-Slider"
+
+#: ../inc/settings.php:104
+#, php-format
+msgid ""
+"This theme supports <a href=\"%s\" target=\"_blank\">Meta Slider</a>. <a "
+"href=\"%s\">Install it</a> for free to easily build beautiful responsive "
+"sliders - <a href=\"%s\" target=\"_blank\">read more</a>."
+msgstr ""
+"Diese Theme verwendet <a href=\"%s\" target=\"_blank\">Meta Slider</a>. <a "
+"href=\"%s\">Hier installieren</a>, um kostenlos tolle responsive Slider zu "
+"bauen - <a href=\"%s\" target=\"_blank\">mehr erfahren</a>."
+
+#: ../inc/settings.php:111 ../inc/settings.php:112
+msgid "Stretch Slider"
+msgstr "Slider strecken"
+
+#: ../inc/settings.php:113
+msgid "Stretch the home page slider to full screen width."
+msgstr "Den Startseiten-Slider über die gesamte Bildschirmbreite strecken."
+
+#: ../inc/settings.php:116
+msgid "Header Overlaps Slider"
+msgstr "Header über Slider"
+
+#: ../inc/settings.php:117
+msgid "Should the header overlap the home page slider?"
+msgstr "Soll der Header den Startseiten-Slider überlappen?"
+
+#: ../inc/settings.php:121
+msgid "Featured Image"
+msgstr "Beitragsbild"
+
+#: ../inc/settings.php:122
+msgid "Display the featured image on pages."
+msgstr "Das Beitragsbild auf Seiten anzeigen."
+
+#: ../inc/settings.php:126
+msgid "Blog Page Title"
+msgstr "Titel Beitragsseite"
+
+#: ../inc/settings.php:127
+msgid "The page title of the blog page."
+msgstr "Der Seitentitel auf der Beitragsseite."
+
+#: ../inc/settings.php:135
+msgid "Archive Featured Image"
+msgstr "Archiv Beitragsbild"
+
+#: ../inc/settings.php:136
+msgid "Display the featured image on the blog archive pages."
+msgstr "Beitragsbild in Blog Archivseiten anzeigen."
+
+#: ../inc/settings.php:139
+msgid "Archive Post Content"
+msgstr "Archiv Beitragsinhalt"
+
+#: ../inc/settings.php:141
+msgid "Full Post Content"
+msgstr "Ganzer Beitragsinhalt"
+
+#: ../inc/settings.php:142
+msgid "Post Excerpt"
+msgstr "Textauszug"
+
+#: ../inc/settings.php:144
+msgid ""
+"Choose how to display your post content on blog and archive pages. Select "
+"Full Post Content if using the \"more\" quicktag."
+msgstr ""
+"Wähle aus, wie deine Inhalte auf Beitrags- und Archivseiten angezeigt werden "
+"sollen. Wähle 'Ganzer Beitragsinhalt', wenn der 'Weiterlesen'-Link verwendet "
+"werden soll."
+
+#: ../inc/settings.php:147
+msgid "Read More Text"
+msgstr "Text 'Weiterlesen'"
+
+#: ../inc/settings.php:148
+msgid "The link text displayed when posts are split using the \"more\" quicktag."
+msgstr ""
+"Der Link-Text, der angezeigt wird, wenn Beiträge mit dem 'Weiterlesen'-Link "
+"aufgeteilt werden."
+
+#: ../inc/settings.php:157
+msgid "Post Excerpt Length"
+msgstr "Länge Textauszug"
+
+#: ../inc/settings.php:158
+msgid ""
+"If no manual post excerpt is added one will be generated. How many words "
+"should it be?"
+msgstr ""
+"Wenn kein manueller Textauszug hinzugefügt wurde, wird automatisch einer "
+"generiert. Wie viele Wörter soll er enthalten?"
+
+#: ../inc/settings.php:167
+msgid "Post Featured Image"
+msgstr "Beitragsbild"
+
+#: ../inc/settings.php:168
+msgid "Display the featured image on the single post page."
+msgstr "Beitragsbild auf der Einzelbeitrag Seite anzeigen."
+
+#: ../inc/settings.php:171
+msgid "Post Date"
+msgstr "Datum"
+
+#: ../inc/settings.php:172
+msgid "Display the post date."
+msgstr "Datum des Beitrags anzeigen."
+
+#: ../inc/settings.php:175
+msgid "Post Author"
+msgstr "Autor"
+
+#: ../inc/settings.php:176
+msgid "Display the post author."
+msgstr "Autor des Beitrags anzeigen."
+
+#: ../inc/settings.php:179
+msgid "Post Comment Count"
+msgstr "Kommentarzähler"
+
+#: ../inc/settings.php:180
+msgid "Display the post comment count."
+msgstr "Kommentarzähler anzeigen."
+
+#: ../inc/settings.php:183
+msgid "Post Categories"
+msgstr "Kategorien"
+
+#: ../inc/settings.php:184
+msgid "Display the post categories."
+msgstr "Kategorien anzeigen."
+
+#: ../inc/settings.php:187
+msgid "Post Tags"
+msgstr "Schlagworte"
+
+#: ../inc/settings.php:188
+msgid "Display the post tags."
+msgstr "Schlagworte anzeigen."
+
+#: ../inc/settings.php:191
+msgid "Edit Link"
+msgstr "Bearbeiten-Link"
+
+#: ../inc/settings.php:192
+msgid ""
+"Display an Edit link below post content. Visible if a user is logged in and "
+"allowed to edit the content. Also applies to Pages."
+msgstr ""
+"Bearbeiten-Link unter dem Beitragsinhalt anzeigen. Nur sichtbar für "
+"angemeldete Benutzer, die eine Berechtigung zum Bearbeiten des Inhalts haben."
+" Das gilt auch für Seiten."
+
+#: ../inc/settings.php:196
+msgid "Comment Form Allowed Tags"
+msgstr "Erlaubte Tags Kommentar-Formular"
+
+#: ../inc/settings.php:197
+msgid ""
+"Display the explanatory text below the comment form that lets users know "
+"which HTML tags may be used."
+msgstr ""
+"Einen Erklärungstext unter dem Kommentar-Formular anzeigen, der dem Benutzer "
+"sagt, welche HTML-Tags verwendet werden können."
+
+#: ../inc/settings.php:200 ../upgrade/upgrade.php:34
+msgid "Ajax Comments"
+msgstr "Ajax Kommentare"
+
+#: ../inc/settings.php:201
+msgid "Allow users to submit comments without a page re-load on submit."
+msgstr ""
+"Erlaubt Benutzern Kommentare zu schreiben, ohne dass die Seite beim Senden "
+"neu geladen wird."
+
+#: ../inc/settings.php:206 ../upgrade/upgrade.php:40
+msgid "Post Sharing"
+msgstr "Beiträge teilen"
+
+#: ../inc/settings.php:207
+msgid "Show icons to share your posts on Facebook, Twitter, Google+ and LinkedIn."
+msgstr ""
+"Zeigt Icons an, um deine Beiträge auf Facebook, Twitter, Google+ und "
+"LinkedIn zu teilen."
+
+#: ../inc/settings.php:211
+msgid "Twitter Handle"
+msgstr "Twitter Button"
+
+#: ../inc/settings.php:212
+msgid "This handle will be recommended after a user shares one of your posts."
+msgstr ""
+"Dieser Button wird vorgeschlagen, nachdem ein Benutzer einen deiner Beiträge "
+"geteilt hat."
+
+#: ../inc/settings.php:217
+msgid "Copyright Text"
+msgstr "Copyright-Text"
+
+#: ../inc/settings.php:218
+msgid ""
+"{site-title}, {copyright} and {year} can be used to display your website "
+"title, a copyright symbol and the current year."
+msgstr ""
+"{site-title}, {copyright} und {year} können verwendet werden, um deinen "
+"Websitenamen, ein Copyright-Symbol und das laufende Jahr anzuzeigen."
+
+#: ../inc/settings.php:221
+msgid "Enqueue JavaScript in Footer"
+msgstr "JavaScript am Footer anhängen"
+
+#: ../inc/settings.php:222
+msgid ""
+"Enqueue theme JavaScript files in the footer. Doing so can improve site load "
+"time."
+msgstr ""
+"Hänge Theme JavaScript-Dateien am Footer an. Dies kann die Ladezeit der "
+"Website verbessern."
+
+#: ../inc/settings.php:225
+msgid "Footer Attribution Link"
+msgstr "Hersteller-Link im Footer"
+
+#: ../inc/settings.php:226
+msgid "Remove the theme attribution link from your footer without editing any code."
+msgstr ""
+"Entferne den Theme Hersteller-Link im Footer ohne irgendwelchen Code zu "
+"bearbeiten."
+
+#: ../inc/settings.php:231
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: ../inc/settings.php:232
+msgid ""
+"A phone number displayed in the top bar. Use international dialing format to "
+"enable click to call."
+msgstr ""
+"Telefonnummer, die in der Kopfzeile angezeigt wird. Verwende für die "
+"automatische Wählfunktion das internationale Nummernformat."
+
+#: ../inc/settings.php:235
+msgid "Email Address"
+msgstr "E-Mail-Adresse"
+
+#: ../inc/settings.php:236
+msgid "An email address to be displayed in the top bar"
+msgstr "E-Mail-Adresse, die in der Kopfzeile angezeigt wird"
+
+#: ../inc/settings.php:239
+msgid "Comments Closed"
+msgstr "Kommentare geschlossen"
+
+#: ../inc/settings.php:240
+msgid "The text visitors see at the bottom of posts when comments are closed."
+msgstr ""
+"Der Text, den Besucher unter den Beiträgen sehen, wenn Kommentare "
+"geschlossen sind."
+
+#: ../inc/settings.php:243
+msgid "No Search Results Heading"
+msgstr "Überschrift Keine Suchergebnisse"
+
+#: ../inc/settings.php:244
+msgid "The search page heading visitors see when no results are found."
+msgstr ""
+"Die  Überschrift, die Besucher sehen, wenn keine Suchergebnisse gefunden "
+"wurden."
+
+#: ../inc/settings.php:247
+msgid "No Search Results Text"
+msgstr "Text Keine Suchergebnisse"
+
+#: ../inc/settings.php:248
+msgid "The search page text visitors see when no results are found."
+msgstr "Der  Text, den Besucher sehen, wenn keine Suchergebnisse gefunden wurden."
+
+#: ../inc/settings.php:251
+msgid "404 Error Page Heading"
+msgstr "Überschrift 404-Error-Page"
+
+#: ../inc/settings.php:252
+msgid "The heading visitors see when no page is found."
+msgstr "Die  Überschrift, die Besucher sehen, wenn keine Seite gefunden wurde."
+
+#: ../inc/settings.php:255
+msgid "404 Error Page Text"
+msgstr "Text 404-Error-Page"
+
+#: ../inc/settings.php:256
+msgid "The text visitors see no page is found."
+msgstr "Der Text, den Besucher sehen, wenn keine Seite gefunden wurde."
+
+#: ../inc/settings.php:300
+msgid "Continue reading"
+msgstr "Weiterlesen"
+
+#: ../inc/settings.php:316
+msgid "{copyright} {year} {site-title}"
+msgstr "{copyright} {year} {site-title}"
+
+#: ../inc/settings.php:320
+msgid "1800-345-6789"
+msgstr "0800-3456789"
+
+#: ../inc/settings.php:321
+msgid "info@yourdomain.com"
+msgstr "info@deinedomain.de"
+
+#: ../inc/settings.php:322
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: ../inc/settings.php:323
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: ../inc/settings.php:324
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Es tut uns leid, aber nichts passt zu Ihren Ihre Suchbegriffen. Bitte "
+"versuchen Sie es mit anderen Schlüsselwörtern."
+
+#: ../inc/settings.php:325
+msgid "Oops! That page can't be found."
+msgstr "Oops! Diese Seite wurde nicht gefunden."
+
+#: ../inc/settings.php:326
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Es scheint, dass hier nichts gefunden wurde. Benutze einen der "
+"untenstehenden Links oder die Suche."
+
+#: ../inc/template-tags.php:22
+msgid "Sticky"
+msgstr "Sticky"
+
+#: ../inc/template-tags.php:39
+msgid "Leave a comment"
+msgstr "Schreibe einen Kommentar"
+
+#: ../inc/template-tags.php:39
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: ../inc/template-tags.php:39
+#, c-format
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: ../inc/template-tags.php:58 ../inc/template-tags.php:62
+msgid ", "
+msgstr ", "
+
+#: ../inc/template-tags.php:107
+#, php-format
+msgid "%s Logo"
+msgstr "%s Logo"
+
+#: ../parts/bottom-bar.php:17
+#, php-format
+msgid "Theme by <a href=\"%s\" title=\"A Free WordPress Theme by Puro\">Puro</a>"
+msgstr ""
+"Theme von <a href=\"%s\" title=\"Ein kostenloses WordPress Theme von "
+"Puro\">Puro</a>"
+
+#: ../search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: ../searchform.php:13 ../searchform.php:14
+msgid "Search for:"
+msgstr "Suchen nach:"
+
+#: ../searchform.php:14 ../searchform.php:16
+msgid "Search"
+msgstr "Suchen"
+
+#: ../slider/demo.php:5 ../slider/demo.php:7 ../slider/demo.php:11
+#: ../slider/demo.php:13
+msgid "Demo Slide"
+msgstr "Demo-Slide"
+
+#: ../upgrade/upgrade.php:4
+msgid "Upgrade to Ultra Premium"
+msgstr "Upgrade zu Ultra Premium"
+
+#: ../upgrade/upgrade.php:5
+msgid ""
+"Hi, my name is Andrew Misplon, the developer of Ultra. If you've enjoyed "
+"Ultra Free then I know you're going to love Ultra Premium. Below you'll find "
+"an outline of the premium features."
+msgstr ""
+"Hallo, mein Name ist Andrew Misplon. Ich bin der Entwickler von Ultra. Wenn "
+"dir das kostenlose Ultra gefallen hat, wirst du Ultra Premium lieben. Unten "
+"findest du einen Überblick über die Premium-Features."
+
+#: ../upgrade/upgrade.php:13
+msgid "Premium Email Support"
+msgstr "Premium Email-Support"
+
+#: ../upgrade/upgrade.php:14
+msgid ""
+"Ultra Premium comes with priority email support. Let us know if you run into "
+"any challenges or simply need a hand getting setup. We're here to help."
+msgstr ""
+"Ultra Premium kommt mit bevorzugtem Email-Support. Lass uns wissen, wenn du "
+"in irgendwelche Probleme hineinläufst oder wenn du nur Unterstützung beim "
+"Setup benötigst. Wir sind hier, um zu helfen."
+
+#: ../upgrade/upgrade.php:18
+msgid "Name the Price"
+msgstr "Nenne den Preis"
+
+#: ../upgrade/upgrade.php:19
+msgid ""
+"You choose the price, so you can pay what Ultra is worth to you. Choose from "
+"one our suggested options or specify your own custom price. Regardless of "
+"what you pay you'll receive the same premium upgrade and be supporting the "
+"continued development of the theme."
+msgstr ""
+"Du nennst den Preis. So kannst du das zahlen, was dir Ultra wert ist. Wähle "
+"einen unserer vorgeschlagenen Optionen, oder mache einen eigenen "
+"Preisvorschlag. Unabhängig davon, was du zahlst, erhältst du das gleiche "
+"Premium-Upgrade und unterstützt die weitere Entwicklung des Themes."
+
+#: ../upgrade/upgrade.php:24
+msgid ""
+"Ultra Premium allows you to upload an additional, double-sized logo, to be "
+"displayed on Apple Retina and other high pixel density displays."
+msgstr ""
+"Ultra Premium ermöglicht es dir, ein zusätzliches, doppelt so großes Logo "
+"hochzuladen, dass auf Apple Retina und anderen Displays mit hoher "
+"Pixeldichte  angezeigt wird."
+
+#: ../upgrade/upgrade.php:28
+msgid "Enhanced Customizer Integration"
+msgstr "Verbesserte Integration des Customizers"
+
+#: ../upgrade/upgrade.php:29
+msgid ""
+"Make Ultra your own with enhanced Customizer integration. Choose from "
+"Google's huge selection of fonts; change colors, spacing and more all using "
+"the live-updating WordPress Customizer."
+msgstr ""
+"Richte dir Ultra mit einem besser integrierten Anpassen-Dialog ein. Wähle "
+"aus Googles riesiger Auswahl an Schriften; ändere Farben, Abstände und mehr -"
+" alle mit Live-Aktualisierung im Wordpress Anpassen-Dialog."
+
+#: ../upgrade/upgrade.php:35
+msgid ""
+"Remove page re-loads from your comment forms. This means that users can "
+"submit comments without losing their place in a gallery or interuppting a "
+"video."
+msgstr ""
+"Verhindere das Neuladen der Seite in deinem Kommentar-Formular. Dies "
+"bedeutet, dass Benutzer Kommentare senden können, ohne ihren Platz in einer "
+"Galerie zu verlieren oder ein Video zu unterbrechen."
+
+#: ../upgrade/upgrade.php:41
+msgid ""
+"Add sharing icons for Facebook, Twitter, Google Plus and LinkedIn to the "
+"bottom of your posts."
+msgstr ""
+"Füge Icons für Facebook, Twitter, Google+ und LinkedIn zum Teilen deiner "
+"Beiträge hinzu."
+
+#: ../upgrade/upgrade.php:46
+msgid "Remove Attribution Link"
+msgstr "Entferne den Hersteller-Link"
+
+#: ../upgrade/upgrade.php:47
+msgid ""
+"Ultra Premium gives you the option to remove the \"Theme by Puro\" text from "
+"your Footer without editing any code."
+msgstr ""
+"Ultra Premium gibt dir die Möglichkeit, die Zeile im Footer \"Thema von Puro\" "
+"ohne Bearbeitung von irgendwelchem Code zu entfernen."
+
+#: ../upgrade/upgrade.php:52
+msgid "Continued Updates"
+msgstr "Weitere Updates"
+
+#: ../upgrade/upgrade.php:53
+msgid ""
+"Your premium upgrade is a valuable contribution to the future development of "
+"Ultra, ensuring it's compatible with future versions of WordPress."
+msgstr ""
+"Dein Premium-Upgrade ist ein wertvoller Beitrag für die zukünftige "
+"Entwicklung von Ultra und stellt sicher, dass es auch mit zukünftigen "
+"Versionen von Wordpress kompatibel ist."
+
+#: ../upgrade/upgrade.php:92
+#, php-format
+msgid ""
+"Additional styles are available in <a href=\"%s\" target=\"_blank\">Ultra "
+"Premium</a>."
+msgstr ""
+"Zusätzliche Styles sind in <a href=\"%s\" target=\"_blank\">Ultra Premium</a> "
+"verfügbar."

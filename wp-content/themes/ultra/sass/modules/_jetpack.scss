@@ -1,0 +1,207 @@
+/*--------------------------------------------------------------
+15.1 - Contact Form
+--------------------------------------------------------------*/
+div[id*="contact-form"] {
+
+	div {
+
+		label {
+			margin-bottom: 0.25em;
+		}
+
+		input,
+		input[type='text'],
+		input[type='email'],
+		textarea {
+			margin-bottom: 1.33929em;
+		}
+	}
+
+	.contact-submit {
+		margin-top: 0.44643em;
+	}
+
+	h3 {
+		@include font-size(1.28571);
+		line-height: 1.38889em;
+		margin: 0;
+	}
+
+	blockquote {
+		@include font-size(1);
+		line-height: 1.78571em;
+	}
+}
+
+/*--------------------------------------------------------------
+15.2 - Contact Info
+--------------------------------------------------------------*/
+.widget_contact_info .contact-map {
+	margin-bottom: 0.89286em;
+}
+
+/*--------------------------------------------------------------
+15.3 - Display Posts
+--------------------------------------------------------------*/
+.widget_jetpack_display_posts_widget {
+
+	.jetpack-display-remote-posts h4 {
+		font-size: 1.0769em !important;
+		font-weight: normal;
+		margin: 0.89286em 0 !important;
+
+		~ a {
+			display: block;
+			margin-bottom: 0.89286em;
+		}
+	}
+
+	.jetpack-display-remote-posts p {
+		font-size: 100%;
+		line-height: 1.7857 !important;
+		margin: 0 0 1.78571em 0 !important;
+	}
+}
+
+/*--------------------------------------------------------------
+15.4 - Gravatar Profile
+--------------------------------------------------------------*/
+#secondary .widget-grofile {
+
+	h4 {
+		font-size: 1.0769em;
+		line-height: 1.7857;
+		margin: 0;
+	}
+}
+
+/*--------------------------------------------------------------
+15.5 - Infinite Scroll
+--------------------------------------------------------------*/
+// Globally hidden elements when Infinite Scroll is supported and in use.
+.infinite-scroll .posts-navigation, // Older / newer posts navigation (always hidden).
+.infinite-scroll .pagination, // Pagination navigation (always hidden).
+.infinite-scroll .woocommerce-pagination, // WooCommerce pagination navigation (always hidden).
+.infinite-scroll.neverending .site-footer { // Theme footer (when set to scrolling).
+	display: none;
+}
+
+// When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before.
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+15.6 - RSS Links
+--------------------------------------------------------------*/
+.widget_rss_links {
+
+	p {
+		margin: 0 0 0.89286em;
+
+		img {
+			display: block;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+15.7 - Subscriptions
+--------------------------------------------------------------*/
+p.comment-subscription-form {
+	margin-bottom: 0.25em;
+
+	input[type="checkbox"] {
+		display: inline-block !important;
+		@include font-size(0.92857);
+		line-height: normal;
+		vertical-align: middle;
+	}
+
+	label.subscribe-label {
+		display: inline-block !important;
+		@include font-size(0.92857);
+		font-weight: normal;
+		line-height: 1.92308em;
+		margin-bottom: 0;
+		vertical-align: middle;
+	}
+}
+
+#subscribe-email {
+	margin-bottom: 0.89286em;
+
+	input {
+		padding: 0.6429em 0.7143em !important;
+	}
+}
+
+/*--------------------------------------------------------------
+15.8 Related Posts
+--------------------------------------------------------------*/
+.site-content #jp-relatedposts {
+	border-top: 1px solid $color__background-hr; 
+	margin: 1.7857em 0;
+	padding-top: 2.67857em;
+
+	.jp-relatedposts-headline {
+		font-size: 1em;
+	}
+
+	.jp-relatedposts-items .jp-relatedposts-post {
+		opacity: 1;
+		margin: 0; 
+		padding: .3333em 0 0;
+		width: 31%;
+
+		@media (max-width: 780px) {
+			width: 100%;
+		}
+
+		&:first-child {
+			margin-right: 2.4%;
+
+			@media (max-width: 480px) {
+				margin-right: 0;
+			}
+		}
+
+		&:last-child {
+			margin-left: 2.4%;
+
+			@media (max-width: 480px) {
+				margin-left: 0;
+			}
+		}
+
+		&:only-child {
+			margin: 0;
+		}
+
+		h4 {
+			margin-top: 1em;
+			
+			a {
+				color: $color__text-headings;
+				font-weight: 700;
+				line-height: normal;
+
+				&:hover {
+					color: $color__text-main;
+					text-decoration: none;
+				}
+			}
+		}
+
+		&:hover .jp-relatedposts-post-title a {
+			text-decoration: none;
+		}
+
+		p {
+			color: $color__text-main-minus-3;
+			font-size: .8666rem;
+			margin-bottom: 0;
+			opacity: 1;
+		}
+	}
+}

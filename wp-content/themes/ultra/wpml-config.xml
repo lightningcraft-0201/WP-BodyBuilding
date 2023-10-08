@@ -1,0 +1,21 @@
+<wpml-config>  
+    <admin-texts>
+        <key name="theme_mods_ultra">
+            <key name="theme_settings_text_phone" />
+            <key name="theme_settings_text_email" />
+            <key name="theme_settings_text_comments_closed" />
+            <key name="theme_settings_text_no_results_heading" />
+            <key name="theme_settings_text_no_results_copy" />
+            <key name="theme_settings_text_404_heading" />
+            <key name="theme_settings_text_404_copy" />
+        </key>
+    </admin-texts>      
+</wpml-config>
+
+
+
+
+
+
+
+

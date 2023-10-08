@@ -1,0 +1,42 @@
+.alignleft {
+	display: inline;
+	float: left;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+}
+
+.aligncenter {
+	@include center-block;
+}
+
+.alignnone {
+	clear: both;
+	display: block;
+}
+
+blockquote.alignleft,
+figure.wp-caption.alignleft,
+img.alignleft {
+	margin: 0 1.78571em 1.78571em 0;
+}
+
+blockquote.alignright,
+figure.wp-caption.alignright,
+img.alignright {
+	margin: 0 0 1.78571em 1.78571em;
+}
+
+blockquote.aligncenter,
+figure.wp-caption.aligncenter,
+img.aligncenter {
+	margin-bottom: 1.78571em;
+}
+
+blockquote.alignnone,
+figure.wp-caption.alignnone,
+img.alignnone {
+	margin-bottom: 1.78571em;
+}

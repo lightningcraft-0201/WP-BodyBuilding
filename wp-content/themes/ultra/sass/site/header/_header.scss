@@ -1,0 +1,258 @@
+.site-header {
+	background: $color__background-body;
+	@include clearfix;
+	height: 112px;
+	position: relative;
+	-webkit-transform: translateZ(0);
+	transition: height .3s;
+	width: 100%;
+	z-index: 300;
+
+	@at-root body:not(.boxed) .site-header[style] {
+		width: 100% !important;
+	}
+
+	@at-root body.boxed .site-header:not(.is-stuck)[style] {
+		width: 100% !important;
+	}
+
+	@media (max-width: 600px) {
+		@at-root .admin-bar .site-header.is-stuck[style] {
+			top: 0 !important;
+		}
+	}
+
+	@media (min-width: 600px) and (max-width: 780px) {
+		@at-root .admin-bar .site-header.is-stuck[style] {
+			top: 46px !important;
+		}
+	}
+
+	&:before {
+		content: "";
+		display: block;
+		height: 100%;
+		position: absolute;
+		width: 100%;
+	}
+
+	// Header shadow.
+	&:after {
+		bottom: -6px;
+		box-shadow: rgba(0, 0, 0, 0.25) 0 6px 6px -6px inset;
+		content: "";
+		height: 6px;
+		position: absolute;
+		width: 100%;
+	}
+
+	.container {
+		height: 112px;
+
+		@at-root header:not(.responsive-menu).site-header .container {
+			height: auto;
+		}
+	}
+
+	.site-branding-container {
+		-webkit-box-align: center;
+		-moz-box-align: center;
+		box-align: center; // Old syntax.
+		-webkit-align-items: center;
+		-moz-align-items: center;
+		-ms-align-items: center;
+		-o-align-items: center;
+		align-items: center;
+		-ms-flex-align: center;
+		display: box; // Old syntax.
+		box-align: center;
+		box-sizing: border-box;
+		display: -webkit-box;
+		display: -moz-box;
+		display: box;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flexbox;
+		display: flex;
+		float: left;
+		height: 112px;
+		max-width: 35%;
+		overflow: hidden;
+		padding-right: 1.78571em;
+		transition: 0.3s;
+	}
+
+	.site-branding {
+		margin: auto;
+		zoom: 1;
+
+		h1.site-title,
+		p.site-title {
+			display: block;
+			color: #333;
+			@include font-size(2.57143);
+			font-family: $font__site-title;
+			font-weight: 300;
+			letter-spacing: -1px;
+			line-height: normal;
+			margin: 0;
+			transition: 0.3s;
+			zoom: 1;
+
+			@media (max-width: $extra-large) {
+				.resp & {
+					@include font-size(2.28571);
+					line-height: normal;
+				}
+			}
+
+			@media (max-width: $large) {
+				.resp & {
+					@include font-size(2);
+					line-height: normal;
+				}
+			}
+
+			@media (max-width: $medium) {
+				.resp & {
+					@include font-size(1.78571);
+					line-height: normal;
+				}
+			}
+
+			a {
+				color: #333;
+				text-decoration: none;
+
+				&:hover {
+					border-bottom: none;
+				}
+			}
+		}
+
+		// Display Site Title and Logo.
+		@at-root .logo-and-title .site-header .site-branding a:first-of-type {
+			display: inline-block;
+		}
+
+		h1.logo-title,
+		p.logo-title {
+			display: inline-block;
+			margin-left: 9px;
+		}
+
+		h2.site-description,
+		p.site-description {
+			@include font-size(1);
+			font-weight: normal;
+			line-height: normal;
+			margin: 0;
+
+			@media (max-width: $medium) {
+				.resp & {
+					@include font-size(0.92857);
+					line-height: normal;
+				}
+			}
+		}
+
+		// Site logo.
+		img {
+			display: block;
+			max-height: 92px;
+			-webkit-transform: translate3d(0, 0, 0); // Force hardware acceleration.
+			transition: 0.3s;
+			width: auto;
+		}
+	}
+
+	// Centered header layout.
+	@at-root body:not(.resp).header-centered .site-header {
+		
+		.container {
+			height: auto;
+		}
+
+		.site-branding-container {
+			float: none;
+			max-width: 100%;
+			padding-right: 0;
+			text-align: center;
+		}
+	}
+}
+
+// If the tagline is present, apply a smaller max-height to the logo image.
+.tagline .site-header .site-branding img {
+	max-height: 72px;
+}
+
+// If responsive menu is de-activated, center align the title below $medium and maintain the header width at $large.
+header:not(.responsive-menu) .site-branding-container {
+
+	@media (max-width: $large) {
+		.resp & {
+			max-width: 40%;
+		}
+	}
+
+	@media (max-width: $medium) {
+		.resp & {
+			float: none;
+			max-width: 100%;
+			text-align: center;
+		}
+	}
+}
+
+// If the header is set to overlap the slider apply an opacity of 0.9.
+.overlap .site-header:not(.is-stuck) {
+	background: rgba(255, 255, 255, 0.9);
+}
+
+// Set the defaults for when the header goes sticky.
+.site-header.is-stuck {
+	background: rgba(255, 255, 255, 1);
+	opacity: 1;
+	top: 0;
+}
+
+// Reduce the header height and header site branding container height when scaling is enabled and the header is sticky.
+.site-header.scale.scaled,
+.site-header.scale.scaled .site-branding-container {
+	height: 75px;
+}
+
+// Reduce the header container height when scaling is enabled and the header is sticky.
+.site-header.scale.scaled .container {
+	height: 75px; 
+}
+
+// If the Header Layout is set to centered, set a different header container height when scaled.
+.header-centered .site-header.scale.scaled .container {
+	height: 150px;
+}
+
+// If scaling is enabled and the header is sticky, reduce the logo max-width to 75%.
+.site-header.scale.scaled .site-branding-container .site-branding img {
+	max-width: 75%;
+}
+
+// If the tagline is enabled and the header is sticky, reduce the logo max-width to 55%.
+.tagline .site-header.scale.scaled .site-branding-container .site-branding img {
+	max-width: 55%;
+}
+
+// The site title when scaling is enabled and the header is sticky.
+.site-header.scale.scaled .site-branding h1.site-title,
+.site-header.scale.scaled .site-branding p.site-title {
+	@include font-size(2);
+	line-height: normal;
+}
+
+// The site description when scaling is enabled and the header is sticky.
+.site-header.scale.scaled .site-branding h2.site-description,
+.site-header.scale.scaled .site-branding p.site-description {
+	@include font-size(0.92857);
+	line-height: normal;
+}

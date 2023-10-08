@@ -1,0 +1,373 @@
+.comments-area {
+	margin-bottom: 1.78571em;
+	outline: none;
+
+	.comments-title {
+		border-color: $color__background-hr;
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		padding-top: 1.71429em;
+		padding-bottom: 1.71429em;
+	}
+
+	.comment-list {
+		list-style: none;
+		margin: 2.67857em 0;
+
+		.comment {
+			margin-top: 2.67857em;
+			margin-bottom: 2.67857em;
+			margin-left: 4.5714em;
+
+			.comment-body {
+				background: $color__background-lighter;
+				border-radius: 3px;
+				padding: 1.33929em;
+			}
+
+			&:first-of-type {
+				margin-top: 0;
+			}
+
+			&:last-of-type { 
+				margin-bottom: 0;
+			}
+
+			&:only-of-type {
+				margin-top: 2.67857em;
+				margin-bottom: 2.67857em;
+			}
+		}
+
+		@media (max-width: $small) {
+
+			.resp & {
+
+				.comment {
+					margin-left: 0;
+				}
+
+				> .comment {
+					margin-left: 4.5714em;
+				}
+			}
+		}
+
+		.pingback {
+			@include font-size(0.92857);
+			font-weight: 600;
+			line-height: 1.92308em;
+
+			a {
+				border-bottom: 1px dotted $color__link;
+				font-weight: 400;
+
+				&:hover {
+					border-bottom: 1px solid $color__link;
+				}
+			}
+
+			.edit-link {
+				color: $color__text-main-minus-3;
+
+				&:before {
+					content: "\0007C";
+					font-family: $font__icon;
+					font-weight: normal;
+					margin-left: 0.25em;
+				}
+
+				a {
+					border-bottom: none;
+					color: $color__text-main-minus-3;
+					margin-left: 0.25em;
+
+					&:hover {
+						border-bottom: none;
+						color: $color__link;
+					}
+				}
+			}
+		}
+	}
+
+	.comment-awaiting-moderation {
+		font-weight: 600;
+		margin-bottom: 0.89286em;
+
+		&:before {
+			content: "\f071";
+			font-family: $font__icon;
+			font-size: 0.8125em;
+			font-weight: normal;
+			margin-right: 0.4465em;
+		}
+	}
+
+	.comment-author {
+		float: left;
+		position: relative;
+		width: 50%;
+
+		.avatar {
+			border-radius: 6.8571em;
+			height: 3.4286em;
+			left: -5.8571em;
+			position: absolute;
+			top: -1.33929em;
+			width: 3.4286em;
+		}
+
+		.fn {
+
+			a {
+				color: $color__text-headings;
+
+				&:hover {
+					color: $color__link;
+				}
+			}
+		}
+
+		.says {
+			display: none;
+		}
+	}
+
+	.bypostauthor .fn:before {
+		content: "\f007";
+		font-family: $font__icon;
+		font-size: 0.8125em;
+		margin-right: 0.3125em;
+	}
+
+	.comment-metadata {
+		float: right;
+		@include font-size(0.85714);
+		line-height: 2.08333em;
+		text-align: right;
+		width: 50%;
+
+		a {
+			color: $color__text-main-minus-3;
+
+			&:hover {
+				color: $color__link;
+			}
+		}
+
+		.edit-link {
+
+			@media (max-width: $large) {
+
+				.resp & {
+					display: none;
+				}
+			}
+
+			&:before {
+				color: $color__text-main-minus-3;
+				content: "\0020\007c\0020";
+			}
+		}
+	}
+
+	.comment-content {
+		@include clearfix-after;
+		padding-top: 0.89286em;
+
+		a {
+			border-bottom: 1px dotted $color__link;
+			word-wrap: break-word;
+
+			&:hover {
+				border-bottom: 1px solid $color__link;
+			}
+		}
+
+		p {
+			@include font-size(0.92857);
+			line-height: 1.92308em;
+		}
+
+		p:last-of-type {
+			margin-bottom: 0.8438em;
+		}
+
+		blockquote {
+			background: $color__background-light;
+		}
+	}
+
+	.comment-list .children {
+		list-style: none;
+		margin: 0;
+
+		.comment:first-of-type {
+			margin-top: 2.67857em;
+		}
+	}
+
+	.reply {
+		margin-top: 0.89286em;
+
+		a.comment-reply-link, a.comment-reply-login  {
+			color: $color__text-main-minus-3;
+			@include font-size(0.85714);
+			line-height: 2.08333em;
+
+			&:hover {
+				color: $color__link;
+			}
+		}
+	}
+
+	.comment-respond {
+		border-color: $color__background-hr; 
+		border-top-style: solid;
+		border-top-width: 0.07143em;
+		margin-top: 1.78571em;
+  		padding-top: 1.71429em;
+
+		.comment-reply-title {
+			margin-bottom: 0.44643em;
+
+			small {
+				font-size: 100%;
+			}
+
+			#cancel-comment-reply-link {
+				font-size: 12px;
+				line-height: 0;
+				margin: 0 0 0 0.6522em;
+
+				&:before {
+					content: "\f00d";
+					font-family: $font__icon;
+					margin-right: 0.25em;
+				}
+			}
+		}
+
+		p:first-of-type  {
+			@include font-size(0.92857);
+			line-height: 1.92308em;
+
+			a:hover {
+				color: $color__text-main;
+			}
+		}
+
+		p.logged-in-as {
+			margin-bottom: 7px;
+
+			a {
+				color: $color__text-main-minus-3;
+
+				&:hover {
+					color: $color__link; 
+				}
+			}
+		}
+
+		.comment-form-author,
+		.comment-form-email,
+		.comment-form-url {
+			box-sizing: border-box;
+  			float: left;
+  			margin-bottom: 10px;
+ 			width: 32%;
+
+ 			@media (max-width: $small) {
+ 				.resp & {
+ 					width: 100%;
+ 				}
+ 			}
+
+ 			input {
+ 				width: 100%;
+ 			}
+		}
+
+		.comment-form-email {
+			margin: 0 2%;
+			
+ 			@media (max-width: $small) {
+ 				.resp & {
+ 					margin: 2% 0;
+ 				}
+ 			}
+		}
+
+		p.comment-form-comment {
+			clear: both;
+			margin-bottom: 0;
+			padding: 0 0 0.89286em;
+
+			label {
+				display: none;
+			}
+
+			textarea {
+				width: 100%;
+			}
+		}
+
+		.comment-form-cookies-consent {
+			clear: both;
+			display: block;
+			margin: 0 0 0.25em;
+
+			input {
+				display: inline-block !important;
+				@include font-size(0.92857);
+				line-height: normal;
+				margin-right: .25em;
+				vertical-align: middle;
+			}
+
+			label {
+				display: inline-block !important;
+				@include font-size(0.92857);
+				font-weight: normal;
+				line-height: 1.92308em;
+				margin-bottom: 0;
+				margin-left: 2px;
+			}
+		}
+
+		.form-allowed-tags {
+			color: $color__text-main-minus-3;
+			@include font-size(0.78571);
+			line-height: 2.27273em;
+		}
+
+		.form-submit .submit {
+			margin-top: 1.78571em;
+
+			@at-root .logged-in .comment-respond .form-submit .submit {
+				margin-top: 0;
+			}
+		}
+
+		p:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+
+	.no-comments {
+		font-weight: 600;
+		margin: 1.78571em 0 0;
+	}
+
+	.commentform-error {
+		background: $color__background-error;
+		border-radius: 3px;
+		color: $color__text-error;
+		display: block;
+		margin: 1.78571em 0;
+		padding: 1.33929em 0.89286em;
+	}
+}

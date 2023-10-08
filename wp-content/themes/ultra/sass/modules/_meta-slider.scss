@@ -1,0 +1,263 @@
+/*--------------------------------------------------------------
+9.1 - Theme Main Meta Slider
+--------------------------------------------------------------*/
+#main-slider {
+	background: $color__background-lighter;
+
+	.container {
+		padding: 0;
+	}
+
+	#metaslider-demo,
+	.metaslider {
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+@media (min-width: $large) {
+
+	.overlap #main-slider {
+		margin-top: -112px;
+	}
+
+	.header-centered.overlap #main-slider{
+		margin-top: -224px;
+	}
+}
+
+/*--------------------------------------------------------------
+9.2 - Meta Slider General
+--------------------------------------------------------------*/
+.metaslider,
+.entry-content .metaslider {
+
+	a,
+	a:hover,
+	ul a,
+	ul a:hover {
+		border-bottom: none;
+	}
+}
+
+.metaslider.metaslider-flex {
+	overflow: hidden;
+}
+
+/*--------------------------------------------------------------
+9.3 - Flexslider Resets
+--------------------------------------------------------------*/
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus {
+	outline: none;
+}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.flexslider a img {
+	border: none;
+	outline: none;
+}
+
+.flexslider {
+	margin: 0;
+	padding: 0;
+}
+
+.flexslider ul {
+	border: 0;
+	line-height: normal;
+	list-style-type: none;
+	list-style: none;
+	margin: 0;
+	max-height: none;
+	max-width: none;
+	padding: 0;
+}
+
+/*--------------------------------------------------------------
+9.4 - General Flexslider Styles
+--------------------------------------------------------------*/
+.flexslider:hover .flex-ultra-direction-nav li a {
+	opacity: 1;
+}
+
+.flexslider .slides > li {
+	background-position: center;
+	background-size: cover;
+	-webkit-backface-visibility: hidden;
+	display: none;
+	line-height: 0;
+}
+
+.flexslider .slides > img {
+	display: block;
+	width: 100%;
+}
+
+.slides:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+html[xmlns] .slides {
+	display: block;
+}
+
+* html .slides {
+	height: 1%;
+}
+
+.flexslider,
+.flexslider .slides {
+	position: relative;
+	zoom: 1;
+}
+
+/*--------------------------------------------------------------
+9.5 - Flexslider Captions
+--------------------------------------------------------------*/
+.flexslider .caption-wrap {
+	background: rgba(0, 0, 0, 0.7);
+	color: $color__text-main-minus-5;
+	font-size: 1rem;
+	line-height: normal;
+	text-align: center;
+
+	.caption {
+		line-height: normal;
+		padding: 8px 14px 9px;
+	}
+}
+
+.flexslider .slides > li .content img {
+	height: auto !important;
+	max-width: 100%;
+}
+
+#metaslider-demo .content,
+.ultra-slide-with-image .content {
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+#metaslider-demo .content img,
+.ultra-slide-with-image .content img {
+	height: auto;
+	max-width: 100%;
+}
+
+#metaslider-demo .ms-default-image,
+.ultra-slide-with-image .ms-default-image {
+	height: auto;
+	max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+9.6 - Ultra(Flex) Slider Theme Styles
+--------------------------------------------------------------*/
+#main-slider .flexslider:not(#metaslider-demo) ul.flex-ultra-direction-nav {
+	margin-bottom: -40px;
+}
+
+.flex-ultra-direction-nav a {
+	background: rgba(0, 0, 0, 0.4);
+	display: block;
+	cursor: pointer;
+	height: 48px;
+	opacity: 0;
+	margin: -24px 0 0 !important;
+	opacity: 0;
+	position: absolute;
+	text-indent: -9999px;
+	top: 50%;
+	transition: ease-in-out 0.3s;
+	width: 48px;
+	z-index: 200;
+
+	&:hover {
+		background: rgba(0, 0, 0, 1); 
+	}
+
+	&:before {
+		color: rgba(255, 255, 255, 0.9);
+		font-family: $font__icon;
+		font-size: 20px;
+		position: absolute;
+		text-indent: 0;
+		top: 50%;
+	}
+
+	&.flex-ultra-prev {
+		border-radius: 0 5px 5px 0;
+		left: 0;
+
+		&:before {
+			content: "\f104";
+			margin: -11px 23px 0 0;
+			right: 0;
+		}
+	}
+
+	&.flex-ultra-next {
+		border-radius: 5px 0 0 5px;
+		right: 0;
+
+		&:before {
+			content: "\f105";
+			left: 0;
+			margin: -11px 0 0 23px;
+		}
+	}
+}
+
+.flex-ultra-control-paging {
+	bottom: 12px;
+	height: 10px;
+	margin: 0  !important;
+	padding-right: 12px !important;
+	position: absolute;
+	right: 0;
+	z-index: 2;
+
+	li {
+		display: inline-block;
+		margin: 0 3px !important;
+		text-indent: -9999px;
+		zoom: 1;
+
+		a {
+			border: 2px solid rgba(255, 255, 255, 0.6) !important;
+			border-radius: 10px;
+			cursor: pointer;
+			display: block;
+			height: 10px;
+			width: 10px;
+
+			&:hover {
+				background: rgba(255, 255, 255, 1);
+				border-color: rgba(255, 255, 255, 1);
+			}
+
+			&.flex-ultra-active {
+				background: rgba(255, 255, 255, 1);
+				border-color: rgba(255, 255, 255, 1);
+				cursor: default;
+			}
+		}
+	}
+}

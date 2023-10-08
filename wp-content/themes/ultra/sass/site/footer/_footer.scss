@@ -1,0 +1,86 @@
+.site-footer {
+
+	.footer-main {
+		background: $color__background-darker;
+
+		h3 {
+			color: $color__text-main-minus-5;
+		}
+
+		.widget h3.widget-title ~ * {
+			color: $color__text-main-minus-3;
+		}
+
+		a {
+			color: $color__text-main-minus-3;
+
+			&:hover {
+				color: $color__text-main-minus-5;
+			}
+		}
+
+		input[type="text"],
+		input[type="email"],
+		input[type="url"],
+		input[type="tel"],
+		input[type="number"],
+		input[type="date"],
+		input[type="password"],
+		input[type="search"],
+		select[multiple],
+		textarea {
+			background: $color__background-dark-minus-2;
+			border-color: $color__background-dark-minus-1;
+		}
+
+		input[type="text"]:focus,
+		input[type="email"]:focus,
+		input[type="url"]:focus,
+		input[type="password"]:focus,
+		input[type="search"]:focus,
+		textarea:focus {
+			background: $color__background-dark-minus-3;
+			border: 1px solid $color__background-dark-minus-2;
+			color: $color__text-main-minus-4;
+		}
+
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"] {
+			background: $color__background-dark-minus-1;
+			color: $color__text-main-minus-3;
+		}
+
+		button:hover,
+		input[type="button"]:hover,
+		input[type="reset"]:hover,
+		input[type="submit"]:hover {
+			background: $color__background-dark-minus-2;
+		}
+
+		@for $i from 1 through 10 {
+			$margin: ($i - 1) * 2.5;
+
+			.widget-count-#{$i} {
+				width: (100% - $margin) / $i;
+			}
+		}
+
+		.widget {
+			box-sizing: content-box;
+			margin-right: 2.5%;
+			float: left;
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+
+			@media (max-width: $medium) {
+				@at-root .resp .site-footer .footer-main .widget {
+					width: 100%;
+				}
+			}
+		}
+	}
+}

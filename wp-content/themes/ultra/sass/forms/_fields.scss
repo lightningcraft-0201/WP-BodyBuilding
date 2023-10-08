@@ -1,0 +1,49 @@
+label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 0.25em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+input[type="search"],
+select[multiple],
+textarea {
+	background: $color__background-input;
+	border: 1px solid $color__background-hr;
+	border-radius: 3px;
+	color: $color__text-input;
+	line-height: normal;
+	max-width: 100%;
+	padding: 0.6429em 0.7143em;
+	transition: 0.3s;
+	-webkit-appearance: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+	background: $color__background-body;
+	color: $color__text-input-focus;
+	outline-style: none;
+}
+
+textarea {
+	box-sizing: border-box;
+	overflow: auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
+	padding: 0.7143em;
+	vertical-align: top; /* Improves readability and alignment in all browsers */
+}
+
+input[type="file"] {
+	@include font-size(1);
+	line-height: 0;
+}

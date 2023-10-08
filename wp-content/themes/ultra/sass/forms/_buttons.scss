@@ -1,0 +1,24 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background: rgba(8, 150, 254, 1);
+	border: none;
+	border-radius: 3px;
+	color: $color__background-body;
+	cursor: pointer; // Improves usability and consistency of cursor style between image-type 'input' and others.
+	-webkit-appearance: button; // Corrects inability to style clickable 'input' types in iOS.
+	font-weight: 400;
+	letter-spacing: .5px;
+	line-height: normal;
+	outline-style: none;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	background: rgba(8, 150, 254, 0.8);
+}

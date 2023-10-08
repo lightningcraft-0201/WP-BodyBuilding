@@ -1,0 +1,1051 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-25 17:06+0200\n"
+"PO-Revision-Date: Wed Feb 03 2016 16:49:32 GMT+0000 (GMT)\n"
+"Last-Translator: Misplon <amisplon@gmail.com>\n"
+"Language-Team: \n"
+"Language: Swedish\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Loco-Target-Locale: sv_SE"
+
+#: ../404.php:31
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: ../404.php:48
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:178
+msgid "Browse:"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:179 ../inc/settings.php:11
+msgid "Home"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:180
+msgid "404 Not Found"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:181 ../inc/template-tags.php:120
+msgid "Archives"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:183
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:185 ../inc/extras.php:77
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:187
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:189
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:716
+msgid "g:i a"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:733
+msgid "i"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:750
+msgid "g a"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:766 ../breadcrumbs/breadcrumbs.php:795
+#: ../breadcrumbs/breadcrumbs.php:822 ../breadcrumbs/breadcrumbs.php:849
+#: ../breadcrumbs/breadcrumbs.php:1036 ../inc/template-tags.php:88
+msgid "Y"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:767 ../breadcrumbs/breadcrumbs.php:823
+#: ../breadcrumbs/breadcrumbs.php:1040
+msgid "F"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:768 ../breadcrumbs/breadcrumbs.php:1044
+msgid "j"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:796
+msgid "W"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:1135 ../breadcrumbs/breadcrumbs.php:1171
+#: ../breadcrumbs/breadcrumbs.php:1188 ../breadcrumbs/breadcrumbs.php:1219
+#: ../extras/settings/settings.php:564 ../inc/template-tags.php:64
+msgid "Edit"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:1163
+msgid "Split"
+msgstr ""
+
+#: ../breadcrumbs/breadcrumbs.php:1167
+msgid "Merge"
+msgstr ""
+
+#: ../comments.php:28
+msgid "One Comment"
+msgstr ""
+
+#: ../comments.php:35 ../comments.php:55
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:37 ../comments.php:57
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:38 ../comments.php:58
+msgid "Newer Comments"
+msgstr ""
+
+#: ../content-none.php:13
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:19 ../inc/settings.php:259
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:28 ../inc/settings.php:260
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../content-none.php:33
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../content-page.php:20 ../content-single.php:18 ../content.php:34
+msgid "Pages:"
+msgstr ""
+
+#: ../demo/carousel/carousel.php:3
+msgid "Latest Posts"
+msgstr ""
+
+#: ../demo/carousel/carousel.php:5
+msgid "Next"
+msgstr ""
+
+#: ../demo/carousel/carousel.php:6
+msgid "Previous"
+msgstr ""
+
+#: ../extras/plugin-activation/plugin-activation.php:7
+#: ../extras/plugin-activation/plugin-activation.php:8
+msgid "Install Theme Plugin"
+msgstr ""
+
+#: ../extras/plugin-activation/plugin-activation.php:74
+#: ../inc/panels-lite/inc/plugin-activation.php:77
+#, php-format
+msgid "Installing %s"
+msgstr ""
+
+#: ../extras/settings/message.php:3
+#, php-format
+msgid ""
+"Hi! I'm Andrew from Puro. I hope you enjoy using %s. Sign up to <a href='%s' "
+"target='_blank'>our newsletter</a> if you'd like more free themes and "
+"exclusive offers."
+msgstr ""
+
+#: ../extras/settings/page.php:6 ../extras/settings/settings.php:76
+#, php-format
+msgid "%s Theme Settings"
+msgstr ""
+
+#: ../extras/settings/page.php:16 ../extras/settings/page.php:98
+msgid "Save Settings"
+msgstr ""
+
+#: ../extras/settings/page.php:17 ../extras/settings/page.php:74
+msgid "Preview"
+msgstr ""
+
+#: ../extras/settings/page.php:19
+msgid "Theme Support Forum"
+msgstr ""
+
+#: ../extras/settings/page.php:34
+#, php-format
+msgid "%s Theme Settings Preview"
+msgstr ""
+
+#: ../extras/settings/page.php:76
+msgid "Continue"
+msgstr ""
+
+#: ../extras/settings/page.php:91
+#, php-format
+msgid "Step %s of %s"
+msgstr ""
+
+#: ../extras/settings/page.php:99
+msgid "Close"
+msgstr ""
+
+#: ../extras/settings/settings.php:77
+msgid "Theme Settings"
+msgstr ""
+
+#: ../extras/settings/settings.php:107 ../extras/settings/settings.php:154
+msgid "Theme Tour"
+msgstr ""
+
+#: ../extras/settings/settings.php:121
+msgid "Please update to the latest version of WordPress to use theme settings."
+msgstr ""
+
+#: ../extras/settings/settings.php:151 ../extras/settings/settings.php:479
+msgid "Premium"
+msgstr ""
+
+#: ../extras/settings/settings.php:376
+msgid "Enabled"
+msgstr ""
+
+#: ../extras/settings/settings.php:433
+#, php-format
+msgid "You need to <a href=\"%s\">upgrade</a> to WordPress 3.5 to use media fields"
+msgstr ""
+
+#: ../extras/settings/settings.php:451
+msgid "Choose Media"
+msgstr ""
+
+#: ../extras/settings/settings.php:452
+msgid "Set Media"
+msgstr ""
+
+#: ../extras/settings/settings.php:466
+msgid "Remove"
+msgstr ""
+
+#: ../extras/settings/settings.php:479
+#, php-format
+msgid ""
+"Only available in <strong>%s</strong> - <strong class=\"upgrade\">Upgrade "
+"Now</strong>"
+msgstr ""
+
+#: ../extras/settings/settings.php:496
+msgid "Select Images"
+msgstr ""
+
+#: ../extras/settings/settings.php:508 ../inc/metaslider.php:52
+msgid "None"
+msgstr ""
+
+#: ../extras/settings/settings.php:535
+#, php-format
+msgid "This field requires the %s plugin. "
+msgstr ""
+
+#: ../extras/settings/settings.php:538
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Install %s</a> now. "
+msgstr ""
+
+#: ../extras/settings/settings.php:572
+msgid "Unknown Field Type"
+msgstr ""
+
+#: ../extras/settings/settings.php:703
+msgid "Settings saved."
+msgstr ""
+
+#: ../extras/settings/settings.php:722
+#, php-format
+msgid ""
+"Read %s's <a href='%s' target='_blank'>theme documentation</a> for help with "
+"these settings."
+msgstr ""
+
+#: ../extras/settings/settings.php:729
+msgid "Settings Help"
+msgstr ""
+
+#: ../extras/settings/settings.php:779
+msgid "Set Media File"
+msgstr ""
+
+#: ../extras/settings/settings.php:830
+msgid "Meta Slider: "
+msgstr ""
+
+#: ../extras/settings/settings.php:840
+msgid "Revolution Slider: "
+msgstr ""
+
+#: ../extras/settings/settings.php:850
+msgid "LayerSlider: "
+msgstr ""
+
+#: ../functions.php:86
+msgid "Top Bar Menu"
+msgstr ""
+
+#: ../functions.php:87
+msgid "Top Bar Social Menu"
+msgstr ""
+
+#: ../functions.php:88
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:89
+msgid "Footer Social Menu"
+msgstr ""
+
+#: ../functions.php:148
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions.php:157 ../inc/settings.php:15
+msgid "Footer"
+msgstr ""
+
+#: ../functions.php:403
+msgid "Back To Top"
+msgstr ""
+
+#: ../header.php:21
+msgid "Skip to content"
+msgstr ""
+
+#: ../inc/metaslider.php:5
+msgid "Ultra (Flex)"
+msgstr ""
+
+#: ../inc/metaslider.php:54
+msgid "Demo Slider"
+msgstr ""
+
+#: ../inc/metaslider.php:64
+msgid "Slider: "
+msgstr ""
+
+#: ../inc/metaslider.php:89
+msgid "Page Meta Slider"
+msgstr ""
+
+#: ../inc/metaslider.php:114
+msgid "Display Page Meta Slider"
+msgstr ""
+
+#: ../inc/metaslider.php:124
+msgid "Stretch Page Meta Slider"
+msgstr ""
+
+#: ../inc/metaslider.php:128
+msgid "Overlap Header"
+msgstr ""
+
+#: ../inc/panels-lite/inc/plugin-activation.php:10
+#: ../inc/panels-lite/inc/plugin-activation.php:11
+msgid "Install Page Builder Plugin"
+msgstr ""
+
+#: ../inc/panels-lite/inc/plugin-activation.php:110
+#: ../inc/panels-lite/panels-lite.php:28 ../inc/panels-lite/panels-lite.php:74
+msgid "Page Builder"
+msgstr ""
+
+#: ../inc/panels-lite/panels-lite.php:15
+msgid "Custom Home Page Builder"
+msgstr ""
+
+#: ../inc/panels-lite/panels-lite.php:16
+msgid "Home Page"
+msgstr ""
+
+#: ../inc/panels-lite/panels-lite.php:76
+msgid "Install"
+msgstr ""
+
+#: ../inc/panels-lite/panels-lite.php:77
+msgid "Cancel"
+msgstr ""
+
+#: ../inc/panels-lite/panels-lite.php:79
+msgid "Refresh this page after you've installed Page Builder."
+msgstr ""
+
+#: ../inc/panels-lite/panels-lite.php:461
+#, php-format
+msgid ""
+"<a href=\"%s\">Install Page Builder</a> to <a href=\"%s\">edit</a> this default "
+"home page."
+msgstr ""
+
+#: ../inc/panels-lite/panels-lite.php:467
+#, php-format
+msgid ""
+"<a href='%s'>Disable this page</a> if you'd prefer to have a standard blog "
+"home."
+msgstr ""
+
+#: ../inc/panels-lite/tpl/admin-home-page.php:13
+msgid "ON"
+msgstr ""
+
+#: ../inc/panels-lite/tpl/admin-home-page.php:14
+msgid "OFF"
+msgstr ""
+
+#: ../inc/panels-lite/tpl/admin-home-page.php:20
+msgid ""
+"This theme is compatible with SiteOrigin's powerful drag and drop page "
+"builder."
+msgstr ""
+
+#: ../inc/panels-lite/tpl/admin-home-page.php:21
+msgid ""
+"It allows you to build responsive columnized pages, populated with the "
+"widgets you know and love."
+msgstr ""
+
+#: ../inc/panels-lite/tpl/admin-home-page.php:22
+msgid ""
+"It's a <strong>free plugin</strong> that works well with most WordPress "
+"themes."
+msgstr ""
+
+#: ../inc/panels-lite/tpl/admin-home-page.php:23
+msgid ""
+"If you don't want to use it, click the toggle switch above to disable the "
+"default home page."
+msgstr ""
+
+#: ../inc/panels-lite/tpl/admin-home-page.php:27
+msgid "Install Page Builder"
+msgstr ""
+
+#: ../inc/panels-lite/tpl/install.php:7
+msgid "SiteOrigin Page Builder"
+msgstr ""
+
+#: ../inc/panels-lite/tpl/install.php:8
+msgid "The Free Responsive WordPress Page Builder"
+msgstr ""
+
+#: ../inc/panels-lite/tpl/install.php:17
+msgid ""
+"Page Builder by SiteOrigin is the most popular page creation plugin for "
+"WordPress. It makes it easy to create responsive column based content, using "
+"the widgets you know and love. Your content will accurately adapt to all "
+"mobile devices, ensuring your site is mobile-ready."
+msgstr ""
+
+#: ../inc/panels-lite/tpl/install.php:19
+msgid ""
+"We've created an intuitive interface that looks just like WordPress itself. "
+"It's easy to learn, so you'll be building beautiful, responsive content in "
+"no time."
+msgstr ""
+
+#: ../inc/panels-lite/tpl/install.php:22
+msgid "It's a free plugin that will instantly enhance your WordPress experience."
+msgstr ""
+
+#: ../inc/panels-lite/tpl/install.php:23
+msgid "<a href='#install'>Install Page Builder</a> now to get started."
+msgstr ""
+
+#: ../inc/panels.php:17
+msgid "Default Home"
+msgstr ""
+
+#: ../inc/panels.php:30
+msgid "Responsive Design"
+msgstr ""
+
+#: ../inc/panels.php:32 ../inc/panels.php:43 ../inc/panels.php:54
+msgid "Read More"
+msgstr ""
+
+#: ../inc/panels.php:41
+msgid "Drag and Drop Layouts"
+msgstr ""
+
+#: ../inc/panels.php:52
+msgid "Professional Support"
+msgstr ""
+
+#: ../inc/panels.php:83
+msgid "Custom Home Page"
+msgstr ""
+
+#: ../inc/panels.php:85
+msgid ""
+"This full-width headline was created using SiteOrigin's Page Builder and the "
+"Visual Editor widget."
+msgstr ""
+
+#: ../inc/settings.php:8
+msgid "Header"
+msgstr ""
+
+#: ../inc/settings.php:9
+msgid "Navigation"
+msgstr ""
+
+#: ../inc/settings.php:10
+msgid "Layout"
+msgstr ""
+
+#: ../inc/settings.php:12
+msgid "Pages"
+msgstr ""
+
+#: ../inc/settings.php:13 ../inc/settings.php:239
+msgid "Blog"
+msgstr ""
+
+#: ../inc/settings.php:14
+msgid "Comments"
+msgstr ""
+
+#: ../inc/settings.php:16
+msgid "Site Text"
+msgstr ""
+
+#: ../inc/settings.php:19
+msgid "Logo"
+msgstr ""
+
+#: ../inc/settings.php:20
+msgid "Your own custom logo."
+msgstr ""
+
+#: ../inc/settings.php:23
+msgid "Tagline"
+msgstr ""
+
+#: ../inc/settings.php:24
+msgid "Display the website tagline."
+msgstr ""
+
+#: ../inc/settings.php:27
+msgid "Top Bar"
+msgstr ""
+
+#: ../inc/settings.php:28
+msgid "Display the top bar."
+msgstr ""
+
+#: ../inc/settings.php:31
+msgid "Sticky Header"
+msgstr ""
+
+#: ../inc/settings.php:32
+msgid "Sticks the header to the top of the screen as the user scrolls down."
+msgstr ""
+
+#: ../inc/settings.php:35
+msgid "Sticky Header Opacity"
+msgstr ""
+
+#: ../inc/settings.php:36
+msgid ""
+"Set the header background opacity once it turns sticky. 0.1 (lowest) - 1 "
+"(highest)."
+msgstr ""
+
+#: ../inc/settings.php:39
+msgid "Sticky Header Scaling"
+msgstr ""
+
+#: ../inc/settings.php:40
+msgid "Scale the header down as it becomes sticky."
+msgstr ""
+
+#: ../inc/settings.php:44
+msgid "Menu Search"
+msgstr ""
+
+#: ../inc/settings.php:45
+msgid "Display a search icon in the main menu."
+msgstr ""
+
+#: ../inc/settings.php:48
+msgid "Responsive Menu"
+msgstr ""
+
+#: ../inc/settings.php:49
+msgid "Use a special responsive menu for small screen devices."
+msgstr ""
+
+#: ../inc/settings.php:52
+msgid "Responsive Menu Collapse"
+msgstr ""
+
+#: ../inc/settings.php:53
+msgid "The pixel resolution when the primary menu collapses into a responsive menu."
+msgstr ""
+
+#: ../inc/settings.php:56
+msgid "Breadcrumb Trail"
+msgstr ""
+
+#: ../inc/settings.php:57
+msgid ""
+"Display a breadcrumb trail below the menu. De-activate this setting if using "
+"Yoast Breadcrumbs or Breadcrumb NavXT."
+msgstr ""
+
+#: ../inc/settings.php:60
+msgid "Post Navigation"
+msgstr ""
+
+#: ../inc/settings.php:61
+msgid "Display next/previous post navigation."
+msgstr ""
+
+#: ../inc/settings.php:64
+msgid "Scroll to Top"
+msgstr ""
+
+#: ../inc/settings.php:65
+msgid "Display the scroll to top button."
+msgstr ""
+
+#: ../inc/settings.php:69
+msgid "Responsive Layout"
+msgstr ""
+
+#: ../inc/settings.php:70
+msgid "Adapt the site layout for mobile devices."
+msgstr ""
+
+#: ../inc/settings.php:73
+msgid "Enable FitVids.js"
+msgstr ""
+
+#: ../inc/settings.php:74
+msgid "Include FitVids.js for fluid width video embeds."
+msgstr ""
+
+#: ../inc/settings.php:78
+msgid "Home Slider"
+msgstr ""
+
+#: ../inc/settings.php:81
+#, php-format
+msgid ""
+"This theme supports <a href=\"%s\" target=\"_blank\">Meta Slider</a>. <a "
+"href=\"%s\">Install it</a> for free to easily build beautiful responsive "
+"sliders - <a href=\"%s\" target=\"_blank\">read more</a>."
+msgstr ""
+
+#: ../inc/settings.php:88 ../inc/settings.php:89
+msgid "Stretch Slider"
+msgstr ""
+
+#: ../inc/settings.php:90
+msgid "Stretch the home page slider to full screen width."
+msgstr ""
+
+#: ../inc/settings.php:93
+msgid "Header Overlaps Slider"
+msgstr ""
+
+#: ../inc/settings.php:94
+msgid "Should the header overlap the home page slider?"
+msgstr ""
+
+#: ../inc/settings.php:98
+msgid "Featured Image"
+msgstr ""
+
+#: ../inc/settings.php:99
+msgid "Display the featured image on pages."
+msgstr ""
+
+#: ../inc/settings.php:103
+msgid "Blog Page Title"
+msgstr ""
+
+#: ../inc/settings.php:104
+msgid "The page title of the blog page."
+msgstr ""
+
+#: ../inc/settings.php:107
+msgid "Archive Featured Image"
+msgstr ""
+
+#: ../inc/settings.php:108
+msgid "Display the featured image on the blog archive pages."
+msgstr ""
+
+#: ../inc/settings.php:111
+msgid "Archive Post Content"
+msgstr ""
+
+#: ../inc/settings.php:113
+msgid "Full Post Content"
+msgstr ""
+
+#: ../inc/settings.php:114
+msgid "Post Excerpt"
+msgstr ""
+
+#: ../inc/settings.php:116
+msgid ""
+"Choose how to display your post content on blog and archive pages. Select "
+"Full Post Content if using the \"more\" quicktag."
+msgstr ""
+
+#: ../inc/settings.php:119
+msgid "Read More Text"
+msgstr ""
+
+#: ../inc/settings.php:120
+msgid "The link text displayed when posts are split using the \"more\" quicktag."
+msgstr ""
+
+#: ../inc/settings.php:129
+msgid "Post Excerpt Length"
+msgstr ""
+
+#: ../inc/settings.php:130
+msgid ""
+"If no manual post excerpt is added one will be generated. How many words "
+"should it be?"
+msgstr ""
+
+#: ../inc/settings.php:139
+msgid "Post Featured Image"
+msgstr ""
+
+#: ../inc/settings.php:140
+msgid "Display the featured image on the single post page."
+msgstr ""
+
+#: ../inc/settings.php:143
+msgid "Post Date"
+msgstr ""
+
+#: ../inc/settings.php:144
+msgid "Display the post date."
+msgstr ""
+
+#: ../inc/settings.php:147
+msgid "Post Author"
+msgstr ""
+
+#: ../inc/settings.php:148
+msgid "Display the post author."
+msgstr ""
+
+#: ../inc/settings.php:151
+msgid "Post Comment Count"
+msgstr ""
+
+#: ../inc/settings.php:152
+msgid "Display the post comment count."
+msgstr ""
+
+#: ../inc/settings.php:155
+msgid "Post Categories"
+msgstr ""
+
+#: ../inc/settings.php:156
+msgid "Display the post categories."
+msgstr ""
+
+#: ../inc/settings.php:159
+msgid "Post Tags"
+msgstr ""
+
+#: ../inc/settings.php:160
+msgid "Display the post tags."
+msgstr ""
+
+#: ../inc/settings.php:163
+msgid "Edit Link"
+msgstr ""
+
+#: ../inc/settings.php:164
+msgid ""
+"Display an Edit link below post content. Visible if a user is logged in and "
+"allowed to edit the content. Also applies to Pages."
+msgstr ""
+
+#: ../inc/settings.php:168
+msgid "Comment Form Allowed Tags"
+msgstr ""
+
+#: ../inc/settings.php:169
+msgid ""
+"Display the explanatory text below the comment form that lets users know "
+"which HTML tags may be used."
+msgstr ""
+
+#: ../inc/settings.php:173
+msgid "Copyright Text"
+msgstr ""
+
+#: ../inc/settings.php:174
+msgid ""
+"{site-title}, {copyright} and {year} can be used to display your website "
+"title, a copyright symbol and the current year."
+msgstr ""
+
+#: ../inc/settings.php:178
+msgid "Phone Number"
+msgstr ""
+
+#: ../inc/settings.php:179
+msgid ""
+"A phone number displayed in the top bar. Use international dialing format to "
+"enable click to call."
+msgstr ""
+
+#: ../inc/settings.php:182
+msgid "Email Address"
+msgstr ""
+
+#: ../inc/settings.php:183
+msgid "An email address to be displayed in the top bar"
+msgstr ""
+
+#: ../inc/settings.php:186
+msgid "Comments Closed"
+msgstr ""
+
+#: ../inc/settings.php:187
+msgid "The text visitors see at the bottom of posts when comments are closed."
+msgstr ""
+
+#: ../inc/settings.php:190
+msgid "No Search Results Heading"
+msgstr ""
+
+#: ../inc/settings.php:191
+msgid "The search page heading visitors see when no results are found."
+msgstr ""
+
+#: ../inc/settings.php:194
+msgid "No Search Results Text"
+msgstr ""
+
+#: ../inc/settings.php:195
+msgid "The search page text visitors see when no results are found."
+msgstr ""
+
+#: ../inc/settings.php:198
+msgid "404 Error Page Heading"
+msgstr ""
+
+#: ../inc/settings.php:199
+msgid "The heading visitors see when no page is found."
+msgstr ""
+
+#: ../inc/settings.php:202
+msgid "404 Error Page Text"
+msgstr ""
+
+#: ../inc/settings.php:203
+msgid "The text visitors see no page is found."
+msgstr ""
+
+#: ../inc/settings.php:242
+msgid "Continue reading"
+msgstr ""
+
+#: ../inc/settings.php:254
+msgid "{copyright} {year} {site-title}"
+msgstr ""
+
+#: ../inc/settings.php:256
+msgid "1800-345-6789"
+msgstr ""
+
+#: ../inc/settings.php:257
+msgid "info@yourdomain.com"
+msgstr ""
+
+#: ../inc/settings.php:258
+msgid "Comments are closed."
+msgstr ""
+
+#: ../inc/settings.php:261
+msgid "Oops! That page can't be found."
+msgstr ""
+
+#: ../inc/settings.php:262
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: ../inc/template-tags.php:20
+msgid "Sticky"
+msgstr ""
+
+#: ../inc/template-tags.php:37
+msgid "Leave a comment"
+msgstr ""
+
+#: ../inc/template-tags.php:37
+msgid "1 Comment"
+msgstr ""
+
+#: ../inc/template-tags.php:37
+#, c-format
+msgid "% Comments"
+msgstr ""
+
+#: ../inc/template-tags.php:56 ../inc/template-tags.php:60
+msgid ", "
+msgstr ""
+
+#: ../inc/template-tags.php:82
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:84
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:86
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:88
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:90
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:90
+msgid "F Y"
+msgstr ""
+
+#: ../inc/template-tags.php:92
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:92
+msgid "F j, Y"
+msgstr ""
+
+#: ../inc/template-tags.php:95
+msgid "Asides"
+msgstr ""
+
+#: ../inc/template-tags.php:97
+msgid "Galleries"
+msgstr ""
+
+#: ../inc/template-tags.php:99
+msgid "Images"
+msgstr ""
+
+#: ../inc/template-tags.php:101
+msgid "Videos"
+msgstr ""
+
+#: ../inc/template-tags.php:103
+msgid "Quotes"
+msgstr ""
+
+#: ../inc/template-tags.php:105
+msgid "Links"
+msgstr ""
+
+#: ../inc/template-tags.php:107
+msgid "Statuses"
+msgstr ""
+
+#: ../inc/template-tags.php:109
+msgid "Audio"
+msgstr ""
+
+#: ../inc/template-tags.php:111
+msgid "Chats"
+msgstr ""
+
+#: ../inc/template-tags.php:114
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: ../inc/template-tags.php:118
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: ../inc/template-tags.php:199
+#, php-format
+msgid "%s Logo"
+msgstr ""
+
+#: ../parts/bottom-bar.php:12
+#, php-format
+msgid " - Theme by %1$s"
+msgstr ""
+
+#: ../search.php:14
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:11 ../searchform.php:12
+msgid "Search for:"
+msgstr "Söka efter..."
+
+#: ../searchform.php:12 ../searchform.php:14
+msgid "Search"
+msgstr "Sök"
+
+#: ../slider/demo.php:5 ../slider/demo.php:7 ../slider/demo.php:11
+#: ../slider/demo.php:13
+msgid "Demo Slide"
+msgstr ""

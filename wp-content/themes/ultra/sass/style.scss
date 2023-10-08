@@ -1,0 +1,229 @@
+/*
+Theme Name: Ultra
+Author: Puro
+Author URI: https://purothemes.com/
+Theme URI: https://purothemes.com/themes/ultra/
+Description: Use it to launch your business site, blog or portfolio. Create detailed layouts without writing a line of code using SiteOrigin's drag and drop Page Builder plugin. Start your pages off with a bold full-width Smart Slider and keep users engaged with a sticky menu. Fast, responsive, SEO optimized and backed by professional level support, Ultra is ready for your next project. For assistance, check out our <a href="http://purothemes.com/documentation/">theme documentation</a> (http://purothemes.com/documentation/) or ask a question on our <a href="https://purothemes.com/support/">support forum</a> (https://purothemes.com/support/).
+Version: 1.6.4
+Tested Up To: 5.9
+Requires At Least: 4.7
+Requires PHP: 5.6.20
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ultra
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-menu, custom-logo, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce
+*/
+
+/*--------------------------------------------------------------
+>>> IMPORTANT NOTICE:
+----------------------------------------------------------------
+Please don't edit this file; any changes made here will be lost
+during the theme update process. If you need to make CSS 
+modifications, use the Additional CSS section in the Customizer 
+or a child theme.
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Normalize
+2.0 - Typography
+3.0 - Elements
+	3.1 - Lists
+	3.2 - Tables
+4.0 - Forms
+	4.1 - Buttons
+	4.2 - Fields
+5.0 - Navigation
+	5.1 - Links
+	5.2 - Menus
+		5.2.1 - Top Bar Left Menu
+		5.2.2 - Top Bar Left Menu
+		5.2.3 - Main Menu
+		5.2.4 - Responsive Menu
+		5.2.5 - Comment, Post and Page Navigation
+		5.2.6 - Bottom Bar Menu
+		5.2.7 - Social Menus
+6.0 - Accessibility
+7.0 - Alignments
+8.0 - Clearings
+9.0 - Meta Slider
+	9.1 - Theme Main Meta Slider
+	9.2 - Meta Slider General
+	9.3 - Flexslider Resets
+	9.4 - General Flexslider Styles
+	9.5 - Flexslider Captions
+	9.6 - Ultra(Flex) Slider Theme Styles
+10.0 - Page Builder
+	10.1 - SiteOrigin Page Builder Lite
+	10.2 - SiteOrigin Features Widget
+	10.3 - SiteOrigin Post Carousel Widget
+11.0 - Scroll to Top
+12.0 - Widgets
+	12.1 - General Styles
+	12.2 - Calendar	
+	12.3 - RSS
+	12.4 - Recent Comments	
+	12.5 - Recent Posts
+	12.6 - Search
+	12.7 - Menu
+13.0 - Content
+	13.1 - Layout
+		13.1.1 - Page Wrapper
+		13.1.2 - Boxed Layout Page Wrapper
+		13.1.3 - Full Width Inner Container
+		13.1.4 - Content Wrapper
+		13.1.5 - Regular Containers
+		13.1.6 - Full Width Page Templates
+		13.1.7 - Templates With Full Width Page Titles
+		13.1.8 - Templates Without Full Width Page Titles
+		13.1.9 - Block Editor Styles
+	13.2 - Top bar
+	13.3 - Header
+	13.4 - Footer
+	13.5 - Bottom Bar
+	13.6 - Posts and Pages
+		13.6.1 - General Styles
+		13.6.2 - Post and Page Featured Image
+		13.6.3 - General Post and Page Header
+		13.6.4 - Single Post Header
+		13.6.5 - Archive Header
+		13.6.6 - Post Entry Meta
+		13.6.7 - Content Area Link Formatting
+		13.6.8 - Block Editor Styles
+		13.6.9 - Search and Post Password Form Specific
+		13.6.10 - Post Formats
+		13.6.11 - Single Post Author Box
+		13.6.12 - Related Posts
+		13.6.13 - Post Entry Footer
+		13.6.14 - Search Results
+		13.6.15 - Left Thumbnail Post Loop
+		13.6.16 - Left Medium Post Loop
+		13.6.17 - Masonry Post Loop		
+	13.7 - Asides
+	13.8 - Comments
+14.0 - Media
+	14.1 - Captions
+	14.2 - Galleries
+15.0 - Jetpack
+	15.1 - Contact Form
+	15.2 - Contact Info
+	15.3 - Display Posts
+	15.4 - Gravatar Profile
+	15.5 - Infinite Scroll
+	15.6 - RSS Links
+	15.7 - Subscriptions
+	15.8 - Related Posts
+16.0 - MyBookTable
+	16.1 - Single Book
+	16.2 - Featured Book Widget
+17.0 - Contact Form 7
+18.0 - Gravity Forms
+19.0 - JW Player
+20.0 - Ultimate Addons for SiteOrigin
+--------------------------------------------------------------*/
+// Vendor Dependencies
+@import "bourbon";
+
+// Variables and Mixins
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+1.0 - Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/*--------------------------------------------------------------
+2.0 - Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+
+/*--------------------------------------------------------------
+3.0 - Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+
+/*--------------------------------------------------------------
+4.0 - Forms
+--------------------------------------------------------------*/
+@import "forms/forms";
+	
+/*--------------------------------------------------------------
+5.0 - Navigation
+--------------------------------------------------------------*/
+@import "navigation/navigation";
+
+/*--------------------------------------------------------------
+6.0 - Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
+7.0 - Alignments
+--------------------------------------------------------------*/
+@import "modules/alignments";
+
+/*--------------------------------------------------------------
+8.0 - Clearings
+--------------------------------------------------------------*/
+@import "modules/clearings";
+
+/*--------------------------------------------------------------
+9.0 - Meta Slider
+--------------------------------------------------------------*/
+@import "modules/meta-slider";
+
+/*--------------------------------------------------------------
+10.0 - Page Builder
+--------------------------------------------------------------*/
+@import "modules/page-builder";
+
+/*--------------------------------------------------------------
+11.0 - Scroll to Top
+--------------------------------------------------------------*/
+@import "modules/scroll-to-top";
+
+/*--------------------------------------------------------------
+12.0 - Widgets
+--------------------------------------------------------------*/
+@import "modules/widgets";
+
+/*--------------------------------------------------------------
+13.0 - Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+/*--------------------------------------------------------------
+14.0 - Media
+--------------------------------------------------------------*/
+@import "media/media";
+	
+/*--------------------------------------------------------------
+15.0 - Jetpack
+--------------------------------------------------------------*/
+@import "modules/jetpack";
+	
+/*--------------------------------------------------------------
+16.0 - MyBookTable
+--------------------------------------------------------------*/
+@import "modules/mybooktable";
+	
+/*--------------------------------------------------------------
+17.0 - Contact Form 7
+--------------------------------------------------------------*/
+@import "modules/contact-form-7";
+	
+/*--------------------------------------------------------------
+18.0 - Gravity Forms
+--------------------------------------------------------------*/
+@import "modules/gravity-forms";
+	
+/*--------------------------------------------------------------
+19.0 - JWPLAYER
+--------------------------------------------------------------*/
+@import "modules/jwplayer";
+	
+/*--------------------------------------------------------------
+20.0 - Ultimate Addons for SiteOrigin
+--------------------------------------------------------------*/
+@import "modules/ultimate-addons-for-so";

@@ -1,0 +1,31 @@
+#scroll-to-top {
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	bottom: 1.78571em;
+	opacity: 0;
+	outline-style: none;
+	position: fixed;
+	padding: 13px 18px 13px;
+	right: 1.78571em;
+	text-decoration: none;
+	transform: scale(0, 0);
+	transition: 0.2s;
+	-webkit-transform: translateZ(0);
+}
+
+#scroll-to-top .up-arrow {
+	display: block;
+	color: rgba(255, 255, 255, 1);
+	line-height: normal;
+
+	&:before {
+		content: "\f106";
+		font-family: $font__icon;
+		font-size: 1.424em;
+	}
+}
+
+#scroll-to-top.displayed {
+	opacity: 1 !important;
+	transform: scale(1, 1);
+}

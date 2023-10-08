@@ -1,0 +1,90 @@
+#top-bar {
+	background: $color__background-dark;
+	@include clearfix-after;
+	position: relative;
+	width: 100%;
+	z-index: 9999;
+
+	.top-bar-text {
+		box-sizing: border-box;
+		display: inline-block;
+		width: 50%;
+
+		@media (max-width: $medium) {
+			.resp & {
+				text-align: center;
+				width: 100%;
+			}
+		}
+
+		span {
+			color: $color__text-main-minus-3;
+			display: inline-block;
+			@include font-size(0.85714);
+			line-height: 38px;
+			margin-right: 1.78571em;
+			white-space: nowrap;
+
+			a {
+				color: $color__text-main-minus-3;
+				display: inline-block;
+				text-decoration: none;
+
+				&:hover {
+					color: $color__text-main-minus-5;
+				}
+			}
+
+			&:before,
+			a:before {
+				display: block;
+				float: left;
+				font-family: $font__icon;
+				margin-right: 0.5em;
+			}
+
+			&.phone a:before {
+				content: "\f095";
+			}
+
+			&.email a:before {
+				content: "\f0e0";
+			}
+		}
+	}
+}
+.top-bar-arrow {
+	background: $color__background-dark;
+	color: $color__text-main-minus-3;
+	cursor: pointer;
+	display: block;
+	height: 2rem;
+	overflow: auto;
+	text-align: center;
+	width: 100%;
+	z-index: 1000;
+
+	&:not(.show):before {
+		content: "\f106";
+		display: block;
+		font-family: $font__icon;
+		font-size: 17px;
+		height: auto;
+		left: 50%;
+		margin-left: -6px;
+		position: absolute;
+		width: 12px;
+	}
+
+	&.show:before {
+		content: "\f107";
+		display: block;
+		font-family: $font__icon;
+		font-size: 17px;
+		height: auto;
+		left: 50%;
+		margin-left: -6px;
+		position: absolute;
+		width: 12px;
+	}
+}

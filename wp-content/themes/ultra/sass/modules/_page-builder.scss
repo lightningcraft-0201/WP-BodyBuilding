@@ -1,0 +1,77 @@
+/*--------------------------------------------------------------
+10.1 - SiteOrigin Page Builder Lite
+--------------------------------------------------------------*/
+p.siteorigin-panels-lite-message {
+	white-space: normal !important;
+}
+
+/*--------------------------------------------------------------
+10.2 - SiteOrigin Features Widget
+--------------------------------------------------------------*/
+.panel-grid-cell .sow-features-list .sow-features-feature p.sow-more-text  {
+
+	a {
+		border: none;
+		font-weight: 600;
+
+		&:hover {
+			border: none;
+			color: $color__link;
+			text-decoration: none;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+10.3 - SiteOrigin Post Carousel Widget
+--------------------------------------------------------------*/
+.entry-content .panel-grid-cell .sow-carousel-wrapper {
+
+	li.sow-carousel-item a, 
+	li.sow-carousel-item a:hover {
+		border: none;
+		text-decoration: none;
+	}
+
+	.sow-carousel-title .widget-title {
+		font-size: 1.1429em;
+		text-transform: uppercase;
+	}
+
+	ul.sow-carousel-items li.sow-carousel-item {
+
+		h3 {
+			font-size: 1em;
+			font-weight: 700;
+
+			a:hover {
+				color: $color__link;
+			}
+		}
+
+		.sow-carousel-thumbnail a span.overlay {
+			background: $color__link;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+10.4 - SiteOrigin Slider Widget
+--------------------------------------------------------------*/
+.entry-content .widget_sow-slider {
+	li a,
+	li a img {
+		border-bottom: none;
+	}
+}
+
+/*--------------------------------------------------------------
+10.5 - Inked Portfolio Widget
+--------------------------------------------------------------*/
+.entry-content .iw-so-folio-terms-container .iw-so-folio-terms > li > a {
+	border-bottom: none;
+
+	&:hover {
+		border-bottom: none; 
+	}
+}
