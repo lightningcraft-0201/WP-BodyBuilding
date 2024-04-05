@@ -10,7 +10,7 @@ DC Training is a highly advanced system based on progressive overload, a princip
 
 ## Preview
 
-![Home Page](https://github.com/DevRex-0201/WP-BodyBuilding/blob/main/wp-admin/2023-10-08_095822.png)
+![Home Page](https://github.com/DevRex-0201/Project-Images/blob/main/web/WP-BodyBuilding-Preview.jpeg)
 
 ## Features
 
